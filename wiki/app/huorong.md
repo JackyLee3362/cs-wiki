@@ -1,0 +1,20 @@
+---
+title: huorong
+date: 2026-01-01
+draft: true
+author: JackyLee
+tags:
+  - app/command-line
+categories: 
+cover:
+  # image: 图片链接
+  # alt: 文字内容
+comment: true
+---
+
+
+- [失效的安全词 - 为什么到处都有火绒吹？ - 知乎](https://www.zhihu.com/question/572904452/answer/1981122627759259769)
+  - 概要: 因为现在网上基本就没毒。 看黄，日本的去图书馆。喜欢更实时一些的去 P 站，然后被引流去 X，脸书，ins。 看书，去 Z 站。 看电影，有名字直接找磁力。 下载软件，除非官网，小网站避开 exe 格式的。 想在手机上看，电报直接搜。 需要安装视频，root 手机，部署 nas，小红书，B 站，抖音都有教程。 需要看国内外资讯： 想看傻逼怎么黑国内的，tk。 想看国内赢赢赢的，抖音。 黑国内的史料，ytb。 关注特朗布马斯克的肯定是 X。 所有的途径…
+  - 点赞: 188
+
+## 参考资料

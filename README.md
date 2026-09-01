@@ -9,10 +9,3 @@
 ### [计算机组成原理](./docs/计算机组成原理/README.md)
 
 ### [计算机网络](./docs/计算机网络/README.md)
-
-## 部署
-
-```sh
-pip install mkdocs
-mkdocs serve
-```
