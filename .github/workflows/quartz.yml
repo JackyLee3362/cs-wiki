@@ -1,0 +1,75 @@
+name: Build Quartz5 Site
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout your notes repo
+        uses: actions/checkout@v4
+        #拉取完整git历史，Quartz需要文件创建时间
+        with:
+          fetch-depth: 0
+
+      #安装Node LTS（当前24，消除版本告警隐患）
+      - name: Setup Node.js 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      # 克隆Quartz5主仓库
+      - name: Clone Quartz v5
+        run: git clone --depth=1 --single-branch https://github.com/jackyzha0/quartz.git
+
+      # 将你的笔记（当前仓库根目录）复制到quartz/content
+      - name: Copy notes into quartz/content
+        run: |
+          rm -rf quartz/content
+          mkdir quartz/content
+          if [ -n "$(ls -A ./wiki)" ];then cp -r ./wiki/* quartz/content/;fi
+          if [ -f ".github/quartz/quartz.conf.yaml" ]; then
+            cp .github/quartz/quartz.config.yaml quartz/quartz.config.yaml
+            
+          fi
+
+      #执行Quartz5构建
+      - name: Build Quartz 5
+        run: |
+          cd quartz
+          npm ci
+          npx quartz build
+
+      #调试：打印目录，确认public生成
+      - name: List build output
+        run: ls -la quartz/public
+
+      #上传构件（路径注意！public在quartz子文件夹）
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: quartz-public
+          path: quartz/public
+          retention-days: 7
+
+  sync:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: quartz-public
+          path: ./public
+
+      - name: Rsync upload to VPS wiki
+        uses: burnett01/rsync-deployments@7.0.1
+        with:
+          switches: -avz --delete --rsh='ssh -o StrictHostKeyChecking=no'
+          path: ./public/
+          remote_host: ${{ secrets.ALIYUN_VPS_HOST }}
+          remote_user: ${{ secrets.ALIYUN_VPS_USER }}
+          remote_key: ${{ secrets.ALIYUN_VPS_SSH_KEY }}
+          remote_path: /opt/caddy/site/wiki
