@@ -1,11 +1,8 @@
-# [计算机通用基础知识](./README.md)
+# 计算机通用基础知识
 
-## 目录结构
+查看网站 <wiki.jackylee.fun>
 
-### [操作系统](./docs/操作系统/README.md)
-
-### [数据结构](./docs/数据结构/README.md)
-
-### [计算机组成原理](./docs/计算机组成原理/README.md)
-
-### [计算机网络](./docs/计算机网络/README.md)
+- [备份](./bak/): 待整理的知识
+- [docs](./知识)
+- [wiki](./wiki/): 部署在站点的知识
+  - [app](./wiki/app/): 所有的应用，包含服务、
