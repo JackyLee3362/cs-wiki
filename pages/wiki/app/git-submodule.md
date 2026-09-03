@@ -19,18 +19,18 @@ comment: true
 git submodule add [某个github仓库]
 ```
 
-## 场景
-
-删除 `gitmodules`
+## 删除子模块
 
 ```shell
-# 取消关联
-git submodule deinit -f <submodule-path>
+# 1. 逆初始化/取消关联: 删除 submodule 内部的 .git 配置
+git submodule deinit -f 子模块路径
+
 # 删除 .gitmodules 文件
-rm .gitmodules # linux
-del .gitmodules
+rm .gitmodules
+
 # 更新 Git 的索引以反映文件的删除
 git rm --cached .gitmodules
+
 # 提交
 git commit -m "Remove .gitmodules file"
 ```
