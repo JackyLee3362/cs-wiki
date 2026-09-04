@@ -15,14 +15,13 @@ comment: true
 
 ## 部署
 
-关于Caddy配置
+`CaddyFile`配置
 
 ```conf
 hs.example.com {
         reverse_proxy headscale:8080 {
                 header_up X-Real-IP {remote_host}
                 header_up X-Forwarded-For {remote_host}
-                header_up X-Forwarded-Proto {scheme}
         }
 }
 ```
@@ -32,7 +31,7 @@ hs.example.com {
 先查看容器内部是否正常
 
 ```sh
-# 容器内执行
+# 查看版本
 docker compose exec headscale headscale version
 
 # 列出用户（原来的namespaces list）
@@ -49,11 +48,26 @@ docker compose exec headscale headscale preauthkeys create --user [用户id] --r
 ## 服务器上检查生效
 
 ```sh
+# 本地校验
 curl http://127.0.0.1:8080/health
+# 远程校验
+curl http://hs.example.cloud
+```
 
-# 或者
-# 浏览器打开你配置的域名
-https://hs.example.demo
+## 服务端注册客户端
+
+```sh
+# 直接执行
+headscale auth register --auth-id hskey-xxx --user USERNAME
+
+# docker执行
+docker compose exec headscale headscale users list
+# 获取 headscale 命名空间的 userName，替换 USERNAME
+docker compose exec headscale headscale auth register --auth-id hskey-xxx --user USERNAME
+# 如果返回，说明 USERNAME 没填写正确
+> Error: registering node: rpc error: code = Unknown desc = looking up user: user not found
+# 返回
+> Node desktop-jacky-dorm registered
 ```
 
 ## 日常运维
@@ -66,7 +80,7 @@ docker compose exec headscale headscale nodes list
 docker compose exec headscale headscale --help
 
 # 查看状态
-docker compose exec headscale headscale 
+docker compose exec headscale headscale
 ```
 
 ## FAQ

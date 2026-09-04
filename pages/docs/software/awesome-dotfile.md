@@ -47,7 +47,7 @@ description: Dotbot 同类 dotfiles 管理工具
 - dotbot：yaml配置，symlink+脚本，无模板无加密
 - GNU stow：纯symlink，零配置文件，无脚本无模板
 - yadm：git原生，在家目录直接编辑，简单模板
-- rcm :
+- rcm:
 
 ## 选型参考
 

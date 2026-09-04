@@ -65,6 +65,24 @@ cd /opt/caddy/ && docker compose exec caddy caddy reload --config /etc/caddy/Cad
 ```sh
 docker compose exec caddy caddy reload --config /etc/caddy/Caddyfile
 docker compose exec caddy caddy fmt --overwrite /etc/caddy/Caddyfile
+
+podman-compose exec caddy caddy reload --config /etc/caddy/Caddyfile
+podman-compose exec caddy caddy fmt --overwrite /etc/caddy/Caddyfile
+```
+
+## FAQ
+
+### caddy 使用 podman 运行时有问题
+
+```sh
+Error response from daemon: rootlessport cannot expose privileged port 80, you can add 'net.ipv4.ip_unprivileged_port_start=80' to /etc/sysctl.conf (currently 1024), or choose a larger port number (>= 1024): listen tcp 0.0.0.0:80: bind: permission denied
+Error: executing /usr/libexec/docker/cli-plugins/docker-compose up -d: exit status 1
+```
+
+大致就是非 root 不能绑定 80 和 443 端口，
+如果是家庭服务器，直接跳过
+
+```sh
 ```
 
 ## 参考资料

@@ -11,15 +11,26 @@ comment: true
 
 - 官网: [Tailscale | Secure Connectivity for AI, IoT & Multi-Cloud](https://tailscale.com/)
 
-## 服务器连接headscale
+## 客户端连接服务器
 
 ```sh
 tailscale up --auth-key=hskey-auth-xxx --force-reauth --login-server=你的域名 --operator=jackylee
 # hskey-auth
 # login-server 域名是你 caddy 反向代理的域名
+
+# windows必须 + --unattended
+tailscale up --login-server=https://hs.jackylee.fun --auth-key=hskey-auth-xxx --accept-dns=true --accept-routes=true --unattended
+# --accept-dns=true：接收 Headscale 下发 DNS/MagicDNS
+# --accept-routes=true：接收子网路由，访问其他节点的内网
+
+# windows 打开网页
+tailscale web
+
+# 查看当前客户端生效参数
+tailscale debug prefs
 ```
 
-## 客户端连接headscale
+[[headscale#服务端注册客户端]]
 
 ## 安装
 

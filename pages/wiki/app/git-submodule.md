@@ -12,7 +12,7 @@ cover:
 comment: true
 ---
 
-## 子模块
+## 添加子模块
 
 ```sh
 # 添加子模块
@@ -25,7 +25,7 @@ git submodule add [某个github仓库]
 # 1. 逆初始化/取消关联: 删除 submodule 内部的 .git 配置
 git submodule deinit -f 子模块路径
 
-# 删除 .gitmodules 文件
+# 删除 .gitmodules 文件中的内容，如果没有子模块，直接删除
 rm .gitmodules
 
 # 更新 Git 的索引以反映文件的删除

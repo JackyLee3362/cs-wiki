@@ -53,3 +53,10 @@ docker compose exec -it -u www-data app php occ app:disable usagesurvey
 ## 优化方案
 
 - [nextcloud性能优化 - tlanyan](https://itlanyan.com/optimize-nextcloud/)
+
+## FAQ
+
+### 关于 nextcloud
+
+- [nextcloud的体验怎么样 - 搞七捻三 - LINUX DO](https://linux.do/t/topic/1345448)
+- [简要分析一下cloudreve与nextcloud(owncloud)这两款网盘程序 – 阳光实验室](https://www.zzygx.cc/?p=80)

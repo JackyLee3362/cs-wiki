@@ -26,6 +26,7 @@ comment: true
 - [[mkdocs]]
 - [[docusaurus]]
 - [[hugo]]
+  - [[hugoblox]]
 - [[vitepress]]
 - [[nextra]]
 - [[wikijs]]
@@ -35,7 +36,6 @@ comment: true
 - [[halo]]
 - outsatic - [avitorio/outstatic](https://github.com/avitorio/outstatic)
 - HedgeDoc: [hedgedoc/hedgedoc: HedgeDoc - Ideas grow better together](https://github.com/hedgedoc/hedgedoc)
-
 
 - [TiddlyWiki/TiddlyWiki5: A self-contained JavaScript wiki for the browser, Node.js, AWS Lambda etc.](https://github.com/TiddlyWiki/TiddlyWiki5)
 - [rochacbruno/marmite: Markdown makes sites - A Static Site Generator for Blogs](https://github.com/rochacbruno/marmite)
