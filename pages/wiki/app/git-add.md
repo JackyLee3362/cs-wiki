@@ -4,7 +4,7 @@ date: 2026-08-19
 draft: true
 author: JackyLee
 tags:
-  - app/command-line
+  - 命令行
 categories:
 cover:
   # image: 图片链接
@@ -12,17 +12,28 @@ cover:
 comment: true
 ---
 
-## 添加到暂存区
-
 1. 将一个尚未被 Git 跟踪的文件纳入 Git 跟踪
 2. 将一个已经被 Git 跟踪的文件且这个文件处于修改状态，通过 add，可以将它纳入暂存区
 3. 将 merge 或者 rebase 后产生的冲突文件标记为冲突已解决
 
+## 添加文件
+
 ```sh
+# 添加单个文件
+git add 文件1
+# 添加多个文件
+git add 文件1 文件2
+# 添加文件夹
+git add 文件夹
+# 添加所有修改（包括新文件和修改的文件）
 git add .
-git add [文件1] [文件2] [文件3]
-git add [文件夹]
-# 更加规范的用法，来自 vscode-git
+# 添加所有.js文件
+git add *.js
+```
+
+## 其他用法
+
+```sh
 # 无 -A 表示只处理新增
 # 其中 -A/-all 表示还处理新增和删除
 git add -A -- [文件]

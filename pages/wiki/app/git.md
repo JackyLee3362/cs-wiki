@@ -4,7 +4,7 @@ date: 2026-08-19
 draft: true
 author: JackyLee
 tags:
-  - app/command-line
+  - 命令行
 categories:
 cover:
   # image: 图片链接
@@ -12,17 +12,25 @@ cover:
 comment: true
 ---
 
-## 子命令
+## 常用命令
+
+### 一、仓库基础操作
+
+![[git-init#初始化本地仓库]]
+
+![[git-clone#克隆远程仓库到本地]]
+
+### 二、提交与修改
+
+![[git-status#查看当前状态]]
+
+![[git-add#添加文件]]
 
 [[git-config]]
 
-## 常用命令
+### 二、仓库
 
 ```sh
-
-# 初始化
-git init
-
 # 添加到暂存区
 git add .
 # 从暂存区移除

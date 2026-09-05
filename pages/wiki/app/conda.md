@@ -4,7 +4,7 @@ date: 2023-08-22
 draft: true
 author: JackyLee
 tags:
-  - app/command-line
+  - 命令行
   - python
   - 包管理软件
 categories:

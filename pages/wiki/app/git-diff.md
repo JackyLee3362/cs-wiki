@@ -4,7 +4,7 @@ date: 2026-08-19
 draft: true
 author: JackyLee
 tags:
-  - app/command-line
+  - 命令行
 categories:
 cover:
   # image: 图片链接

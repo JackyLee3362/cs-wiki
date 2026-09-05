@@ -7,7 +7,7 @@ update_date:
 draft: true
 author: JackyLee
 tags:
-  - app/command-line
+  - 命令行
 categories:
 cover:
   # image: 图片链接

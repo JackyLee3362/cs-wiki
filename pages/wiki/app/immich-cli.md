@@ -6,7 +6,7 @@ update_date:
 draft: true
 author: JackyLee
 tags:
-  - app/command-line
+  - 命令行
 categories:
 comment: true
 ---

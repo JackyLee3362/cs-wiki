@@ -7,7 +7,7 @@ update_date:
 draft: true
 author: JackyLee
 tags:
-  - app/command-line
+  - 命令行
   - java
   - 开发
   - 编程语言

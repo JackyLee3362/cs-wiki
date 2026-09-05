@@ -4,7 +4,7 @@ date: 2026-08-16
 draft: false
 author: JackyLee
 tags:
-  - app/command-line
+  - 命令行
   - 命令行
   - linux基础
 categories:

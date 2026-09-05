@@ -1,18 +1,17 @@
 ---
-title: openssl
+title: git-pull
 description:
-date: 2026-08-29
+date: 2026-09-05
 update_date:
 draft: true
 author: JackyLee
 tags:
-  - 命令行
 categories:
 comment: true
 ---
 
-## 生成随机 token
+## 拉取远程仓库
 
 ```sh
-openssl rand -hex 32
+git pull
 ```

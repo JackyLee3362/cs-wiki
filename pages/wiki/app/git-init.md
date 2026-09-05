@@ -1,19 +1,20 @@
 ---
 title: git-init
 date: 2026-08-19
-draft: true
+draft: false
 author: JackyLee
 tags:
-  - app/command-line
+  - 版本管理
 categories:
+  - 命令行
 cover:
-  # image: 图片链接
-  # alt: 文字内容
 comment: true
 ---
 
-## 初始化
+## 初始化本地仓库
 
 ```sh
+cd my-project
+
 git init
 ```

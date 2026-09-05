@@ -4,7 +4,7 @@ date: 2025-08-27
 draft: true
 author: JackyLee
 tags:
-  - app/command-line
+  - 命令行
   - 必装软件
 categories:
 cover:

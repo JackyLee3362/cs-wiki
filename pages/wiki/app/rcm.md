@@ -4,7 +4,7 @@ date: 2026-08-18
 draft: true
 author: JackyLee
 tags:
-  - app/command-line
+  - 命令行
 categories:
   - 开源项目
 cover:

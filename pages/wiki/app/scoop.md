@@ -4,7 +4,7 @@ date: 2025-05-14
 draft: true
 author: JackyLee
 tags:
-  - app/command-line
+  - 命令行
   - 包管理软件
 categories:
 cover:
