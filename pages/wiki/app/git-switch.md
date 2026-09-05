@@ -10,9 +10,6 @@ tags:
   - 版本管理
 categories:
   - 命令行
-cover:
-  # image: 图片链接
-  # alt: 文字内容
 comment: true
 ---
 需要 git 2.23 版本，低版本使用 [[git-checkout]]

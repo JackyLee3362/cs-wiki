@@ -8,9 +8,6 @@ tags:
   - docker服务
   - 反向代理
 categories:
-cover:
-  # image: 图片链接
-  # alt: 文字内容
 comment: true
 ---
 

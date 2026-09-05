@@ -8,9 +8,6 @@ tags:
   - 版本管理
 categories:
   - 命令行
-cover:
-  # image: 图片链接
-  # alt: 文字内容
 comment: true
 ---
 ## 工作区 vs 暂存区

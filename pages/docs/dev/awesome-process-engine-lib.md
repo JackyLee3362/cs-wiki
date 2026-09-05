@@ -5,9 +5,6 @@ draft: true
 author: JackyLee
 tags:
 categories: 
-cover:
-  # image: 图片链接
-  # alt: 文字内容
 comment: true
 description: 流程引擎横向对比
 ---

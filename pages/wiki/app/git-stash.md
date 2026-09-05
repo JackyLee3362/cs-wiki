@@ -8,9 +8,6 @@ tags:
   - 版本管理
 categories:
   - 命令行
-cover:
-  # image: 图片链接
-  # alt: 文字内容
 comment: true
 ---
 `stash`：临时保存当前分支的工作状态，方便切换到其它分支
