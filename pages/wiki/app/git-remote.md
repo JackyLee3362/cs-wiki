@@ -1,9 +1,11 @@
 ---
-title: git-remote
+title: git remote
 date: 2025-08-03
-draft: true
+draft: false
 author: JackyLee
 tags:
+  - Git
+  - 版本管理
 categories:
   - 命令行
 cover:
@@ -11,7 +13,6 @@ cover:
   # alt: 文字内容
 comment: true
 ---
-
 ## 查看远程分支
 
 ```sh

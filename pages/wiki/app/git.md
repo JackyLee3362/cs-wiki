@@ -1,72 +1,93 @@
 ---
 title: git
 date: 2026-08-19
-draft: true
+draft: false
 author: JackyLee
 tags:
+  - Git
   - 版本管理
 categories:
   - 命令行
 cover:
 comment: true
 ---
-
 ## 常用命令
 
-### 一、仓库基础操作
+### 一、仓库初始化与克隆
 
 ![[git-init#初始化本地仓库]]
 
 ![[git-clone#克隆远程仓库到本地]]
 
-### 二、提交与修改
+### 二、配置
+
+![[git-config#config 配置]]
+
+### 三、日常 workflow：查看 → 添加 → 比较 → 提交
 
 ![[git-status#查看当前状态]]
 
 ![[git-add#添加文件]]
 
-[[git-config]]
+![[git-diff#工作区 vs 暂存区]]
 
-### 二、仓库
+![[git-commit#提交]]
 
-```sh
-# 添加到暂存区
-git add .
-# 从暂存区移除
-git rm --cached [文件]
+### 四、撤销与恢复
 
-# 提交
-git commit -m
-# 推送
-git push
-# 拉取
-git pull
-# 切换分支
-git checkout
-# 切换分支
-git switch
-# 查看状态
-git status
-# 查看状态(简洁版)
-git status -s
+![[git-restore#取消工作区的修改]]
 
-# 查看仓库创建了多久
-git log --reverse
-# 查看仓库大小
-git count-objects -vH
-```
+![[git-reset#撤销本地暂存]]
 
-[[git-init]]
-[[git-add]]
-[[git-branch]]
+![[git-rm#从暂存区移除文件]]
+
+### 五、历史查看
+
+![[git-log#历史：在 commit 信息中查找并展示 commit]]
+
+![[git-reflog#恢复本地已删除分支]]
+
+### 六、分支管理
+
+![[git-branch#查看当前分支]]
+
+![[git-switch#切换分支]]
+
+![[git-checkout#切换分支]]
+
+![[git-merge#合并其他分支]]
+
+![[git-stash#暂存]]
+
+![[git-cherry-pick#TLDR]]
+
+### 七、远程交互
+
+![[git-remote#查看远程分支]]
+
+![[git-fetch#下载远程更新]]
+
+![[git-pull#拉取并合并]]
+
+![[git-push#推送到远程]]
+
+### 八、高级操作
+
+![[git-submodule#添加子模块]]
+
+![[git-sparse-checkout#稀疏检出]]
 
 ## FAQ
 
 ### Git 如何恢复本地分支
 
-[[git-reflog#恢复本地已删除分支]]
+![[git-reflog#恢复本地已删除分支]]
 
-### git如何对历史搜索
+### git 如何对历史搜索
+
+![[git-log#历史：在 commit 信息中查找并展示 commit]]
+
+![[git-log#历史: 在文件中查找内容并展示 commit]]
 
 ### 本地 Git 仓库删除大 object
 
@@ -93,17 +114,9 @@ git count-objects -vH
 
 ### git CR/CRLF 是怎么解决的？
 
-### 前言
+![[git-config#git 在 powershell 使用命令行时出现乱码]]
 
-平常使用 `git add .` 或者 `git push|pull|clone` 等命令，已经无法满足各种奇怪的需求了，
-
-在使用 Github 的时候，由于对【本地分支】和【远程分支】理解不够深刻，难免会出现各种问题
-
-所以本文章持续记录使用 Git 时遇到的各种复杂场景
-
-### 1 本地分支相关
-
-#### 1.1 签出会覆盖本地修改
+### 签出会覆盖本地修改
 
 场景描述：
 
@@ -113,9 +126,7 @@ git count-objects -vH
 
 在 vscode 的状态栏就会出现 `*`，此时想换到 `dev` 分支
 
-直接切换会出现
-
-!签出会覆盖本地修改的图片
+直接切换会出现签出会覆盖本地修改的提示
 
 该提示下的三个选项分别是什么意思呢？
 
@@ -136,7 +147,7 @@ git count-objects -vH
 - [为什么 Git 的教程都那么繁杂？ - 知乎](https://www.zhihu.com/question/594294987/answer/3027078087)
 - [想法：git 问题](https://www.zhihu.com/pin/1885383452485997432?native=0)
 - [lenck - 为什么要先 git add 才能 git commit ？ - 知乎](https://www.zhihu.com/question/19946553/answer/1937683960948856692)
-  - 概要: 前言你是否也曾有过这样的经历：熟练地敲下 git add . 和 git commit -m &#34;...&#34;，感觉自己已经掌握了版本控制的奥秘。但当 merge 冲突的红色警告占满屏幕，或者当你想撤销一次错误的提交时，心中是否会涌起一丝恐慌？git reset --hard 就像一个充满诱惑又极其危险的红色按钮，你渴望按下它，却又害怕它会摧毁一切。如果这听起来很熟悉，那么恭喜你，这篇文章正是为你量身打造的。许多教程教会了我们 如何 使用 Git 命令，但很少有…
+  - 概要: 前言你是否也曾有过这样的经历：熟练地敲下 git add . 和 git commit -m "..."，感觉自己已经掌握了版本控制的奥秘。但当 merge 冲突的红色警告占满屏幕，或者当你想撤销一次错误的提交时，心中是否会涌起一丝恐慌？git reset --hard 就像一个充满诱惑又极其危险的红色按钮，你渴望按下它，却又害怕它会摧毁一切。如果这听起来很熟悉，那么恭喜你，这篇文章正是为你量身打造的。许多教程教会了我们 如何 使用 Git 命令，但很少有…
   - 点赞: 474
 
 - [Null - 中国的高校计算机教育存在哪些问题？ - 知乎](https://www.zhihu.com/question/265513614/answer/3343125574)

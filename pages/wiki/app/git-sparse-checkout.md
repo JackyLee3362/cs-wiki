@@ -1,11 +1,13 @@
 ---
-title: git-sparse-checkout
+title: git sparse checkout 稀疏检出
 date: 2025-03-29
 update_date:
   - 2025-11-14
-draft: true
+draft: false
 author: JackyLee
 tags:
+  - Git
+  - 版本管理
 categories:
   - 命令行
 cover:
@@ -13,7 +15,6 @@ cover:
   # alt: 文字内容
 comment: true
 ---
-
 ## 稀疏检出
 
 允许你只检出（checkout）某些目录或者文件，而不是仓库中的全部内容。

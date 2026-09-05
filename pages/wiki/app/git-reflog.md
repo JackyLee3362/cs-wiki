@@ -1,11 +1,13 @@
 ---
-title: git-reflog
+title: git reflog
 description:
 date: 2026-08-19
 update_date:
-draft: true
+draft: false
 author: JackyLee
 tags:
+  - Git
+  - 版本管理
 categories:
   - 命令行
 cover:
@@ -13,7 +15,6 @@ cover:
   # alt: 文字内容
 comment: true
 ---
-
 ## FAQ
 
 ### 恢复本地已删除分支

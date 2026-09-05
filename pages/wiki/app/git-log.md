@@ -1,9 +1,11 @@
 ---
-title: git-log-查找日志
+title: git log 查找日志
 date: 2025-11-03
-draft: true
+draft: false
 author: JackyLee
 tags:
+  - Git
+  - 版本管理
 categories:
   - 命令行
 cover:
@@ -11,7 +13,6 @@ cover:
   # alt: 文字内容
 comment: true
 ---
-
 ## 历史：在 commit 信息中查找并展示 commit
 
 ```sh

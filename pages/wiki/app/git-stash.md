@@ -1,9 +1,11 @@
 ---
-title: git-stash
+title: git stash
 date: 2025-09-23
-draft: true
+draft: false
 author: JackyLee
 tags:
+  - Git
+  - 版本管理
 categories:
   - 命令行
 cover:
@@ -11,7 +13,6 @@ cover:
   # alt: 文字内容
 comment: true
 ---
-
 `stash`：临时保存当前分支的工作状态，方便切换到其它分支
 
 应用场景：比如在自己的分支上工作到一半，但是被要求去修改别的文件，此时就需要

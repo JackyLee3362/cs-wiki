@@ -1,9 +1,11 @@
 ---
-title: git-status
+title: git status
 date: 2026-08-19
-draft: true
+draft: false
 author: JackyLee
 tags:
+  - Git
+  - 版本管理
 categories:
   - 命令行
 cover:
@@ -11,7 +13,6 @@ cover:
   # alt: 文字内容
 comment: true
 ---
-
 ## 查看当前状态
 
 ```sh

@@ -1,15 +1,15 @@
 ---
-title: git-clone-克隆
+title: git clone 克隆
 date: 2025-09-23
 draft: false
 author: JackyLee
 tags:
+  - Git
   - 版本管理
 categories:
   - 命令行
 comment: true
 ---
-
 ## 克隆远程仓库到本地
 
 ```sh

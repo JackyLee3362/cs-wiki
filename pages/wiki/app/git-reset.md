@@ -1,9 +1,11 @@
 ---
-title: git-reset
+title: git reset
 date: 2025-09-23
-draft: true
+draft: false
 author: JackyLee
 tags:
+  - Git
+  - 版本管理
 categories:
   - 命令行
 cover:
@@ -11,7 +13,6 @@ cover:
   # alt: 文字内容
 comment: true
 ---
-
 ## 撤销本地暂存
 
 ```sh
