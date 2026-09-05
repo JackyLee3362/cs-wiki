@@ -1,3 +1,26 @@
-**/test**
-**/tmp**
-cache/**
+# syncthing
+.stfolder
+.stignore
+
+# 配置文件
+.vscode
+.obsidian
+.foam
+.trash
+.DS_Store
+
+# 项目文件
+scripts
+cache
+tmp
+
+# 二进制文件
+*.xlsx
+*.pptx
+
+# 临时文件
+tmp
+TODO.md
+
+# pdf 文件
+*.pdf

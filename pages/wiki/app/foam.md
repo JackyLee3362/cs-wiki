@@ -10,4 +10,4 @@ categories:
 comment: true
 ---
 
-VSCode 笔记插件[foam - Github](https://github.com/foambubble/foam)
+- VSCode 笔记插件: [foam - Github](https://github.com/foambubble/foam)

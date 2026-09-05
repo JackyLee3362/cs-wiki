@@ -13,37 +13,24 @@ cover:
 comment: true
 ---
 
-## 开源
+## 有力对手
 
-画图的工具
-
-- [[d2]]
-- [[mermaid]]
-- [[graphviz]]
-- [[plantuml]]
-- [red-data-tools/YouPlot: A command line tool that draw plots on the terminal.](https://github.com/red-data-tools/YouPlot)
+- [[mermaid]] 90k+star
+- [[d2]] 27k+star
+- [[plantuml]] 17k+star
 - drawio
+- [[d3.js]]: 114k+star
 
-## 白板工具
-
-- [[excalidraw]]: Excalidraw 的作者是一位目前在 Facebook 工作的法裔前端开发工程师 Vjeux。除了是 Excalidraw 的作者之外，还是 React Native、Prettier 的联合创始人，也是 CSS-IN-JS、Yoga、React Conf 的创建者。
-- ReveZone: 回答中提到的增强版 Excalidraw 产品 Handraw 已全面升级为 ReveZone（公测中），
-
-- [神级程序员都在用什么工具? - 知乎](https://www.zhihu.com/question/465346075/answer/3091803862)
-
-## 科研绘图
-
-- d3.js
-- vis.js
+- vis.js: 科研绘图
 
 ## 非开源工具
 
 > 仅收录，不考虑
 
 - Lucidchart
-- Visio
-
-## 工具选择
+- Visio 微软产品，闭源
+- graphviz 300star,  [graphviz](https://github.com/graphp/graphviz)
+- youplot 4.5k+start 科研绘图, [youplot](https://github.com/red-data-tools/YouPlot)
 
 ## 参考资料
 

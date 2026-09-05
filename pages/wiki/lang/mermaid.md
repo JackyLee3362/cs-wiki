@@ -41,5 +41,4 @@ classO .. classP : 链接(Link(Dashed))
 ## 参考资料
 
 - [Mermaid 使用教程：从入门到精通 - 知乎](https://zhuanlan.zhihu.com/p/627356428)
-
-## 参考资料
+- [mermaid-js/mermaid: Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown](https://github.com/mermaid-js/mermaid)
