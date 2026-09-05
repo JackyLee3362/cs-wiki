@@ -264,3 +264,9 @@ action 《复制到剪贴板的文本》
   - 点赞: 104
 
 - [墨七 - 最好的笔记软件是什么？ - 知乎](https://www.zhihu.com/question/499028200/answer/30348065192): 这篇文章还是有可圈可点的地方
+
+## FAQ
+
+### obsidian 批量编辑 tag
+
+> obsidian-metadata: [natelandau/obsidian-metadata: Batch updates to metadata in an Obsidian vault](https://github.com/natelandau/obsidian-metadata)

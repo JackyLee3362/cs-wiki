@@ -24,3 +24,11 @@ git merge master
 ```sh
 git merge --abort
 ```
+
+## FAQ
+
+### 关于 vscode 和 idea 的 git merge 面板
+
+有人提过这个问题，即 idea 的界面更加友好
+
+- [Add a better git diff and merge view to VS Code like IntelJ, Meld or Kaleidoscope · Issue #212736 · microsoft/vscode](https://github.com/microsoft/vscode/issues/212736)

@@ -12,28 +12,48 @@ cover:
 comment: true
 ---
 
-## 常用命令
+## 查看当前分支
 
 ```sh
 # 查看当前分支
 git branch
 git branch --list
+```
 
-# 显示所有分支
+## 显示所有分支
+
+```sh
 git branch --all
+```
 
-# 创建分支
+## 创建分支
+
+```sh
 git branch 分支名
+```
 
-# 让main分支强制指向head前3个提交
+## 强制移动分支指针
+
+```sh
+# 让 main 分支强制指向 HEAD 前 3 个提交
 git branch -f main HEAD~3
+```
 
-# 查看关联信息
+## 查看关联信息
+
+```sh
 git branch -vv
+```
 
-# 取消关联上游
+## 取消关联上游
+
+```sh
 git branch --unset-upstream
+```
 
+## 本地新建远程对应分支
+
+```sh
 # git 本地新建远程对应分支
 git checkout -b local-branch-name origin/remote-branch-name
 ```
