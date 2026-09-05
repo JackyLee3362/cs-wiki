@@ -3,7 +3,7 @@ title: git-pull
 description:
 date: 2026-09-05
 update_date:
-draft: true
+draft: false
 author: JackyLee
 tags:
 categories:

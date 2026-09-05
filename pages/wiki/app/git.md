@@ -4,11 +4,10 @@ date: 2026-08-19
 draft: true
 author: JackyLee
 tags:
+  - 版本管理
 categories:
   - 命令行
 cover:
-  # image: 图片链接
-  # alt: 文字内容
 comment: true
 ---
 

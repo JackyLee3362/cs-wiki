@@ -1,7 +1,7 @@
 ---
 title: git-merge
 date: 2026-08-19
-draft: true
+draft: false
 author: JackyLee
 tags:
 categories:
@@ -12,7 +12,7 @@ cover:
 comment: true
 ---
 
-## 合并
+## 合并其他分支
 
 ```sh
 # 将 master 合并到当前分支
