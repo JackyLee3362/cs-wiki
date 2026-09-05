@@ -4,13 +4,18 @@ date: 2025-09-23
 draft: true
 author: JackyLee
 tags:
-  - 命令行
 categories:
-cover:
+  - 命令行cover:
   # image: 图片链接
   # alt: 文字内容
 comment: true
 ---
+
+## 撤销本地暂存
+
+```sh
+git reset HEAD .
+```
 
 ## 本地撤销提交
 
@@ -33,7 +38,9 @@ git reset --hard
 
 - `--soft` 会将 HEAD 移动到指定的提交，但不会更改工作目录或暂存区的内容。这意味着被重置的提交将会被移除，但所有的更改仍然会保留在暂存区（index）中。你可以在此基础上进行新的提交。
 
-## 如何将 branch 回退到之前的记录？
+## FAQ
+
+### 如何将 branch 回退到之前的记录？
 
 ![git图片](https://assets-1302294329.cos.ap-shanghai.myqcloud.com/2025/md/20250224172551-2025-02-24.png)
 
@@ -51,7 +58,7 @@ git branch -f main HEAD~3
     - `HEAD~` 更适合用于简单的线性历史，通常用于表示相对位置的语法。
     - `HEAD^` 更适合用于需要区分父提交（特别是在合并提交时）的情况。
 
-## 远程还原提交
+### 远程还原提交
 
 新建一个提交，和之前的提交反向操作
 

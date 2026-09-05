@@ -4,9 +4,8 @@ date: 2025-10-11
 draft: true
 author: JackyLee
 tags:
-  - 命令行
 categories:
-  - lang/python
+  - 命令行  - lang/python
   - dotfile
   - sync
   - 开源项目

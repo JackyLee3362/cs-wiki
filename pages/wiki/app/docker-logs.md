@@ -6,9 +6,8 @@ update_date:
 draft: true
 author: JackyLee
 tags:
-  - 命令行
 categories:
-comment: true
+  - 命令行comment: true
 ---
 
 ## 查看容器日志
