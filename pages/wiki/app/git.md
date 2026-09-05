@@ -11,6 +11,7 @@ categories:
 cover:
 comment: true
 ---
+
 ## 常用命令
 
 ### 一、仓库初始化与克隆
@@ -104,10 +105,6 @@ comment: true
 
 ### git 文件名大小写敏感
 
-> 2025-03-22 clone joyful-pandas 遇到
-
-![20250322002110-2025-03-22](https://assets-1302294329.cos.ap-shanghai.myqcloud.com/2025/md/20250322002110-2025-03-22.png)
-
 原因是 windows 系统大小写不敏感，而 git 大小写敏感
 
 - [Windows 大小写不敏感导致的 git 冲突 | Finisky Garden](https://finisky.github.io/git-is-case-sensitive-while-file-system-is-not/)
@@ -171,9 +168,4 @@ comment: true
   - 概要: 团队开发中，遵循一个合理、清晰的 Git 规范，是非常重要的。 否则，每个人都提交一堆杂乱无章的 commit 和 分支，项目很快就会变得难以协调和维护。 分支规范 master：主分支。主分支，始终与正式环境代码保持一致。 不能将代码直接 commit 到该分支，仅合并 develop 在测试服验证完成的代码。 develop：开发分支。开发分支，在测试环境验证过的分支请求合并到该分支。 不能将代码直接 commit 到该分支，合并 feature、fixbug 分…
   - 点赞: 331
 - [小高笔记 - 为什么 Git 的教程都那么繁杂？ - 知乎](https://www.zhihu.com/question/594294987/answer/90657535810)
-  - 概要: 我认为在实际工作中，不会用到那么复杂的 git 命令，只需要记住几个常用的 git 命令即可，以下是每个常用 Git 命令的 具体使用场景示例，我会用贴近实际开发的案例说明，让你快速掌握每个命令的用法：一、仓库基础操作 初始化本地仓库：git init # 进入你的项目文件夹 cd my-project # 初始化本地仓库 git init 克隆远程仓库到本地：git clone # 克隆远程仓库到本地 git clone https://github.com/user/repo.git # 克隆指定分支 git …
-  - 点赞: 675
-
 - [Cv大法代码酱 - 为什么要先 git add 才能 git commit ？ - 知乎](https://www.zhihu.com/question/19946553/answer/1968639801591854084)
-  - 概要: 谢邀。 这个问题我带的实习生几乎人手问一遍，有些工作三五年的老同事，虽然天天用，但你要是冷不丁问他，他可能也得愣一下，然后憋出一句“规定就是这样呗”。 这问题，问得是真好。它一针见血地戳到了Git设计的核心灵魂。你以为这是个操作问题，其实这是个哲学问题。 今天我就豁出去了，把压箱底的经验和思考都掏出来，争取用人话把这事儿给你讲透。这篇回答可能有点长，信息量也大，但我保证，你耐心看完，不仅能彻底明白为啥…
-  - 点赞: 500

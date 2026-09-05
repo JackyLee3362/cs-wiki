@@ -43,10 +43,6 @@ git rebase -i [start-point] [endpoint]
 git rebase -i HEAD^3
 ```
 
-## 最佳实践
-
-文件中搜索 Rime
-
 ## 语义化提交
 
 - [语义化版本 2.0.0 | Semantic Versioning](https://semver.org/lang/zh-CN/)

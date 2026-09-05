@@ -8,10 +8,7 @@ tags:
   - 翻译
   - Awesome
 categories:
-  - 软件
-cover:
-  #   image:
-  hidden: false
+  - 命令行
 comment: true
 showtoc: true
 tocopen: false
