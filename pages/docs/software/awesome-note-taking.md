@@ -36,7 +36,7 @@ comment: true
 
 - ![[roam-research#特点]]
 - ![[remnote#特点]]
-- ![[obsidian#特点]]
+- ![[obsidian/obsidian#特点]]
 - ![[logseq#特点]]
 - ![[tiddywiki5#核心特点]]
 
