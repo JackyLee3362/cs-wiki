@@ -28,6 +28,7 @@ comment: true
 - **GPT-4o** — ![[gpt-4o#特点]]
 - **Claude** — ![[claude#特点]]
 - **Gemini** — ![[gemini#特点]]
+- #todo [[gpt6-astro]]
 
 ## 开源大语言模型
 
@@ -59,7 +60,10 @@ comment: true
 
 辅助软件开发和代码生成的专用模型。
 
-- **Codex** — ![[codex#特点]]
+#issue: 存在codex这个模型吗？
+
+<!-- - **Codex** — ![[codex#特点]] -->
+
 - **GitHub Copilot** — ![[github-copilot#特点]]
 
 ## 图像生成
