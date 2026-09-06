@@ -1,0 +1,77 @@
+---
+title: java-wiki-notes
+description:
+date: 2026-09-07
+update_date:
+draft: true
+author: JackyLee
+tags:
+categories:
+comment: true
+---
+
+# Java Wiki Notes
+
+- [[dynamic-proxy]]
+- [[java-bigdecimal]]
+- [[java-biginteger]]
+- [[java-math]]
+- [[java-object]]
+- [[java-objects]]
+- [[java-runtime]]
+- [[java-system]]
+- [[jdbc-api]]
+- [[jdbc-connection-pool]]
+- [[jdbc-exercises]]
+- [[jdbc-overview]]
+- [[jdbc-quickstart]]
+- [[maven-advanced-inheritance]]
+- [[maven-advanced-multi-module]]
+- [[maven-advanced-private-repo]]
+- [[maven-aggregation-inheritance]]
+- [[maven-dependency-management]]
+- [[maven-multi-module]]
+- [[maven-notes]]
+- [[maven-private-repository]]
+- [[maven-profiles]]
+- [[maven-properties]]
+- [[mybatis-crud-annotation]]
+- [[mybatis-crud-xml]]
+- [[mybatis-plus-crud]]
+- [[mybatis-plus-dml]]
+- [[mybatis-plus-dql]]
+- [[mybatis-plus-intro]]
+- [[mybatis-plus-notes]]
+- [[mybatis-plus-rapid-dev]]
+- [[mybatis-spring-integration]]
+- [[network-exercises]]
+- [[network-intro]]
+- [[network-tcp]]
+- [[network-udp]]
+- [[spring-annotation-intro]]
+- [[spring-aop]]
+- [[spring-aop-annotations]]
+- [[spring-bean-annotations]]
+- [[spring-bean-notes]]
+- [[spring-concepts]]
+- [[spring-config-annotations]]
+- [[spring-exception-handling]]
+- [[spring-ioc-di-annotations]]
+- [[spring-mvc-annotations]]
+- [[spring-mvc-exception-handler]]
+- [[spring-mvc-frontend-protocol]]
+- [[spring-mvc-interceptor]]
+- [[spring-mvc-overview]]
+- [[spring-mvc-quickstart]]
+- [[spring-mvc-request-response]]
+- [[spring-mvc-rest]]
+- [[spring-mvc-result-wrapper]]
+- [[spring-transaction]]
+- [[spring-transactional]]
+- [[springboot-notes]]
+- [[springmvc-notes]]
+- [[ssm-integration]]
+
+## 参考资料
+
+- [黑马程序员 SSM 课程](https://www.bilibili.com/video/BV1Fi4y1S7ix)
