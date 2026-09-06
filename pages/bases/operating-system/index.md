@@ -11,7 +11,7 @@ categories:
 comment: true
 ---
 
-## [[operating-system/1-computer-system-overview/index|第1章 操作系统概述]]
+## [[operating-system/1-computer-system-overview/index|第一章 操作系统概述]]
 
 ### [[1.1-os-basic-concepts|操作系统的基本概念]]
 
@@ -21,7 +21,7 @@ comment: true
 
 ### [[1.4-os-architecture|操作系统的体系结构]]
 
-## [[2-process-management/index|第2章 进程管理]]
+## [[2-process-management/index|第二章 进程管理]]
 
 ### [[2.1-process-and-thread|进程和线程]]
 
@@ -31,13 +31,13 @@ comment: true
 
 ### [[2.4-deadlock|死锁]]
 
-## [[3-memory-management/index|第3章 内存管理]]
+## [[3-memory-management/index|第三章 内存管理]]
 
 ### [[3.1-memory-management-concepts|内存管理概念]]
 
 ### [[3.2-virtual-memory-management|虚拟内存管理]]
 
-## [[4-file-management/index|第4章 文件管理]]
+## [[4-file-management/index|第四章 文件管理]]
 
 ### [[4.1-file-system-basics|文件系统基础]]
 
@@ -45,7 +45,7 @@ comment: true
 
 ### [[4.3-disk-organization-and-management|磁盘组织和管理]]
 
-## [[5-io-management/index|第5章 输入输出管理]]
+## [[5-io-management/index|第五章 输入输出管理]]
 
 ### [[5.1-io-management-overview|I/O 管理概述]]
 

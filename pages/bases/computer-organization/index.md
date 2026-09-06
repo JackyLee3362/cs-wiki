@@ -10,16 +10,16 @@ categories:
   - 计算机科学
 comment: true
 ---
-## [[computer-organization/1-computer-system-overview/index|第1章 计算机系统概述]]
+## [[computer-organization/1-computer-system-overview/index|第一章 计算机系统概述]]
 
-## [[2-data-representation-and-operation/index|第2章 数据的表示和运算]]
+## [[2-data-representation-and-operation/index|第二章 数据的表示和运算]]
 
-## [[3-memory-system/index|第3章 存储系统]]
+## [[3-memory-system/index|第三章 存储系统]]
 
-## [[4-instruction-system/index|第4章 指令系统]]
+## [[4-instruction-system/index|第四章 指令系统]]
 
-## [[5-central-processing-unit/index|第5章 中央处理器]]
+## [[5-central-processing-unit/index|第五章 中央处理器]]
 
-## [[6-bus/index|第6章 总线]]
+## [[6-bus/index|第六章 总线]]
 
-## [[7-input-output-system/index|第7章 输入输出系统]]
+## [[7-input-output-system/index|第七章 输入输出系统]]
