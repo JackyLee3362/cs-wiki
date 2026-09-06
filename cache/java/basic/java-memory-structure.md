@@ -1,5 +1,5 @@
 ---
-title: jms
+title: java内存结构
 description:
 date: 2025-10-11
 update_date:
