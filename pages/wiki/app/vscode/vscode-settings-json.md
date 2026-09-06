@@ -49,7 +49,6 @@ ctrl + e 需要排除部分文件夹
 
 - [完美解决 vscode vim 插件卡顿问题长按 j k 或提示等卡顿问题_vscode 插件安装卡主怎么关-CSDN 博客](https://blog.csdn.net/qq_51714354/article/details/128442761)
 
-
 ## 参考资料
 
 - [VsCode Settings.Json 配置 - 扎卡里星移民户 - 博客园](https://www.cnblogs.com/q787011187/p/17800894.html)

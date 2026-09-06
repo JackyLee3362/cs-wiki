@@ -16,7 +16,6 @@ comment: true
 
 ## 参考资料
 
-
 首先是 Leetcode208 题 字典树
 
 ```python

@@ -21,4 +21,3 @@ comment: true
 - 每日笔记（Daily Notes）工作流
 - 强大的知识图谱视图
 - 闭源 SaaS，订阅制收费
-

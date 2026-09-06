@@ -12,6 +12,7 @@ categories:
   - 命令行
 comment: true
 ---
+
 ## 稀疏检出
 
 允许你只检出（checkout）某些目录或者文件，而不是仓库中的全部内容。

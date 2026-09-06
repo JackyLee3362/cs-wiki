@@ -19,4 +19,3 @@ comment: true
 - 专为 Markdown 笔记设计
 - 支持 Vim 模式编辑
 - 适合程序员使用
-

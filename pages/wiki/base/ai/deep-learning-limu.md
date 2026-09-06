@@ -16,16 +16,15 @@ comment: true
 
 ## 参考资料
 
-
 03 安装 有许多命令行可以学习
 
 06 矩阵计算（可以学习下）（分子布局）
 
-|                    | 标量$x(1,)$                          | 向量$\mathbf{x} (n,1)$ | 矩阵$X(n,k)$ |
-| ------------------ | ---------------------------------- | ------------------ | -------- |
-| 标量$y(1,)$        | $\frac{\partial y}{\partial x}(1,)$ | $\frac{\partial y}{\partial \mathbf{x}}(1,n)$ | $\frac{\partial y}{\partial X}(k,n)$ |
+|                        | 标量$x(1,)$                                   | 向量$\mathbf{x} (n,1)$                                 | 矩阵$X(n,k)$                                    |
+| ---------------------- | --------------------------------------------- | ------------------------------------------------------ | ----------------------------------------------- |
+| 标量$y(1,)$            | $\frac{\partial y}{\partial x}(1,)$           | $\frac{\partial y}{\partial \mathbf{x}}(1,n)$          | $\frac{\partial y}{\partial X}(k,n)$            |
 | 向量$\mathbf{y} (m,1)$ | $\frac{\partial \mathbf{y}}{\partial x}(m,1)$ | $\frac{\partial \mathbf{y}}{\partial \mathbf{x}}(m,n)$ | $\frac{\partial \mathbf{y}}{\partial X}(m,k,n)$ |
-| 矩阵$Y(m,l)$        | $\frac{\partial Y}{\partial x}(m,l)$ | $\frac{\partial Y}{\partial \mathbf{x}}(m,l,n)$ | $\frac{\partial Y}{\partial X}(m,l,k,n)$ |
+| 矩阵$Y(m,l)$           | $\frac{\partial Y}{\partial x}(m,l)$          | $\frac{\partial Y}{\partial \mathbf{x}}(m,l,n)$        | $\frac{\partial Y}{\partial X}(m,l,k,n)$        |
 
 08 线性回归
 

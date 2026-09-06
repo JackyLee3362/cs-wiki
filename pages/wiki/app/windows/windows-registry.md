@@ -25,7 +25,7 @@ comment: true
 
 ```reg
 Windows Registry Editor Version 5.00
- 
+
 [HKEY_CLASSES_ROOT/..test]
 @="Default项的文本"
 "reg_binary_test"=hex:E0,31

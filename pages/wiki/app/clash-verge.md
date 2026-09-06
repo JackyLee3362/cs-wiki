@@ -5,9 +5,8 @@ draft: true
 author: JackyLee
 tags:
   - app/gui
-categories: 
+categories:
 comment: true
 ---
-
 
 ## 参考资料

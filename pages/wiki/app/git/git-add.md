@@ -10,6 +10,7 @@ categories:
   - 命令行
 comment: true
 ---
+
 1. 将一个尚未被 Git 跟踪的文件纳入 Git 跟踪
 2. 将一个已经被 Git 跟踪的文件且这个文件处于修改状态，通过 add，可以将它纳入暂存区
 3. 将 merge 或者 rebase 后产生的冲突文件标记为冲突已解决

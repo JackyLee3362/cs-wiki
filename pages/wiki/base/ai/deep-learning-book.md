@@ -16,7 +16,6 @@ comment: true
 
 ## 参考资料
 
-
 ## 第 2 章
 
 ## 2.12 Example: Principlal Components Analysis

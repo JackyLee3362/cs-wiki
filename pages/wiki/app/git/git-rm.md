@@ -12,6 +12,7 @@ categories:
   - 命令行
 comment: true
 ---
+
 ## 从暂存区移除文件
 
 ```sh

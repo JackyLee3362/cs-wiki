@@ -18,7 +18,7 @@ comment: false
 # 创建用户，同时创建 Home 目录
 adduser $your_name
 
-# 比如 
+# 比如
 adduser foobar
 
 # 添加管理员权限

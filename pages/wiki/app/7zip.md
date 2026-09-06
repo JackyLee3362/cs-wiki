@@ -5,7 +5,7 @@ draft: true
 author: JackyLee
 tags:
   - 命令行
-categories: 
+categories:
 comment: true
 ---
 

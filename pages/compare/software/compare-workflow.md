@@ -1,16 +1,15 @@
 ---
 title: collection-workflow
-description: 
+description:
 date: 2025-10-11
 update_date:
   - 2025-11-01
 draft: true
 author: JackyLee
 tags:
-categories: 
+categories:
 comment: true
 ---
-
 
 ## dify
 

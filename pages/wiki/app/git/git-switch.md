@@ -12,6 +12,7 @@ categories:
   - 命令行
 comment: true
 ---
+
 需要 git 2.23 版本，低版本使用 [[git-checkout]]
 
 ## 切换分支
@@ -22,4 +23,3 @@ git switch 分支名
 # 创建分支
 git switch --create 分支名
 ```
-

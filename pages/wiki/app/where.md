@@ -5,10 +5,9 @@ draft: true
 author: JackyLee
 tags:
   - 命令行
-categories: 
+categories:
 comment: true
 ---
-
 
 以管理员身份运行 CMD，更换脚本执行策略：set-ExecutionPolicy RemoteSigned，然后输入 Y。
 

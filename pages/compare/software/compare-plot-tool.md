@@ -26,7 +26,7 @@ comment: true
 
 - Lucidchart
 - Visio 微软产品，闭源
-- graphviz 300star,  [graphviz](https://github.com/graphp/graphviz)
+- graphviz 300star, [graphviz](https://github.com/graphp/graphviz)
 - youplot 4.5k+start 科研绘图, [youplot](https://github.com/red-data-tools/YouPlot)
 
 ## 参考资料

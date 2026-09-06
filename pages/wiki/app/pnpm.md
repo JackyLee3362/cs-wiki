@@ -18,4 +18,3 @@ comment: true
 - 严格的依赖隔离，避免幽灵依赖
 - 支持 monorepo 工作区管理
 - 兼容 npm 生态，迁移成本低
-

@@ -5,10 +5,9 @@ draft: true
 author: JackyLee
 tags:
   - 命令行
-categories: 
+categories:
 comment: true
 ---
-
 
 剪贴板历史记录管理软件，和 Everything 一个级别的神器。
 

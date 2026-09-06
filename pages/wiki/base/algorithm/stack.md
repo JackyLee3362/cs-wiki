@@ -40,14 +40,14 @@ $$
 
 ## 基本操作
 
-| 操作 | 说明 |
-| --- | --- |
-| InitStack(&S) | 初始化栈 |
-| StackEmpty(S) | 判断 S 是否为空栈 |
-| Push(&S, e) | 入栈（压栈） |
-| Pop(&S, &e) | 出栈（弹栈） |
-| GetTop(S, &e) | 读取栈顶元素 |
-| DestroyStack(&S) | 销毁栈 |
+| 操作             | 说明              |
+| ---------------- | ----------------- |
+| InitStack(&S)    | 初始化栈          |
+| StackEmpty(S)    | 判断 S 是否为空栈 |
+| Push(&S, e)      | 入栈（压栈）      |
+| Pop(&S, &e)      | 出栈（弹栈）      |
+| GetTop(S, &e)    | 读取栈顶元素      |
+| DestroyStack(&S) | 销毁栈            |
 
 ## 顺序存储结构
 

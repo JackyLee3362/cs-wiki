@@ -6,9 +6,8 @@ update_date:
 draft: true
 author: JackyLee
 tags:
-categories: 
+categories:
 comment: true
 ---
-
 
 - [wger-project/wger: Self hosted FLOSS fitness/workout, nutrition and weight tracker](https://github.com/wger-project/wger)

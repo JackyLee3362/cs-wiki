@@ -5,10 +5,9 @@ draft: true
 author: JackyLee
 tags:
   - app/server
-categories: 
+categories:
 comment: true
 ---
-
 
 ## RocketMQ
 

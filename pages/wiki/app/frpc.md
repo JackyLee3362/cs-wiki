@@ -14,7 +14,7 @@ comment: true
 ## docker-compose
 
 ```yml
-version: '3'
+version: "3"
 services:
   frpc:
     image: /frpc:0.32.1

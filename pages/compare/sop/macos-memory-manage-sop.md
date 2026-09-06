@@ -6,9 +6,8 @@ update_date:
 draft: true
 author: JackyLee
 tags:
-categories: 
+categories:
 comment: true
 ---
 
 ## mac 内存管理
-

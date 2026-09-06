@@ -45,9 +45,9 @@ comment: true
 
 ## 与 pt-online-schema-change 对比
 
-| 特性 | gh-ost | pt-online-schema-change |
-|------|--------|------------------------|
-| 触发器 | 不需要 | 需要 |
-| 暂停/恢复 | 支持 | 不支持 |
-| 运行时调整 | 支持 | 不支持 |
-| 社区维护 | GitHub 官方 | Percona |
+| 特性       | gh-ost      | pt-online-schema-change |
+| ---------- | ----------- | ----------------------- |
+| 触发器     | 不需要      | 需要                    |
+| 暂停/恢复  | 支持        | 不支持                  |
+| 运行时调整 | 支持        | 不支持                  |
+| 社区维护   | GitHub 官方 | Percona                 |

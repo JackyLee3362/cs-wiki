@@ -212,23 +212,24 @@ folder 1/note1.md,tag,,tag2
 ---
 key: "value"
 key2:
-    - one
-    - two
-    - three
+  - one
+  - two
+  - three
 key3: ["foo", "bar", "baz"]
 key4: value
+
 
 # 这样会出问题
 ---
 key1:
-    key2:
-        - one
-        - two
-        - three
-    key3:
-        - one
-        - two
-        - three
+  key2:
+    - one
+    - two
+    - three
+  key3:
+    - one
+    - two
+    - three
 ---
 ```
 

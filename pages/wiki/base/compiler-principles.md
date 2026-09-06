@@ -229,7 +229,6 @@ A=>Aa 的形式称为左递归
 
 [LL(1),LR(0),SLR(1),LALR(1),LR(1)对比与分析](https://www.cnblogs.com/henuliulei/p/10872483.html)
 
-
 ## 参考资料
 
 - [【数理逻辑】谓词逻辑 ( 前束范式 | 前束范式转换方法 | 谓词逻辑基本等值式 | 换名规则 | 谓词逻辑推理定律 )-CSDN博客](https://blog.csdn.net/shulianghan/article/details/108858847)

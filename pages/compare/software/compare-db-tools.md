@@ -17,20 +17,20 @@ comment: true
 
 ## 概览
 
-| 工具 | 类型 | 开源 | 适用数据库 | 最佳场景 |
-|------|------|------|------------|----------|
-| [[gh-ost]] | 在线 DDL | 是 | MySQL | 无锁表结构变更 |
-| pt-online-schema-change | 在线 DDL | 是 | MySQL | Percona 生态 |
-| Flyway | 迁移管理 | 是 | 多数据库 | Java 项目版本化迁移 |
-| Liquibase | 迁移管理 | 是 | 多数据库 | 企业级变更追踪 |
-| dbmate | 迁移管理 | 是 | 多数据库 | 轻量命令行迁移 |
-| mysqldump | 备份 | 是 | MySQL | 逻辑备份 |
-| xtrabackup | 备份 | 是 | MySQL | 物理热备份 |
-| pg_dump | 备份 | 是 | PostgreSQL | 逻辑备份 |
-| Redis RDB/AOF | 持久化 | 内置 | Redis | 内存数据持久化 |
-| go-mysql-transfer | 同步 | 是 | MySQL→ES/Redis/Kafka | 实时数据同步 |
-| Canal | 同步 | 是 | MySQL | 阿里巴巴 binlog 解析 |
-| Debezium | CDC | 是 | 多数据库 | 分布式变更数据捕获 |
+| 工具                    | 类型     | 开源 | 适用数据库           | 最佳场景             |
+| ----------------------- | -------- | ---- | -------------------- | -------------------- |
+| [[gh-ost]]              | 在线 DDL | 是   | MySQL                | 无锁表结构变更       |
+| pt-online-schema-change | 在线 DDL | 是   | MySQL                | Percona 生态         |
+| Flyway                  | 迁移管理 | 是   | 多数据库             | Java 项目版本化迁移  |
+| Liquibase               | 迁移管理 | 是   | 多数据库             | 企业级变更追踪       |
+| dbmate                  | 迁移管理 | 是   | 多数据库             | 轻量命令行迁移       |
+| mysqldump               | 备份     | 是   | MySQL                | 逻辑备份             |
+| xtrabackup              | 备份     | 是   | MySQL                | 物理热备份           |
+| pg_dump                 | 备份     | 是   | PostgreSQL           | 逻辑备份             |
+| Redis RDB/AOF           | 持久化   | 内置 | Redis                | 内存数据持久化       |
+| go-mysql-transfer       | 同步     | 是   | MySQL→ES/Redis/Kafka | 实时数据同步         |
+| Canal                   | 同步     | 是   | MySQL                | 阿里巴巴 binlog 解析 |
+| Debezium                | CDC      | 是   | 多数据库             | 分布式变更数据捕获   |
 
 ## 按场景推荐
 

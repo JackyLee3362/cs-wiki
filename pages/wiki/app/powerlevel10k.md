@@ -5,10 +5,9 @@ draft: true
 author: JackyLee
 tags:
   - 命令行
-categories: 
+categories:
 comment: true
 ---
-
 
 ## zsh 主题 powerlevel10k
 

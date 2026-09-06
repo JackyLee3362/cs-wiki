@@ -7,6 +7,6 @@ draft: true
 author: JackyLee
 tags:
   - app/gui
-categories: 
+categories:
 comment: true
 ---

@@ -5,10 +5,9 @@ draft: true
 author: JackyLee
 tags:
   - 命令行
-categories: 
+categories:
 comment: true
 ---
-
 
 磁盘使用率：估计和汇总文件和目录空间使用率。
 更多信息：<https://keith.github.io/xcode-man-pages/du.1.html>

@@ -15,27 +15,27 @@ comment: true
 
 ### PC 端
 
-| 浏览器 | 内核 | 开源 | 平台 | 核心特点 | 隐私评分 |
-|:---|:---|:---:|:---|:---|:---:|
-| [[chrome]] | Blink (Chromium) | 部分 | 全平台 | 生态最丰富，开发者工具最强，性能领先 | ⭐⭐ |
-| [[edge]] | Blink (Chromium) | 部分 | 全平台 | Windows 集成最深，IE 兼容模式，垂直标签页 | ⭐⭐⭐ |
-| [[firefox]] | Gecko (Quantum) | ✅ | 全平台 | 唯一独立内核，隐私优先，容器标签页 | ⭐⭐⭐⭐ |
-| [[brave]] | Blink (Chromium) | ✅ | 全平台 | 内置广告拦截，Tor 模式，无遥测 | ⭐⭐⭐⭐⭐ |
-| [[safari]] | WebKit | 部分 | Apple | Apple 平台续航最佳，系统集成最深 | ⭐⭐⭐⭐ |
-| [[vivaldi]] | Blink (Chromium) | 部分 | 桌面+Android | 极致自定义，内置邮件/RSS/笔记 | ⭐⭐⭐⭐ |
-| [[mullvad-browser]] | Gecko (Firefox ESR) | ✅ | 桌面 | 反指纹追踪，Tor 技术，无遥测 | ⭐⭐⭐⭐⭐ |
-| Zen Browser | Gecko (Firefox) | ✅ | 桌面 | 侧边栏标签页，极简设计 | ⭐⭐⭐⭐ |
-| Thorium | Blink (Chromium) | ✅ | 桌面 | 去谷歌化编译版，极致速度 | ⭐⭐⭐ |
+| 浏览器              | 内核                | 开源 | 平台         | 核心特点                                  |  隐私评分  |
+| :------------------ | :------------------ | :--: | :----------- | :---------------------------------------- | :--------: |
+| [[chrome]]          | Blink (Chromium)    | 部分 | 全平台       | 生态最丰富，开发者工具最强，性能领先      |    ⭐⭐    |
+| [[edge]]            | Blink (Chromium)    | 部分 | 全平台       | Windows 集成最深，IE 兼容模式，垂直标签页 |   ⭐⭐⭐   |
+| [[firefox]]         | Gecko (Quantum)     |  ✅  | 全平台       | 唯一独立内核，隐私优先，容器标签页        |  ⭐⭐⭐⭐  |
+| [[brave]]           | Blink (Chromium)    |  ✅  | 全平台       | 内置广告拦截，Tor 模式，无遥测            | ⭐⭐⭐⭐⭐ |
+| [[safari]]          | WebKit              | 部分 | Apple        | Apple 平台续航最佳，系统集成最深          |  ⭐⭐⭐⭐  |
+| [[vivaldi]]         | Blink (Chromium)    | 部分 | 桌面+Android | 极致自定义，内置邮件/RSS/笔记             |  ⭐⭐⭐⭐  |
+| [[mullvad-browser]] | Gecko (Firefox ESR) |  ✅  | 桌面         | 反指纹追踪，Tor 技术，无遥测              | ⭐⭐⭐⭐⭐ |
+| Zen Browser         | Gecko (Firefox)     |  ✅  | 桌面         | 侧边栏标签页，极简设计                    |  ⭐⭐⭐⭐  |
+| Thorium             | Blink (Chromium)    |  ✅  | 桌面         | 去谷歌化编译版，极致速度                  |   ⭐⭐⭐   |
 
 ### 移动端
 
-| 浏览器 | 内核 | 平台 | 核心特点 | 体积 |
-|:---|:---|:---|:---|:---|
-| [[alook]] | WebKit/Blink | iOS/Android | 三无设计（无新闻/推送/广告），视频倍速 | 中等 |
-| [[via]] | System WebView | Android | 不足 1MB，高度可定制，脚本支持 | 极小 |
-| Safari | WebKit | iOS/iPadOS | 系统默认，续航最佳，与生态无缝集成 | 系统内置 |
-| Chrome | Blink | 全平台 | 同步最完善，扩展丰富 | 较大 |
-| Firefox | Gecko | 全平台 | 支持扩展，隐私保护 | 中等 |
+| 浏览器    | 内核           | 平台        | 核心特点                               | 体积     |
+| :-------- | :------------- | :---------- | :------------------------------------- | :------- |
+| [[alook]] | WebKit/Blink   | iOS/Android | 三无设计（无新闻/推送/广告），视频倍速 | 中等     |
+| [[via]]   | System WebView | Android     | 不足 1MB，高度可定制，脚本支持         | 极小     |
+| Safari    | WebKit         | iOS/iPadOS  | 系统默认，续航最佳，与生态无缝集成     | 系统内置 |
+| Chrome    | Blink          | 全平台      | 同步最完善，扩展丰富                   | 较大     |
+| Firefox   | Gecko          | 全平台      | 支持扩展，隐私保护                     | 中等     |
 
 ## 按场景推荐
 

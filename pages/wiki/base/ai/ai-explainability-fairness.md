@@ -23,7 +23,7 @@ comment: true
 - [apachecn/ailearning: AiLearning：数据分析+机器学习实战+线性代数+PyTorch+NLTK+TF2](https://github.com/apachecn/AiLearning)
 - [notebookd4165e08d7](https://www.kaggle.com/code/yijoupeng/notebookd4165e08d7)
 - [HanXinzi-AI/moc-python-machine-learning-resources: a collection of awesome machine learning and deep learning Python libraries&tools. 热门实用机器学习和深入学习Python库和工具的集合](https://github.com/HanXinzi-AI/moc-python-machine-learning-resources)
-- [3.4: Calculating Power- Banzhaf Power Index - Mathematics LibreTexts](https://math.libretexts.org/Bookshelves/Applied_Mathematics/Math_in_Society_(Lippman)/03%3A_Weighted_Voting/3.04%3A_Calculating_Power-__Banzhaf_Power_Index)
+- [3.4: Calculating Power- Banzhaf Power Index - Mathematics LibreTexts](<https://math.libretexts.org/Bookshelves/Applied_Mathematics/Math_in_Society_(Lippman)/03%3A_Weighted_Voting/3.04%3A_Calculating_Power-__Banzhaf_Power_Index>)
 
 ## 浏览器收藏 - 大论文相关
 
@@ -35,7 +35,7 @@ comment: true
 ### 公平性
 
 - [人工智能安全笔记（7）人工智能公平性 - 知乎](https://zhuanlan.zhihu.com/p/633670132)
-- [Fairness (machine learning) - Wikipedia](https://en.wikipedia.org/wiki/Fairness_(machine_learning)#Individual_fairness_criteria)
+- [Fairness (machine learning) - Wikipedia](<https://en.wikipedia.org/wiki/Fairness_(machine_learning)#Individual_fairness_criteria>)
 - [深度学习模型中的公平性研究](https://jos.org.cn/html/2023/9/6872.htm)
 - [深度学习模型中的公平性研究](https://www.jos.org.cn/html/2023/9/6872.htm)
 - [机器学习公平性：从无知到因果公平的全面解析-CSDN博客](https://blog.csdn.net/qq_37734256/article/details/117326143)
@@ -59,7 +59,7 @@ comment: true
 - [Shapley值及Python实现 - 知乎](https://zhuanlan.zhihu.com/p/611032048)
 - [高效的ShapValue计算 - TreeShap分析 - 知乎](https://zhuanlan.zhihu.com/p/299337859)
 - [Tree SHAP — Alibi 0.9.5 documentation](https://docs.seldon.io/projects/alibi/en/stable/methods/TreeSHAP.html)
-- [Kernel SHAP — Alibi 0.9.7.dev0 documentation](https://docs.seldon.io/projects/alibi/en/latest/methods    /KernelSHAP.html)
+- [Kernel SHAP — Alibi 0.9.7.dev0 documentation](https://docs.seldon.io/projects/alibi/en/latest/methods /KernelSHAP.html)
 - [Kernel SHAP explanation for SVM models — Alibi 0.9.7.dev0 documentation](https://docs.seldon.io/projects/alibi/en/latest/examples/kernel_shap_wine_intro.html)
 
 ### 公平性

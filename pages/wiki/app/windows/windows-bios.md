@@ -14,4 +14,4 @@ comment: true
 
 ## 开机后
 
-按f1或者f2 -> Configuration ->  Intel Virtual Technology
+按f1或者f2 -> Configuration -> Intel Virtual Technology

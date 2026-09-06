@@ -17,7 +17,7 @@ comment: true
 - 比 pip 快 10~100 倍
 - 同时支持 pip 和 Poetry 的依赖解析
 - 内置虚拟环境管理，无需额外工具
--  Astral 公司出品，与 ruff 同源
+- Astral 公司出品，与 ruff 同源
 
 ## 安装 uv
 

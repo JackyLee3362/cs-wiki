@@ -37,5 +37,4 @@ Switch# config # 进入全局配置
 Switch(config)# no spanning-tree vlan 1 # 左边不是注释...，删除生成树的命令
 ```
 
-
 ## Ref 参考文献

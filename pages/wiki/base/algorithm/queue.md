@@ -23,13 +23,13 @@ comment: true
 
 ## 基本操作
 
-| 操作 | 说明 |
-| --- | --- |
-| InitQueue(&Q) | 初始化队列 |
-| QueueEmpty(Q) | 判断队列是否为空 |
-| EnQueue(&Q, e) | 入队（插入元素） |
+| 操作            | 说明             |
+| --------------- | ---------------- |
+| InitQueue(&Q)   | 初始化队列       |
+| QueueEmpty(Q)   | 判断队列是否为空 |
+| EnQueue(&Q, e)  | 入队（插入元素） |
 | DeQueue(&Q, &e) | 出队（删除元素） |
-| GetHead(Q, &e) | 读取队头元素 |
+| GetHead(Q, &e)  | 读取队头元素     |
 
 ## 顺序存储结构（循环队列）
 

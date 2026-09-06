@@ -6,7 +6,7 @@ author: JackyLee
 tags:
   - 命令行
   - lang/bash
-  - 
+  -
 categories:
 comment: true
 ---

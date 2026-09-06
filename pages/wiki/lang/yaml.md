@@ -17,12 +17,12 @@ comment: true
 server:
   port: 8080
 # 或者行内写法
-server: {port: 8080}
+server: { port: 8080 }
 
 # 数组
 address:
-    - beijing
-    - shanghai
+  - beijing
+  - shanghai
 # 行内写法
 address: [beijing, shanghai]
 
@@ -33,7 +33,7 @@ msg2: "hello \n world" # 双引号识别转移字符
 # 参数引用
 name: Mike
 person:
-    name: ${name}
+  name: ${name}
 ```
 
 其他 Demo

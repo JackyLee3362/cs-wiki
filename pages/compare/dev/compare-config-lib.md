@@ -6,10 +6,9 @@ update_date:
 draft: true
 author: JackyLee
 tags:
-categories: 
+categories:
 comment: true
 ---
-
 
 ## Python
 

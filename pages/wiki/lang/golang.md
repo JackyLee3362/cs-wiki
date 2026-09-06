@@ -1,15 +1,14 @@
 ---
 title: golang
-description: 
+description:
 date: 2025-11-01
 update_date:
 draft: true
 author: JackyLee
 tags:
-categories: 
+categories:
 comment: true
 ---
-
 
 - [有哪些不错的 golang 开源项目？ - 知乎](https://www.zhihu.com/question/48821269/answer/1992872634)
 
