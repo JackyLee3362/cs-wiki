@@ -31,7 +31,6 @@ comment: true
 - [[maven-aggregation-inheritance]]
 - [[maven-dependency-management]]
 - [[maven-multi-module]]
-- [[maven-notes]]
 - [[maven-private-repository]]
 - [[maven-profiles]]
 - [[maven-properties]]
@@ -41,7 +40,6 @@ comment: true
 - [[mybatis-plus-dml]]
 - [[mybatis-plus-dql]]
 - [[mybatis-plus-intro]]
-- [[mybatis-plus-notes]]
 - [[mybatis-plus-rapid-dev]]
 - [[mybatis-spring-integration]]
 - [[network-exercises]]
@@ -68,8 +66,6 @@ comment: true
 - [[spring-mvc-result-wrapper]]
 - [[spring-transaction]]
 - [[spring-transactional]]
-- [[springboot-notes]]
-- [[springmvc-notes]]
 - [[ssm-integration]]
 
 ## 参考资料
