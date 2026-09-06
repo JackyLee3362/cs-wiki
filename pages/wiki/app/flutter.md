@@ -15,7 +15,7 @@ comment: true
 
 ## 参考资料
 
-- [Solido/awesome-flutter: An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.](https://github.com/Solido/awesome-flutter)
+- [Solido/moc-flutter: An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.](https://github.com/Solido/moc-flutter)
 - [起步:安装Flutter - Flutter中文网](https://doc.flutterchina.club/get-started/install/)
 - [Flutter 状态管理解惑（2）InheritedWidget详解理论 关于状态提升的概念 当一个页面上有多个子组件时 - 掘金](https://juejin.cn/post/7265130379966578743)
 - [Flutter 入门与实战（九十二）：状态管理系列大汇总【收藏不迷路】Flutter 状态管理系列文章合集，汇集了基础原 - 掘金](https://juejin.cn/post/7016141866194173988?from=search-suggest)

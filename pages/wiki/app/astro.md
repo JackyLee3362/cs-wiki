@@ -21,4 +21,4 @@ comment: true
 - AstroPaper: [satnaing/astro-paper](https://github.com/satnaing/astro-paper)
   - Demo[AstroPaper](https://astro-paper.pages.dev/)
 
-- awesome-astro: [one-aalam/awesome-astro](https://github.com/one-aalam/awesome-astro)
+- moc-astro: [one-aalam/moc-astro](https://github.com/one-aalam/moc-astro)

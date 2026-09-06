@@ -62,7 +62,7 @@ WinActivate [ WinTitle, WinText, ExcludeTitle, ExcludeText ]
 
 ## 参考资料
 
-- [ceynri/awesome-ahk: 📈 借助 AutoHotkey 实现快捷键自定义编程，提高效率](https://github.com/ceynri/awesome-ahk)
+- [ceynri/moc-ahk: 📈 借助 AutoHotkey 实现快捷键自定义编程，提高效率](https://github.com/ceynri/moc-ahk)
 - [AutoHotKey 个人改键和全局快捷键设置 | Femoon’s Blog](https://femoon.top/article/79e9d935-33d0-41e8-b4a7-aef3acf9ecdf)
 - [程序的使用 | AutoHotkey v2](https://wyagd001.github.io/v2/docs/Program.htm#run)
 - [热键之组合键与序列键 - AutoHotkey Community](https://www.autohotkey.com/boards/viewtopic.php?t=4287)

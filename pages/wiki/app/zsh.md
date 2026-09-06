@@ -48,7 +48,7 @@ autoload -Uz zsh-newuser-install; zsh-newuser-install -f
 
 ### 插件 aliases
 
-- 插件 Awesome 系列 [unixorn/awesome-zsh-plugins: A collection of ZSH frameworks, plugins, themes and tutorials.](https://github.com/unixorn/awesome-zsh-plugins)
+- 插件 Awesome 系列 [unixorn/moc-zsh-plugins: A collection of ZSH frameworks, plugins, themes and tutorials.](https://github.com/unixorn/moc-zsh-plugins)
 - [终端环境：zsh 、oh-my-zsh、提示主题与 7 效率插件 - POLOXUE's BLOG](https://www.poloxue.com/posts/2023-10-16-zsh-themes-and-plugins/)
 
 ## 参考资料

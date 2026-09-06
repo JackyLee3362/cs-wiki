@@ -264,14 +264,14 @@ $
 - [pku-typst/pkuthss-typst: Typst template for dissertations in Peking University (PKU).](https://github.com/pku-typst/pkuthss-typst)
   该模板较新，且文件少，容易学习。
 - [011 - Typst 的序号标注指南：从入门到精通 - 知乎](https://zhuanlan.zhihu.com/p/677147856)
-- [awesome-typst/README_ZH.md at main · qjcg/awesome-typst](https://github.com/qjcg/awesome-typst/blob/main/README_ZH.md)
+- [moc-typst/README_ZH.md at main · qjcg/moc-typst](https://github.com/qjcg/moc-typst/blob/main/README_ZH.md)
 
 ## 教程
 
 - [The Raindrop-Blue Book (Typst中文教程)](https://typst-doc-cn.github.io/tutorial/introduction.html)
 - [中文用户指南 – Typst 中文文档](https://typst-doc-cn.github.io/docs/chinese/)
 - [About - Typst Examples Book](https://sitandr.github.io/typst-examples-book/book/)
-- [awesome-typst/README_ZH.md at main · qjcg/awesome-typst](https://github.com/qjcg/awesome-typst/blob/main/README_ZH.md)
+- [moc-typst/README_ZH.md at main · qjcg/moc-typst](https://github.com/qjcg/moc-typst/blob/main/README_ZH.md)
 
 ## 社区
 

@@ -34,4 +34,4 @@ docker compose exec miniflux sh
 
 ## 参考资料
 
-- [docker/awesome-compose: Awesome Docker Compose samples](https://github.com/docker/awesome-compose)
+- [docker/moc-compose: Awesome Docker Compose samples](https://github.com/docker/moc-compose)

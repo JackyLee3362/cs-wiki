@@ -20,7 +20,7 @@ comment: true
 
 - [apachecn/ailearning: AiLearning：数据分析+机器学习实战+线性代数+PyTorch+NLTK+TF2](https://github.com/apachecn/AiLearning)
 - [notebookd4165e08d7](https://www.kaggle.com/code/yijoupeng/notebookd4165e08d7)
-- [HanXinzi-AI/awesome-python-machine-learning-resources: a collection of awesome machine learning and deep learning Python libraries&tools. 热门实用机器学习和深入学习Python库和工具的集合](https://github.com/HanXinzi-AI/awesome-python-machine-learning-resources)
+- [HanXinzi-AI/moc-python-machine-learning-resources: a collection of awesome machine learning and deep learning Python libraries&tools. 热门实用机器学习和深入学习Python库和工具的集合](https://github.com/HanXinzi-AI/moc-python-machine-learning-resources)
 - [3.4: Calculating Power- Banzhaf Power Index - Mathematics LibreTexts](https://math.libretexts.org/Bookshelves/Applied_Mathematics/Math_in_Society_(Lippman)/03%3A_Weighted_Voting/3.04%3A_Calculating_Power-__Banzhaf_Power_Index)
 
 ## 浏览器收藏 - 大论文相关
