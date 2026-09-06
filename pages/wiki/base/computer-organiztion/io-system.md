@@ -1,5 +1,7 @@
 ---
-title: I/O System
+title: 输入输出系统
+alias:
+  - I/O System
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 输入输出系统 I/O System
 
 ## I/O 系统基本概念
 

@@ -1,5 +1,7 @@
 ---
-title: Floating-Point Number
+title: 浮点数的表示和运算
+alias:
+  - Floating-Point Number
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 浮点数的表示和运算 Floating-Point Number
 
 ## 浮点数的表示
 

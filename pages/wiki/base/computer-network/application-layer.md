@@ -1,5 +1,7 @@
 ---
-title: Application Layer
+title: 应用层
+alias:
+  - Application Layer
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 应用层
 
 ## 网络应用模型
 

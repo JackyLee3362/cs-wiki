@@ -1,5 +1,7 @@
 ---
-title: HTTP Protocol
+title: HTTP 协议
+alias:
+  - HTTP Protocol
 date: 2024-10-20
 draft: false
 author: JackyLee

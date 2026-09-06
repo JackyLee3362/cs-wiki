@@ -1,5 +1,7 @@
 ---
-title: CPU Scheduling
+title: 处理机调度
+alias:
+  - CPU Scheduling
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 处理机调度 CPU Scheduling
 
 处理机调度是对处理机进行分配，即从就绪队列按照一定的算法（公平、高效）选择一个进程并将处理机分配给它运行，以实现进程并发地执行。
 

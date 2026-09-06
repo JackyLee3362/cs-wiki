@@ -1,5 +1,7 @@
 ---
-title: Computer Network
+title: 计算机网络
+alias:
+  - Computer Network
 date: 2025-01-01
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 计算机网络
 
 ## 七层网络结构
 

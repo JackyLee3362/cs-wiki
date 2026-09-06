@@ -1,5 +1,7 @@
 ---
-title: Bellman Ford Algorithm
+title: Bellman-Ford 算法
+alias:
+  - Bellman Ford Algorithm
 date: 2022-12-20
 draft: false
 author: JackyLee

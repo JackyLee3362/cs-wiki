@@ -1,5 +1,7 @@
 ---
-title: Data Structure and Algorithms
+title: 数据结构与算法
+alias:
+  - Data Structure and Algorithms
 date: 2025-03-02
 draft: false
 author: JackyLee

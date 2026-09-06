@@ -1,5 +1,7 @@
 ---
-title: Deep Learning by Li Mu
+title: 跟李沐学 AI
+alias:
+  - Deep Learning by Li Mu
 date: 2023-01-06
 draft: false
 author: JackyLee
@@ -14,7 +16,6 @@ comment: true
 
 ## 参考资料
 
-# 跟李沐学 AI
 
 03 安装 有许多命令行可以学习
 

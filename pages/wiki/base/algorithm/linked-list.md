@@ -1,5 +1,7 @@
 ---
-title: Linked List
+title: 链表
+alias:
+  - Linked List
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 链表 Linked List
 
 线性表的链式存储称为链表，其中单链表是最基本的形式。
 

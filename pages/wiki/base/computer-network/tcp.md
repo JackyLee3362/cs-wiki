@@ -1,5 +1,7 @@
 ---
-title: TCP
+title: TCP 协议
+alias:
+  - TCP
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# TCP 协议
 
 ## TCP 协议的特点
 

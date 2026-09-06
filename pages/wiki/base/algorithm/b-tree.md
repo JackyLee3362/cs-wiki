@@ -1,5 +1,7 @@
 ---
-title: B-Tree
+title: B 树和 B+ 树
+alias:
+  - B-Tree
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# B 树和 B+ 树
 
 B 树又称多路平衡查找树，是一种适合外存（磁盘）存取的多叉平衡树。
 

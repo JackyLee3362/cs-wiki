@@ -1,5 +1,7 @@
 ---
-title: Hash Table
+title: 散列表
+alias:
+  - Hash Table
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 散列表 Hash Table
 
 散列表是根据关键字而直接进行访问的数据结构，它建立了关键字和存储地址之间的一种直接映射关系：
 

@@ -1,5 +1,7 @@
 ---
-title: Information Theory
+title: 信息论
+alias:
+  - Information Theory
 date: 2025-03-02
 draft: false
 author: JackyLee

@@ -1,5 +1,7 @@
 ---
-title: Deep Learning Book
+title: 深度学习（花书）
+alias:
+  - Deep Learning Book
 date: 2023-01-27
 draft: false
 author: JackyLee
@@ -14,7 +16,6 @@ comment: true
 
 ## 参考资料
 
-# 深度学习-花书
 
 ## 第 2 章
 

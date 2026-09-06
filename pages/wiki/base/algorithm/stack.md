@@ -1,5 +1,7 @@
 ---
-title: Stack
+title: 栈
+alias:
+  - Stack
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 栈 Stack
 
 栈（Stack）是只允许在一端进行插入或删除操作的线性表。
 

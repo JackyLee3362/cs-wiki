@@ -1,5 +1,7 @@
 ---
-title: Machine Learning Reading
+title: 机器学习阅读
+alias:
+  - Machine Learning Reading
 date: 2025-02-26
 draft: false
 author: JackyLee

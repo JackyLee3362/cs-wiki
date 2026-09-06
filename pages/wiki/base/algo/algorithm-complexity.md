@@ -1,5 +1,7 @@
 ---
-title: Algorithm Complexity Analysis
+title: 算法复杂度分析
+alias:
+  - Algorithm Complexity Analysis
 date: 2023-01-02
 draft: false
 author: JackyLee

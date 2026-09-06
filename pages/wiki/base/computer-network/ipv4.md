@@ -1,5 +1,7 @@
 ---
-title: IPv4
+title: IPv4 协议
+alias:
+  - IPv4
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# IPv4
 
 ## IPv4 分组（数据报）
 

@@ -1,5 +1,7 @@
 ---
-title: Deadlock
+title: 死锁
+alias:
+  - Deadlock
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 死锁 Deadlock
 
 死锁（Deadlock）是指多个进程因竞争资源而造成的一种互相等待的僵局。
 

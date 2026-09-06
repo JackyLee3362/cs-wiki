@@ -1,5 +1,7 @@
 ---
-title: Bubble Sort
+title: 冒泡排序
+alias:
+  - Bubble Sort
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -11,8 +13,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 冒泡排序 Bubble Sort
 
 冒泡排序属于交换排序，通过相邻元素两两比较交换，使最大（或最小）的元素像气泡一样逐渐「冒」到序列的一端。
 

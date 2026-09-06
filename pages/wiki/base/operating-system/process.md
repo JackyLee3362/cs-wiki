@@ -1,5 +1,7 @@
 ---
-title: Process
+title: 进程
+alias:
+  - Process
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 进程 Process
 
 进程是进程实体的运行过程，是系统进行资源分配和调度的一个独立单位。进程存在的唯一标志是进程控制块（PCB）。进程与程序的根本区别在于进程是动态的，程序是静态的。
 

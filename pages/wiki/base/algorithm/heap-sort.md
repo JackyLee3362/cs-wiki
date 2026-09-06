@@ -1,5 +1,7 @@
 ---
-title: Heap Sort
+title: 堆排序
+alias:
+  - Heap Sort
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -11,8 +13,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 堆排序 Heap Sort
 
 堆排序属于选择排序，利用堆这种数据结构进行排序。
 

@@ -1,5 +1,7 @@
 ---
-title: ICMP Protocol
+title: ICMP 协议
+alias:
+  - ICMP Protocol
 date: 2024-10-20
 draft: false
 author: JackyLee
@@ -46,6 +48,5 @@ windows
 
 [](https://www.cnblogs.com/HOsystem/p/13170860.html)
 
-# ICMP 协议
 
 internet control message protocol

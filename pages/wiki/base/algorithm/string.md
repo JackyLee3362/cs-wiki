@@ -1,5 +1,7 @@
 ---
-title: String
+title: 串
+alias:
+  - String
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 串 String
 
 字符串简称串，在 C++ 语言中使用关键字 `string` 来定义：
 

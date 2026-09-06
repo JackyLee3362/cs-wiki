@@ -1,5 +1,7 @@
 ---
-title: Theory of Computation
+title: 计算理论
+alias:
+  - Theory of Computation
 date: 2025-11-01
 draft: false
 author: JackyLee

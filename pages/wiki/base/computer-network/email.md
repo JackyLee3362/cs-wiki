@@ -1,5 +1,7 @@
 ---
-title: Email
+title: 电子邮件
+alias:
+  - Email
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 电子邮件 E-Mail
 
 ## 电子邮件系统的组成
 

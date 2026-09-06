@@ -1,5 +1,7 @@
 ---
-title: Graph
+title: 图
+alias:
+  - Graph
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 图 Graph
 
 图 $G$ 由顶点集 $V$ 和边集 $E$ 组成，记为 $G = (V, E)$。
 

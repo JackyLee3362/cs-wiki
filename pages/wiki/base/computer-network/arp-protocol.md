@@ -1,5 +1,7 @@
 ---
-title: ARP Protocol
+title: ARP 协议
+alias:
+  - ARP Protocol
 date: 2025-01-01
 draft: false
 author: JackyLee
@@ -11,8 +13,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# arp协议
 
 地址解析协议
 

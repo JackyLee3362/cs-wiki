@@ -1,5 +1,7 @@
 ---
-title: DNS
+title: 域名系统
+alias:
+  - DNS
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 域名系统 DNS
 
 ## 层次域名空间
 

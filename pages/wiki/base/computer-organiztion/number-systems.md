@@ -1,5 +1,7 @@
 ---
-title: Number Systems
+title: 数制与编码
+alias:
+  - Number Systems
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 数制与编码 Number Systems
 
 ## 进位计数制及其相互转换
 

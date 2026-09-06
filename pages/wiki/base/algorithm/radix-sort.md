@@ -1,5 +1,7 @@
 ---
-title: Radix Sort
+title: 基数排序
+alias:
+  - Radix Sort
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -11,8 +13,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 基数排序 Radix Sort
 
 基数排序是一种非比较型排序，基于关键字各位的大小进行排序，通常借助「分配」和「收集」两种操作实现。
 

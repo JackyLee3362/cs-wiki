@@ -1,5 +1,7 @@
 ---
-title: MAC Address
+title: MAC 地址
+alias:
+  - MAC Address
 date: 2024-10-20
 draft: false
 author: JackyLee

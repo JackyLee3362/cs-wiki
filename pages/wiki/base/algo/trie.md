@@ -1,5 +1,7 @@
 ---
-title: Trie
+title: 字典树
+alias:
+  - Trie
 date: 2023-01-05
 draft: false
 author: JackyLee
@@ -14,7 +16,6 @@ comment: true
 
 ## 参考资料
 
-# 字典树
 
 首先是 Leetcode208 题 字典树
 

@@ -1,5 +1,7 @@
 ---
-title: UDP Protocol
+title: UDP 协议
+alias:
+  - UDP Protocol
 date: 2025-01-01
 draft: false
 author: JackyLee
@@ -11,7 +13,5 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# UDP协议
 
 User Datagram Protocol

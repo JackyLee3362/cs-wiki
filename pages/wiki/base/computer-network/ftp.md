@@ -1,5 +1,7 @@
 ---
-title: FTP
+title: 文件传输协议
+alias:
+  - FTP
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 文件传输协议 FTP
 
 ## FTP 概述
 

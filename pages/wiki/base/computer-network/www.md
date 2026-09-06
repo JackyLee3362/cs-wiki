@@ -1,5 +1,7 @@
 ---
-title: World Wide Web
+title: 万维网
+alias:
+  - World Wide Web
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 万维网 WWW
 
 ## 万维网的概念与组成
 

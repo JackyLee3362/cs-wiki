@@ -1,5 +1,7 @@
 ---
-title: Network Programming
+title: 网络编程
+alias:
+  - Network Programming
 date: 2025-01-01
 draft: false
 author: JackyLee

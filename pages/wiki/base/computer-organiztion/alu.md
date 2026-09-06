@@ -1,5 +1,7 @@
 ---
-title: Arithmetic Logic Unit
+title: 算术逻辑单元
+alias:
+  - Arithmetic Logic Unit
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 算术逻辑单元 ALU
 
 ## 一位全加器
 

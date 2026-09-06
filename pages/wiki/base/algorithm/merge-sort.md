@@ -1,5 +1,7 @@
 ---
-title: Merge Sort
+title: 归并排序
+alias:
+  - Merge Sort
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -11,8 +13,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 归并排序 Merge Sort
 
 归并排序基于分治思想：将序列分成若干个子序列，分别排序后再合并为有序序列。
 

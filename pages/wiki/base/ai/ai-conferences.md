@@ -1,5 +1,7 @@
 ---
-title: AI Conferences
+title: AI 会议
+alias:
+  - AI Conferences
 date: 2025-03-12
 draft: false
 author: JackyLee

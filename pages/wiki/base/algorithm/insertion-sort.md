@@ -1,5 +1,7 @@
 ---
-title: Insertion Sort
+title: 插入排序
+alias:
+  - Insertion Sort
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -11,8 +13,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 插入排序 Insertion Sort
 
 插入排序的基本思想是将待排序元素插入到已排好序的有序序列中的合适位置。
 

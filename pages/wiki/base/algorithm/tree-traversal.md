@@ -1,5 +1,7 @@
 ---
-title: Tree Traversal
+title: 二叉树的遍历
+alias:
+  - Tree Traversal
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 二叉树的遍历 Tree Traversal
 
 二叉树的遍历是按某种规则访问树中每个结点且仅访问一次的过程。
 

@@ -1,5 +1,7 @@
 ---
-title: Selection Sort
+title: 选择排序
+alias:
+  - Selection Sort
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -11,8 +13,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 选择排序 Selection Sort
 
 选择排序的基本思想是每一趟在待排序元素中选取关键字最小（或最大）的元素，放到已排序序列的末尾。
 

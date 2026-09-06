@@ -1,5 +1,7 @@
 ---
-title: Binary Tree
+title: 二叉树
+alias:
+  - Binary Tree
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 二叉树 Binary Tree
 
 二叉树是每个结点至多只有两棵子树，且子树有左右之分的树。
 

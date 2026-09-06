@@ -1,5 +1,7 @@
 ---
-title: Instruction Pipeline
+title: 指令流水线
+alias:
+  - Instruction Pipeline
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 指令流水线 Instruction Pipeline
 
 ## 指令流水线的概念
 

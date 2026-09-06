@@ -1,5 +1,7 @@
 ---
-title: Operating System
+title: 操作系统
+alias:
+  - Operating System
 date: 2025-03-02
 draft: false
 author: JackyLee

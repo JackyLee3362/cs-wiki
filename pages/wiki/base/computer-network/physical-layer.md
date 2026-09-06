@@ -1,5 +1,7 @@
 ---
-title: Physical Layer
+title: 物理层
+alias:
+  - Physical Layer
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 物理层
 
 ## 通信基础
 

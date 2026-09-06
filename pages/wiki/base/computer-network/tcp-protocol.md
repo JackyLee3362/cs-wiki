@@ -1,5 +1,7 @@
 ---
-title: TCP Protocol
+title: TCP 协议
+alias:
+  - TCP Protocol
 date: 2024-10-20
 draft: false
 author: JackyLee

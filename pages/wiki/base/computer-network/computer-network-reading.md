@@ -1,5 +1,7 @@
 ---
-title: Computer Network Reading
+title: 计算机网络阅读
+alias:
+  - Computer Network Reading
 date: 2025-03-02
 draft: false
 author: JackyLee

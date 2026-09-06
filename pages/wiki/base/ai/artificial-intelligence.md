@@ -1,5 +1,7 @@
 ---
-title: Artificial Intelligence
+title: 人工智能
+alias:
+  - Artificial Intelligence
 date: 2025-01-01
 draft: false
 author: JackyLee

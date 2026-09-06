@@ -1,5 +1,7 @@
 ---
-title: Queue
+title: 队列
+alias:
+  - Queue
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 队列 Queue
 
 队列（Queue）简称队，是一种操作受限的线性表，只允许在表的一端进行插入，而在另一端进行删除。
 

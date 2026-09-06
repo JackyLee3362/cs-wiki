@@ -1,5 +1,7 @@
 ---
-title: Transport Layer
+title: 传输层
+alias:
+  - Transport Layer
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 传输层
 
 ## 传输层的功能
 

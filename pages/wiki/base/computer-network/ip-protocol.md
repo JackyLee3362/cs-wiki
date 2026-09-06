@@ -1,5 +1,7 @@
 ---
-title: IP Protocol
+title: IP 协议
+alias:
+  - IP Protocol
 date: 2024-10-20
 draft: false
 author: JackyLee

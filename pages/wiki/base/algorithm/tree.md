@@ -1,5 +1,7 @@
 ---
-title: Tree
+title: 树
+alias:
+  - Tree
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 树 Tree
 
 树是 $n$（$n \ge 0$）个结点的有限集合。当 $n = 0$ 时称为空树。
 

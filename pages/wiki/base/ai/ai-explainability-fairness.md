@@ -1,5 +1,7 @@
 ---
-title: AI Explainability and Fairness
+title: AI 可解释性与公平性
+alias:
+  - AI Explainability and Fairness
 date: 2025-02-26
 draft: false
 author: JackyLee

@@ -1,5 +1,7 @@
 ---
-title: CPU
+title: 中央处理器
+alias:
+  - CPU
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 中央处理器 CPU
 
 ## CPU 的功能
 

@@ -1,5 +1,7 @@
 ---
-title: Union Find
+title: 并查集
+alias:
+  - Union Find
 date: 2023-01-05
 draft: false
 author: JackyLee

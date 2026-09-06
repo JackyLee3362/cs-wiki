@@ -1,5 +1,7 @@
 ---
-title: I/O Management
+title: 输入输出管理
+alias:
+  - I/O Management
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 输入输出管理 I/O Management
 
 ## I/O 设备分类
 

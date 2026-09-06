@@ -1,5 +1,7 @@
 ---
-title: Binary Search
+title: 二分查找
+alias:
+  - Binary Search
 date: 2023-01-05
 draft: false
 author: JackyLee

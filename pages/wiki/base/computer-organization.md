@@ -1,5 +1,7 @@
 ---
-title: Computer Organization
+title: 计算机组成原理
+alias:
+  - Computer Organization
 date: 2025-03-02
 draft: false
 author: JackyLee

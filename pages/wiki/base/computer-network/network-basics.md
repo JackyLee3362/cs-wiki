@@ -1,5 +1,7 @@
 ---
-title: Network Basics
+title: 计算机网络概述与体系结构
+alias:
+  - Network Basics
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 计算机网络概述与体系结构
 
 ## 计算机网络的概念
 

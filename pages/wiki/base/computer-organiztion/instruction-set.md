@@ -1,5 +1,7 @@
 ---
-title: Instruction Set
+title: 指令系统
+alias:
+  - Instruction Set
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 指令系统 Instruction Set
 
 ## 指令格式
 

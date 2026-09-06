@@ -1,5 +1,7 @@
 ---
-title: Process Synchronization
+title: 进程同步
+alias:
+  - Process Synchronization
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 进程同步 Process Synchronization
 
 ## 基本概念
 

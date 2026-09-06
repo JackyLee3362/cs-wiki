@@ -1,5 +1,7 @@
 ---
-title: Fixed-Point Number
+title: 定点数的表示和运算
+alias:
+  - Fixed-Point Number
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 定点数的表示和运算 Fixed-Point Number
 
 ## 定点数的表示
 

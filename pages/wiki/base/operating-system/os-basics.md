@@ -1,5 +1,7 @@
 ---
-title: Operating System Basics
+title: 操作系统基础
+alias:
+  - Operating System Basics
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 操作系统基础 Operating System Basics
 
 操作系统（OS）是控制和管理整个计算机系统的硬件与软件资源，合理地组织、调度计算机的工作与资源的分配，进而为用户和其他软件提供方便接口与环境的程序的集合。没有任何软件支持的计算机称为裸机。
 

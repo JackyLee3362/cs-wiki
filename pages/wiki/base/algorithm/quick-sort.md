@@ -1,5 +1,7 @@
 ---
-title: Quick Sort
+title: 快速排序
+alias:
+  - Quick Sort
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -11,8 +13,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 快速排序 Quick Sort
 
 快速排序属于交换排序，基于分治思想：选择一个基准（枢轴）元素，将序列划分为左右两部分，左边都小于基准，右边都大于基准，再对左右子序列递归排序。
 

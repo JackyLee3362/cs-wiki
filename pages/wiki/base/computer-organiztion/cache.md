@@ -1,5 +1,7 @@
 ---
-title: Cache
+title: 高速缓冲存储器
+alias:
+  - Cache
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 高速缓冲存储器 Cache
 
 ## 程序访问的局部性原理
 

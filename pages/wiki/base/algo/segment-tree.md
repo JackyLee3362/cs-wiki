@@ -1,5 +1,7 @@
 ---
-title: Segment Tree
+title: 线段树
+alias:
+  - Segment Tree
 date: 2023-01-05
 draft: false
 author: JackyLee

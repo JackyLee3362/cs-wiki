@@ -1,5 +1,7 @@
 ---
-title: Network Architecture
+title: 网络体系结构
+alias:
+  - Network Architecture
 date: 2025-11-03
 draft: false
 author: JackyLee

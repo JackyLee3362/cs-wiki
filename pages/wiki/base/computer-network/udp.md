@@ -1,5 +1,7 @@
 ---
-title: UDP
+title: UDP 协议
+alias:
+  - UDP
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# UDP 协议
 
 ## 概述
 

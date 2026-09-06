@@ -1,5 +1,7 @@
 ---
-title: Data Link Layer
+title: 数据链路层
+alias:
+  - Data Link Layer
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 数据链路层
 
 ## 数据链路层的功能
 

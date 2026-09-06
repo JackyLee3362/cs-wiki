@@ -1,5 +1,7 @@
 ---
-title: Virtual Memory
+title: 虚拟内存
+alias:
+  - Virtual Memory
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 虚拟内存 Virtual Memory
 
 ## 传统存储管理方式的特征
 

@@ -1,5 +1,7 @@
 ---
-title: File System
+title: 文件系统
+alias:
+  - File System
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 文件系统 File System
 
 文件是以计算机硬盘为载体的存储在计算机上的信息集合。计算机以进程为基本单位进行资源的调度和分配，而在用户进行的输入、输出中，以文件为基本单位。引入文件系统的目的是实现对文件的按名存取。
 

@@ -1,5 +1,7 @@
 ---
-title: Memory Management
+title: 内存管理
+alias:
+  - Memory Management
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 内存管理 Memory Management
 
 ## 内存管理的功能
 

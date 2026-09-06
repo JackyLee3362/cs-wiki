@@ -1,5 +1,7 @@
 ---
-title: Compiler Principles
+title: 编译原理
+alias:
+  - Compiler Principles
 date: 2023-04-07
 draft: false
 author: JackyLee

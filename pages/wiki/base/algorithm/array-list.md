@@ -1,5 +1,7 @@
 ---
-title: Array List
+title: 顺序表
+alias:
+  - Array List
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 顺序表 Array List
 
 线性表的顺序存储称为顺序表（Sequence List），表中元素的逻辑顺序与其物理顺序相同。
 

@@ -1,5 +1,7 @@
 ---
-title: Cryptography
+title: 密码学
+alias:
+  - Cryptography
 date: 2025-03-02
 draft: false
 author: JackyLee

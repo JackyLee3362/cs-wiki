@@ -1,5 +1,7 @@
 ---
-title: IPv6
+title: IPv6 协议
+alias:
+  - IPv6
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# IPv6
 
 ## IPv6 主要特点
 

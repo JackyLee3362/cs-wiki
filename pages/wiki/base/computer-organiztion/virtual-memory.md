@@ -1,5 +1,7 @@
 ---
-title: Virtual Memory
+title: 虚拟存储器
+alias:
+  - Virtual Memory
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 虚拟存储器 Virtual Memory
 
 ## 基本概念
 

@@ -1,5 +1,7 @@
 ---
-title: AI Explainability
+title: AI 可解释性
+alias:
+  - AI Explainability
 date: 2023-04-07
 draft: false
 author: JackyLee

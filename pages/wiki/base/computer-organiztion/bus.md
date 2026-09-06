@@ -1,5 +1,7 @@
 ---
-title: Bus
+title: 总线
+alias:
+  - Bus
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 总线 Bus
 
 ## 总线概述
 

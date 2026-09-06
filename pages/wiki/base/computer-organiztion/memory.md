@@ -1,5 +1,7 @@
 ---
-title: Memory
+title: 存储系统
+alias:
+  - Memory
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 存储系统 Memory
 
 ## 存储器的分类
 

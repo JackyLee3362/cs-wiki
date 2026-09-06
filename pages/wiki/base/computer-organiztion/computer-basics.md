@@ -1,5 +1,7 @@
 ---
-title: Computer Basics
+title: 计算机概述
+alias:
+  - Computer Basics
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 计算机概述 Computer Basics
 
 ## 计算机发展历程
 

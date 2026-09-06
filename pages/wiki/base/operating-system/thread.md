@@ -1,5 +1,7 @@
 ---
-title: Thread
+title: 线程
+alias:
+  - Thread
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 线程 Thread
 
 线程可以简单地理解为「轻量级进程」，是一个基本的 CPU 执行单元。引入线程是为了减少程序执行时的时空开销。
 

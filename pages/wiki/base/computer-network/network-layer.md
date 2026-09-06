@@ -1,5 +1,7 @@
 ---
-title: Network Layer
+title: 网络层
+alias:
+  - Network Layer
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,8 +12,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-# 网络层
 
 ## 网络层的功能
 
