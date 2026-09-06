@@ -1,5 +1,5 @@
 ---
-title: 计算机系统概述
+title: 操作系统概述
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -11,7 +11,7 @@ categories:
 comment: true
 ---
 
-# 1-计算机系统概述
+# 1-操作系统概述
 
 ## [[1.1-os-basic-concepts|操作系统的基本概念]]
 

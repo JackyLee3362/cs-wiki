@@ -13,7 +13,7 @@ comment: true
 
 ## [[operating-system/README|操作系统]]
 
-### [[operating-system/1-computer-system-overview/1-computer-system-overview|计算机系统概述]]
+### [[1-os-system-overview|操作系统概述]]
 
 ### [[2-process-management|进程管理]]
 
