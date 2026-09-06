@@ -36,7 +36,7 @@ comment: true
 
 （Windows 软件）Mullvad 与 Tor 联合开发的网页浏览器，旨在最大程度地减少跟踪和指纹收集。该浏览器基于 Mozilla Firefox ESR（Extended Support Release，长期支持版本）。检测浏览器指纹——Cover Your Tracks、Am I Unique ?等。出于安全考虑，Mullvad 浏览器默认不信任系统中的第三方根证书，如需调整设置，可进入 about:config，将 security.certerrors.mitm.auto_enable_enterprise_roots 和 security.enterprise_roots.enabled 两项的值更改为 true。
 
-链接：https://www.zhihu.com/question/56766597/answer/3440997206
+链接：<https://www.zhihu.com/question/56766597/answer/3440997206>
 
 ## 介绍
 

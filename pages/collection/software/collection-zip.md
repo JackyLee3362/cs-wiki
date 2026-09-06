@@ -9,7 +9,13 @@ categories:
 comment: true
 ---
 
+## tar
+
+[[tar]]
+
 ## 7zip
+
+[[7zip]]
 
 ## Bandizip
 
@@ -18,6 +24,10 @@ comment: true
 Google Chrome 团队开发的实验性项目，可以在肉眼难以察觉的前提下大幅压缩图片的文件大小。
 
 ## WinRAR
+
+## bzip2
+
+[[bzip2]]
 
 ## 参考资料
 
