@@ -1,15 +1,23 @@
 ---
 title: pip
 date: 2024-02-17
-update_date:
-  - 2025-02-11
-draft: true
+draft: false
 author: JackyLee
 tags:
+  - 包管理
+  - Python
 categories:
   - 命令行
 comment: true
 ---
+
+## 特点
+
+- Python 官方推荐的包安装工具
+- 从 PyPI 安装和管理 Python 包
+- 支持 requirements.txt 批量安装
+- 支持虚拟环境隔离依赖
+- 与 Python 捆绑安装，开箱即用
 
 ## 安装
 

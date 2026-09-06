@@ -1,16 +1,24 @@
 ---
-title: conda
+title: Conda
 date: 2023-08-22
-draft: true
+draft: false
 author: JackyLee
 tags:
-  - 命令行
-  - python
-  - 包管理软件
+  - 包管理
+  - Python
+  - 数据科学
 categories:
-  - wiki/命令行
+  - 命令行
 comment: true
 ---
+
+## 特点
+
+- 跨平台的语言和软件包管理器
+- 不仅支持 Python，还支持 R、Ruby、Lua 等
+- 内置虚拟环境管理（conda env）
+- 数据科学领域的事实标准（Anaconda / Miniconda）
+- 支持二进制包分发，无需编译
 
 ## 环境变量配置
 

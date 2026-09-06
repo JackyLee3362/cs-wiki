@@ -1,14 +1,23 @@
 ---
-title: scoop
+title: Scoop
 date: 2025-05-14
-draft: true
+draft: false
 author: JackyLee
 tags:
-  - 命令行
-  - 包管理软件
+  - 包管理
+  - Windows
 categories:
+  - 命令行
 comment: true
 ---
+
+## 特点
+
+- Windows 上的命令行包管理器
+- 无需管理员权限即可安装软件
+- 安装路径统一管理，不污染系统环境
+- 适合开发者快速搭建开发环境
+- 软件更新简单，支持版本切换
 
 Scoop 是一款 Windows 操作系统的 CLI 安装器
 

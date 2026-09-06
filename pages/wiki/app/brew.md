@@ -1,15 +1,23 @@
 ---
-title: brew
-alias:
-  - brew
+title: Homebrew
 date: 2025-11-18
-draft: true
+draft: false
 author: JackyLee
 tags:
+  - 包管理
+  - macOS
 categories:
   - 命令行
 comment: true
 ---
+
+## 特点
+
+- macOS 和 Linux 上最流行的包管理器
+- 一行命令安装几乎所有开源软件
+- 使用 Ruby 编写，社区生态极其丰富
+- 支持 cask 安装图形界面应用
+- 自动处理依赖和更新
 
 ## 常用命令
 

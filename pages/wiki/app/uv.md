@@ -1,17 +1,23 @@
 ---
 title: uv
 date: 2025-04-26
-update_date:
-  - 2025-09-06
-  - 2026-09-05
 draft: false
 author: JackyLee
 tags:
   - 包管理
+  - Python
 categories:
   - 命令行
 comment: true
 ---
+
+## 特点
+
+- 用 Rust 编写的极速 Python 包管理器
+- 比 pip 快 10~100 倍
+- 同时支持 pip 和 Poetry 的依赖解析
+- 内置虚拟环境管理，无需额外工具
+-  Astral 公司出品，与 ruff 同源
 
 ## 安装 uv
 

@@ -1,16 +1,23 @@
 ---
-title: poetry
+title: Poetry
 date: 2025-04-30
-draft: true
+draft: false
 author: JackyLee
 tags:
-  - 命令行
-  - 包管理软件
-  - python
+  - 包管理
+  - Python
 categories:
-  - wiki/命令行
+  - 命令行
 comment: true
 ---
+
+## 特点
+
+- Python 的现代依赖管理和打包工具
+- 统一管理依赖、虚拟环境和打包发布
+- 使用 pyproject.toml 作为唯一配置文件
+- 锁定文件确保环境可复现
+- 比 pip + venv 更简洁的工作流
 
 ## 配置文件
 

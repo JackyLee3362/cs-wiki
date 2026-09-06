@@ -1,13 +1,23 @@
 ---
-title: choco
+title: Chocolatey
 date: 2026-08-17
-draft: true
+draft: false
 author: JackyLee
 tags:
+  - 包管理
+  - Windows
 categories:
   - 命令行
 comment: true
 ---
+
+## 特点
+
+- Windows 上最成熟的包管理器之一
+- 支持 GUI 和 CLI 两种安装方式
+- 社区仓库软件数量庞大
+- 支持企业部署和内部仓库
+- 适合批量部署 Windows 开发环境
 
 ## 安装
 

@@ -10,6 +10,14 @@ categories:
 comment: true
 ---
 
+## 特点
+
+- 纯网页端，无需客户端安装
+- 支持实时编辑和即时渲染
+- 可自托管部署
+- 支持查询语言和模板系统
+- 数据完全由用户掌控
+
 - SilverBullet [silverbulletmd/silverbullet](https://github.com/silverbulletmd/silverbullet)
 
 ## 发布
