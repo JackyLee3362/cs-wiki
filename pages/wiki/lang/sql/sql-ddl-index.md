@@ -192,4 +192,4 @@ ORDER BY state;
 |                   | (B)               |
 
 > Before creating new indexes, check the existing ones.
-> 相关概念：[[b-plus-tree]]、[[b-tree]]
+> 相关概念：[[b-plus-tree]]、[[data-structure/b-tree]]

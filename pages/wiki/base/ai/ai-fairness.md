@@ -42,28 +42,6 @@ comment: true
 - [更改标签 公平性 - Google 學術搜尋](https://scholar.google.com.hk/scholar?q=%E6%9B%B4%E6%94%B9%E6%A0%87%E7%AD%BE+%E5%85%AC%E5%B9%B3%E6%80%A7&hl=zh-TW&as_sdt=0&as_vis=1&oi=scholart)
 - [chenzhenpeng18/ICSE24-Multi-Attribute-Fairness](https://github.com/chenzhenpeng18/ICSE24-Multi-Attribute-Fairness)
 
-### 可解释
-
-- [《A Unified Approach to interpreting Model Predictions》论文解读 · 从百草园到三味书屋](https://youngforever.tech/posts/20230106-shap/#kernel-shap)
-- [神经网络可解释性综述 | Notes](https://yzhang-gh.github.io/notes/ml/nn-interpretability.html#how-%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7%E8%AE%BA%E6%96%87%E5%88%86%E7%B1%BB%E7%BB%B4%E5%BA%A6)
-- [深度学习可解释性相关论文和代码大全-腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/1539330)
-- [神经网络的博弈交互解释性（一）：前言，漂在零丁洋里的体系 - 知乎](https://zhuanlan.zhihu.com/p/264871522/)
-
-#### Shapley
-
-- [為生產中的模型建立 SHAP 基準 - Amazon SageMaker AI](https://docs.aws.amazon.com/zh_tw/sagemaker/latest/dg/clarify-model-monitor-shap-baseline.html)
-- [SHAP知识点全汇总 - 知乎](https://zhuanlan.zhihu.com/p/85791430)
-- [模型解释–SHAP Value的简单介绍 - 简书](https://www.jianshu.com/p/6c40fbf1fadb)
-- [机器学习模型可解释性进行到底 —— SHAP值理论（一）_shap算法-CSDN博客](https://blog.csdn.net/sinat_26917383/article/details/115400327)
-- [博弈论里面班扎夫权利指数是怎么计算出来的？这个计算方法在其他领域是否适用？ - 知乎](https://www.zhihu.com/question/47133427)
-- [Shapley值及Python实现 - 知乎](https://zhuanlan.zhihu.com/p/611032048)
-- [高效的ShapValue计算 - TreeShap分析 - 知乎](https://zhuanlan.zhihu.com/p/299337859)
-- [Tree SHAP — Alibi 0.9.5 documentation](https://docs.seldon.io/projects/alibi/en/stable/methods/TreeSHAP.html)
-- [Kernel SHAP — Alibi 0.9.7.dev0 documentation](https://docs.seldon.io/projects/alibi/en/latest/methods /KernelSHAP.html)
-- [Kernel SHAP explanation for SVM models — Alibi 0.9.7.dev0 documentation](https://docs.seldon.io/projects/alibi/en/latest/examples/kernel_shap_wine_intro.html)
-
-### 公平性
-
 ## 数据集
 
 - [Bank Marketing Dataset](https://www.kaggle.com/datasets/janiobachmann/bank-marketing-dataset)
