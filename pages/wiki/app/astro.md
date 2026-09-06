@@ -10,3 +10,15 @@ tags:
 categories:
 comment: true
 ---
+
+- [withastro/astro: The web framework for content-driven websites. ⭐️ Star to support our work!](https://github.com/withastro/astro)
+- [Themes | Astro](https://astro.build/themes/1/)
+
+## 主题
+
+- Sumi [Sumi — An Astro theme in ink and paper](https://sumi.p4ni.com/)
+  > 惊艳!
+- AstroPaper: [satnaing/astro-paper](https://github.com/satnaing/astro-paper)
+  - Demo[AstroPaper](https://astro-paper.pages.dev/)
+
+- awesome-astro: [one-aalam/awesome-astro](https://github.com/one-aalam/awesome-astro)
