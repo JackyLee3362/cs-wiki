@@ -21,6 +21,10 @@ Gogs 是一个用 Go 编写的轻量级、自托管的 Git 服务。它部署速
 
 - [gitlabhq/gitlabhq: GitLab CE Mirror | Please open new issues in our issue tracker on GitLab.com](https://github.com/gitlabhq/gitlabhq)
 
+## Gitea
+
+[[gitea]]
+
 ## ~~Glint~~
 
 > 非开源
