@@ -11,14 +11,14 @@ categories:
 comment: true
 ---
 
-## [[1-network-architecture/index|计算机网络体系结构章节]]
+## [[1-network-architecture/index|第1章 计算机网络体系结构]]
 
-## [[2-physical-layer/index|物理层章节]]
+## [[2-physical-layer/index|第2章 物理层]]
 
-## [[3-data-link-layer/index|数据链路层章节]]
+## [[3-data-link-layer/index|第3章 数据链路层]]
 
-## [[4-network-layer/index|网络层章节]]
+## [[4-network-layer/index|第4章 网络层]]
 
-## [[5-transport-layer/index|传输层章节]]
+## [[5-transport-layer/index|第5章 传输层]]
 
-## [[6-application-layer/index|应用层章节]]
+## [[6-application-layer/index|第6章 应用层]]

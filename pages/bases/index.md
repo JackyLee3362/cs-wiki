@@ -13,60 +13,60 @@ comment: true
 
 ## [[operating-system/index|操作系统]]
 
-### [[operating-system/1-computer-system-overview/index|操作系统概述章节]]
+### [[operating-system/1-computer-system-overview/index|第1章 操作系统概述]]
 
-### [[2-process-management/index|进程管理章节]]
+### [[2-process-management/index|第2章 进程管理]]
 
-### [[3-memory-management/index|内存管理章节]]
+### [[3-memory-management/index|第3章 内存管理]]
 
-### [[4-file-management/index|文件管理章节]]
+### [[4-file-management/index|第4章 文件管理]]
 
-### [[5-io-management/index|输入输出管理章节]]
+### [[5-io-management/index|第5章 输入输出管理]]
 
 ## [[data-structures/index|数据结构]]
 
-### [[1-introduction/index|绪论章节]]
+### [[1-introduction/index|第1章 绪论]]
 
-### [[2-linear-list/index|线性表章节]]
+### [[2-linear-list/index|第2章 线性表]]
 
-### [[3-stack-and-queue/index|栈和队列章节]]
+### [[3-stack-and-queue/index|第3章 栈和队列]]
 
-### [[4-string/index|串章节]]
+### [[4-string/index|第4章 串]]
 
-### [[5-tree-and-binary-tree/index|树和二叉树章节]]
+### [[5-tree-and-binary-tree/index|第5章 树和二叉树]]
 
-### [[6-graph/index|图章节]]
+### [[6-graph/index|第6章 图]]
 
-### [[7-search/index|查找章节]]
+### [[7-search/index|第7章 查找]]
 
-### [[8-sorting/index|排序章节]]
+### [[8-sorting/index|第8章 排序]]
 
 ## [[computer-organization/index|计算机组成原理]]
 
-### [[computer-organization/1-computer-system-overview/index|计算机系统概述章节]]
+### [[computer-organization/1-computer-system-overview/index|第1章 计算机系统概述]]
 
-### [[2-data-representation-and-operation/index|数据的表示和运算章节]]
+### [[2-data-representation-and-operation/index|第2章 数据的表示和运算]]
 
-### [[3-memory-system/index|存储系统章节]]
+### [[3-memory-system/index|第3章 存储系统]]
 
-### [[4-instruction-system/index|指令系统章节]]
+### [[4-instruction-system/index|第4章 指令系统]]
 
-### [[5-central-processing-unit/index|中央处理器章节]]
+### [[5-central-processing-unit/index|第5章 中央处理器]]
 
-### [[6-bus/index|总线章节]]
+### [[6-bus/index|第6章 总线]]
 
-### [[7-input-output-system/index|输入输出系统章节]]
+### [[7-input-output-system/index|第7章 输入输出系统]]
 
 ## [[computer-network/index|计算机网络]]
 
-### [[1-network-architecture/index|计算机网络体系结构章节]]
+### [[1-network-architecture/index|第1章 计算机网络体系结构]]
 
-### [[2-physical-layer/index|物理层章节]]
+### [[2-physical-layer/index|第2章 物理层]]
 
-### [[3-data-link-layer/index|数据链路层章节]]
+### [[3-data-link-layer/index|第3章 数据链路层]]
 
-### [[4-network-layer/index|网络层章节]]
+### [[4-network-layer/index|第4章 网络层]]
 
-### [[5-transport-layer/index|传输层章节]]
+### [[5-transport-layer/index|第5章 传输层]]
 
-### [[6-application-layer/index|应用层章节]]
+### [[6-application-layer/index|第6章 应用层]]
