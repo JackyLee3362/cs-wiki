@@ -1,53 +1,98 @@
 ---
-title: collection-db-server
-description:
+title: compare-db-server
+description: 数据库服务器选型对比
 date: 2026-08-20
 update_date:
-draft: true
+draft: false
 author: JackyLee
 tags:
+  - 数据库
+  - compare
 categories:
+  - 软件开发
 comment: true
 ---
 
-## 数据库项目以及简单介绍
+> 本页对比常见的数据库服务器，帮助你根据场景选择合适的数据库。
 
-### moc-db
+## 概览
 
-- [numetriclabz/moc-db: A curated list of amazingly awesome database libraries, resources and shiny things by https://www.numetriclabz.com/](https://github.com/numetriclabz/moc-db)
+| 数据库 | 类型 | 存储模型 | 协议 | 最佳场景 |
+|--------|------|----------|------|----------|
+| [[mysql]] | 关系型 | 行式 | GPL | Web 应用、OLTP |
+| [[postgresql]] | 关系型 | 行式 | PostgreSQL | 复杂查询、GIS、金融 |
+| [[sqlite]] | 关系型 | 行式 | 公有领域 | 嵌入式、移动应用 |
+| [[redis]] | KV 缓存 | 内存 | BSD | 缓存、会话、实时数据 |
+| [[mongodb]] | 文档型 | 文档 | SSPL | 灵活 schema、内容管理 |
+| [[duckdb]] | 分析型 | 列式 | MIT | 单机分析、数据处理 |
+| [[clickhouse]] | 分析型 | 列式 | Apache 2.0 | 大数据 OLAP、日志分析 |
+| [[elasticsearch]] | 搜索引擎 | 文档 | SSPL | 全文搜索、日志、监控 |
 
-### mysql-server
+## 按场景推荐
 
-- [mysql/mysql-server: MySQL Server, the world's most popular open source database, and MySQL Cluster, a real-time, open source transactional database.](https://github.com/mysql/mysql-server)
+### 事务型业务（OLTP）
 
-### sqlite
+需要强一致性、ACID 支持的传统业务系统。
 
-- [sqlite/sqlite: Official Git mirror of the SQLite source tree](https://github.com/sqlite/sqlite)
+- **首选**：[[mysql]] — 生态最成熟，社区文档最丰富，互联网公司标配
+- **复杂业务**：[[postgresql]] — 支持更丰富的数据类型、复杂查询、存储过程
+- **轻量级/嵌入式**：[[sqlite]] — 零配置，单文件存储，适合桌面和移动端
 
-### redis
+### 分析型业务（OLAP）
 
-- [redis/redis: Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, Streams, HyperLogLogs, Bitmaps.](https://github.com/redis/redis)
+海量数据的聚合分析、报表查询。
 
-### leveldb
+- **单机分析**：[[duckdb]] — 列式存储，可直接查询 CSV/Parquet，数据科学家首选
+- **大数据集群**：[[clickhouse]] — 单机性能炸裂，日志分析一天 3 亿条轻松处理
+- **已有 PG 生态**：[[postgresql]] + 列式扩展（如 TimescaleDB、Citus）
 
-Goolge 的项目
+### 缓存与会话
 
-- [google/leveldb: LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.](https://github.com/google/leveldb)
+高频读取、低延迟、允许数据丢失重建。
 
-### elasticsearch
+- **首选**：[[redis]] — 毫秒级响应，支持多种数据结构，持久化可选
+- **大规模分布式**：Redis Cluster 或 [[mongodb]] 作为文档缓存
 
-- [elastic/elasticsearch: Free and Open Source, Distributed, RESTful Search Engine](https://github.com/elastic/elasticsearch)
+### 全文搜索
 
-### 数据库 SimpleDB
+站内搜索、文档检索、日志搜索。
 
-- [dstibrany/SimpleDB: SimpleDB implementation for MIT 6.830](https://github.com/dstibrany/SimpleDB)
+- **首选**：[[elasticsearch]] — 基于 Lucene，分布式，近实时搜索
+- **轻量级搜索**：[[postgresql]] 内置全文搜索
+
+### 灵活 Schema / 文档存储
+
+数据结构频繁变化、半结构化数据。
+
+- **首选**：[[mongodb]] — JSON 文档模型，横向扩展简单
+- **需要 SQL 兼容**：[[postgresql]] JSONB 字段
+
+## 选型决策树
+
+```
+需要事务和强一致性？
+  ├─ 是 → 复杂查询/GIS/金融？
+  │         ├─ 是 → PostgreSQL
+  │         └─ 否 → 高并发 Web？
+  │                   ├─ 是 → MySQL
+  │                   └─ 否 → SQLite（嵌入式）
+  └─ 否 → 主要用途？
+          ├─ 缓存/会话 → Redis
+          ├─ 全文搜索 → Elasticsearch
+          ├─ 灵活文档 → MongoDB
+          └─ 数据分析 → 单机？
+                          ├─ 是 → DuckDB
+                          └─ 否 → ClickHouse
+```
 
 ## 参考资料
 
-- [angels - 不会写复杂的 SQL，该怎么学习？ - 知乎](https://www.zhihu.com/question/327369469/answer/3414157727)
-  - 概要: 我教你怎么写，用二个表就可以写出让你灵魂出窍头皮发麻的 SQL。但是 SQL 写复杂不是目的，解决问题才是目的。 搞个业务需求，我杜撰一个吧。有客户表和客户订单表，我们要查出客户的信息并带上客户最后订单的订单重量。一个客户会有多个订单，只能出现最后一个订单的重量，其它的不要。 这需要二张表，客户表，客户订单表。我们看看以这二张表能写多复杂的查询。中间绝对不加任何表了。 先看表结构：表的主键我都用 GUID，外键使用…
-  - 点赞: 185
-
-- [廖雪峰 - 怎么实现一个简单的数据库系统？ - 知乎](https://www.zhihu.com/question/26802517/answer/1967294120377705186)
-  - 概要: 现代数据库系统太复杂了，各个子系统加起来比操作系统还复杂，而且操作系统的复杂度是分散的，IO、内存分配、调度是基本分开的，数据库的存储、锁、事务、执行器都是紧密结合在一起的，所以要实现一个简单的数据库系统，最好还是确定几个最最基本的需求： 1.B+Tree 实现存储； 2.Atomic 事务支持； 3.CopyOnWrite 并发支持； 4.最简单的索引+查询（不做优化的那种） 不推荐啃 sqlite 更不推荐啃 postgres。 自己实现 demo 我推荐这本书： …
-  - 点赞: 57
+- [numetriclabz/numetriclabz/moc-db](https://github.com/numetriclabz/numetriclabz/moc-db) #todo
+- [mysql/mysql-server](https://github.com/mysql/mysql-server) #todo
+- [sqlite/sqlite](https://github.com/sqlite/sqlite) #todo
+- [redis/redis](https://github.com/redis/redis) #todo
+- [google/leveldb](https://github.com/google/leveldb) #todo
+- [elastic/elasticsearch](https://github.com/elastic/elasticsearch) #todo
+- [dstibrany/SimpleDB](https://github.com/dstibrany/SimpleDB) #todo
+- [angels - 不会写复杂的 SQL，该怎么学习？ - 知乎](https://www.zhihu.com/question/327369469/answer/3414157727) #todo
+- [廖雪峰 - 怎么实现一个简单的数据库系统？ - 知乎](https://www.zhihu.com/question/26802517/answer/1967294120377705186) #todo

@@ -1,59 +1,85 @@
 ---
-title: collection-db-client
-description: 数据库客户端对比
+title: compare-db-client
+description: 数据库客户端工具对比
 date: 2025-11-02
 update_date:
-draft: true
+draft: false
 author: JackyLee
 tags:
+  - 数据库
+  - compare
 categories:
+  - 软件开发
 comment: true
 ---
 
-## 开源项目
+> 本页对比常用的数据库客户端工具，帮助你选择适合日常开发和管理的 GUI 工具。
 
-- [阿司匹林石膏汤 - 有哪些令人窒息的骚操作？ - 知乎](https://www.zhihu.com/question/65657700/answer/697568641)
-  - 概要: 群里看到的 建议全行业共享数据库 [图片]
-  - 点赞: 1466
+## 概览
 
-- [零一猴子 - 数据库不就是增删改查一些数据吗？研发一个数据库到底难在哪了？ - 知乎](https://www.zhihu.com/question/1895821971356381601/answer/1918389907941982546)
-  - 概要: 开发数据库可太容易，不就 CURD 么，10 行不到就解决了： #!/bin/bash db_set () { echo &#34;$1,$2&#34; >> database } db_get () { grep &#34;^$1,&#34; database | sed -e &#34;s/^$1,//&#34; | tail -n 1 }底层用一个纯文本存储，追加写入数据，每次查询只用查看文件中最后一次出现的键就行。 不过好像没支持删除。哦，有了，我加一个标记就行，然后查的时候，如果发现了删除标记，就说明删除了。 #!/bin/bash db_set() { echo &#34;$1,$2&#34; >> database }…
-  - 点赞: 931
+| 工具 | 开源 | 价格 | 支持数据库 | 平台 | 最佳场景 |
+|------|------|------|------------|------|----------|
+| [[dbeaver]] | 是 | 免费（社区版） | 80+ | 全平台 | 通用开发、多数据库管理 |
+| [[navicat]] | 否 | 付费 | 主流 10+ | 全平台 | 专业 DBA、团队协作 |
+| DataGrip | 否 | 订阅 | 20+ | 全平台 | JetBrains 生态用户 |
+| TablePlus | 否 | 免费/付费 | 10+ | macOS/Win | 简洁快速、macOS 用户 |
+| pgAdmin | 是 | 免费 | PostgreSQL | 全平台 | PG 专用管理 |
+| MySQL Workbench | 是 | 免费 | MySQL | 全平台 | MySQL 专用设计 |
+| redis-cli | 是 | 免费 | Redis | 全平台 | Redis 命令行调试 |
+| MongoDB Compass | 是 | 免费 | MongoDB | 全平台 | MongoDB 官方 GUI |
 
-## DBEaver
+## 按场景推荐
 
-- [GISER - 分享一个 DBeaver 支持导入导出 Shapefile 的版本 - 知乎](https://zhuanlan.zhihu.com/p/1976328899517507442)
-  - 概要: 今天跟大家分享一个让我工作效率翻倍的发现——DBeaver 现在可以直接导入导出 Shapefile 了！ 是在咸鱼上发现的，【闲鱼】 https://m.tb.cn/h.SybScky?tk=LBgffMibkUV HU591 点击链接直接打开作为一个经常需要在各种 vpn 环境连接数据库和 GIS 软件之间来回倒数据的人，真的是我得痛点。再也不用为了导个.shp 文件专门打开一个庞大的 GIS 软件，然后在各种格式转换中耗费时间了。 我的真实使用体验： 1. 无缝衔接：在 DBeaver 里连接好我的 PostGIS 数据库，然后直…
-  - 点赞: 1
+### 多数据库开发者
 
-## DuckDB
+日常需要连接多种数据库（MySQL + PG + SQLite + Redis）。
 
-- [gylenn - duckdb 的性能如何？ - 知乎](https://www.zhihu.com/question/593801515/answer/120850147815)
-  - 概要: MySQL 一千二百多万行，再插入时，插一条都让我等几十分钟。 我不想成数据库专家，只想开箱即用，于是换了 mongodb，mongodb 吞内存，但无论插入还是查询仅需几秒，至多不超 20 秒。语法简单，学习成本很划算，花小钱总比花时间有性价比，于是 ram 升级至 128g 目前准备探索 duckdb，据说玩数据比较节省学习成本，虽只能单机但性能比 mongodb 都高，内存要求比 mongodb 低很多，又不用成为数据库专家，还可以用 parquet 文档，貌似不错。 据说用…
-  - 点赞: 34
+- **首选**：[[dbeaver]] — 开源免费，支持 80+ 数据库，功能全面
+- **付费选择**：DataGrip — JetBrains 出品，与 IDE 深度集成，代码补全最强
 
-## mysql
+### 专业 DBA / 团队协作
 
-## levelDb
+需要数据同步、模型设计、团队协作功能。
 
-- [Leveldb 源码阅读 - 知乎](https://zhuanlan.zhihu.com/p/811970982)
+- **首选**：[[navicat]] — 功能最完善，支持数据同步、结构同步、报表、云协作
+- **预算有限**：[[dbeaver]] 企业版 或 Navicat Premium Lite
 
-## Simple DB
+### 追求简洁快速
 
-- simple db 一个数据库课程大作业: [awelm/simpledb: A simple database built from scratch that has some the basic RDBMS features (SQL query parser, transactions, query optimizer)](https://github.com/awelm/simpledb)➕2024-10-17 20:33:00
+不喜欢臃肿界面，想要快速连接和查询。
 
-## 数据湖验证
+- **macOS**：TablePlus — 原生体验，启动飞快
+- **全平台**：[[dbeaver]] — 免费全面，稍重
 
-- [Iceberg 02：基于 MinIO、PostgreSQL、Spark、Iceberg 的数据湖搭建与验证 - 知乎](https://zhuanlan.zhihu.com/p/1969004537684661586)
+### 特定数据库专用
 
-## pgsql
+只使用一种数据库，想要官方/最佳体验。
 
-- [江小北 - java 使用 pgsql 好用吗？和 mysql 区别大吗？ - 知乎](https://www.zhihu.com/question/1898329571994076532/answer/1900245240125841837)
-  - 概要: 这年头想用 PG（PostgreSQL）的小伙伴，一定是见过大风大浪，或者被 MySQL 给伤透了心。 先说结论：PG 是真香，但也真能打人，吃得了苦中苦，方为 PG 上人。先下个狠话：谁适合 PG？谁就该滚回 MySQL？简单粗暴讲： 业务复杂，表多、字段多、SQL 花里胡哨、子查询爆炸？PG 安排上，稳得一批。要玩金融、GIS、数据分析、大量事务、ACID 死磕？PG，王者。要玩简单增删改查、页面 CRUD、拼命赶工，成本最低优先？兄弟回头看看 MySQL，养活亿级公…
-  - 点赞: 163
+- **PostgreSQL**：pgAdmin 4（官方）或 TablePlus
+- **MySQL**：MySQL Workbench（官方）或 Sequel Ace（macOS）
+- **Redis**：Redis Insight（官方 GUI）或 redis-cli
+- **MongoDB**：MongoDB Compass（官方）
+- **SQLite**：DB Browser for SQLite 或 [[dbeaver]]
+
+## 功能对比
+
+| 功能 | DBeaver | Navicat | DataGrip | TablePlus |
+|------|---------|---------|----------|-----------|
+| 语法高亮/补全 | ★★★ | ★★★ | ★★★★★ | ★★★ |
+| ER 图生成 | ★★★ | ★★★★ | ★★★ | ★★ |
+| 数据导入导出 | ★★★★ | ★★★★★ | ★★★ | ★★★ |
+| SSH 隧道 | ★★★ | ★★★★ | ★★★★ | ★★★ |
+| 版本控制集成 | ★★ | ★★ | ★★★★★ | ★ |
+| 插件扩展 | ★★★★ | ★ | ★★★★ | ★ |
 
 ## 参考资料
 
-- [IfElseZhang - 如何理解关系型数据库的常见设计范式？ - 知乎](https://www.zhihu.com/question/24696366/answer/1975977273988497428)
-  - 概要: 本文回溯 关系模型、1NF、2NF、3NF 以及 BCNF 等概念被提出时的论文，通过最原始的信息帮助读者理解各个概念的定义及初衷。关系模型及其重要的范式由 E.F.Codd 数据库泰斗于上世纪七十年代提出，相关论文如下： 1970 年，《A Relational Model of Data for Large Shared Data Banks》提出了关系模型，并定义了“第一范式”(1NF)[1]；1971 年，《Further Normalization of The Data Base Relational Model》定义了“第二范式”(2NF…
-  - 点赞: 6
+- [阿司匹林石膏汤 - 有哪些令人窒息的骚操作？ - 知乎](https://www.zhihu.com/question/65657700/answer/697568641) #todo
+- [零一猴子 - 数据库不就是增删改查一些数据吗？研发一个数据库到底难在哪了？ - 知乎](https://www.zhihu.com/question/1895821971356381601/answer/1918389907941982546) #todo
+- [GISER - 分享一个 DBeaver 支持导入导出 Shapefile 的版本 - 知乎](https://zhuanlan.zhihu.com/p/1976328899517507442) #todo
+- [gylenn - duckdb 的性能如何？ - 知乎](https://www.zhihu.com/question/593801515/answer/120850147815) #todo
+- [Leveldb 源码阅读 - 知乎](https://zhuanlan.zhihu.com/p/811970982) #todo
+- [awelm/simpledb](https://github.com/awelm/simpledb) #todo
+- [Iceberg 02：基于 MinIO、PostgreSQL、Spark、Iceberg 的数据湖搭建与验证 - 知乎](https://zhuanlan.zhihu.com/p/1969004537684661586) #todo
+- [江小北 - java 使用 pgsql 好用吗？和 mysql 区别大吗？ - 知乎](https://www.zhihu.com/question/1898329571994076532/answer/1900245240125841837) #todo
+- [IfElseZhang - 如何理解关系型数据库的常见设计范式？ - 知乎](https://www.zhihu.com/question/24696366/answer/1975977273988497428) #todo
