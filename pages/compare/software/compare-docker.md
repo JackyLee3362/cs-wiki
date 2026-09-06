@@ -16,7 +16,7 @@ tocopen: false
 
 ## 反向代理
 
-[[collection-reverse-proxy-server]]
+[[compare-reverse-proxy-server]]
 
 ## 鉴权
 

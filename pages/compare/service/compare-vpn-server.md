@@ -15,4 +15,4 @@ comment: true
 
 ## 相关文章
 
-[[collection-intranet-penetration-solution]]
+[[compare-intranet-penetration-solution]]
