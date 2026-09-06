@@ -10,7 +10,7 @@ categories:
 comment: true
 ---
 
-# Java Wiki Notes
+## Java Wiki Notes
 
 - [[dynamic-proxy]]
 - [[java-bigdecimal]]
@@ -61,7 +61,12 @@ comment: true
 - [[spring-mvc-interceptor]]
 - [[spring-mvc-overview]]
 - [[spring-mvc-quickstart]]
-- [[spring-mvc-request-response]]
+- [[spring-mvc-json-data]]
+- [[spring-mvc-param-types]]
+- [[spring-mvc-date-params]]
+- [[spring-mvc-request-mapping]]
+- [[spring-mvc-request-params]]
+- [[spring-mvc-response]]
 - [[spring-mvc-rest]]
 - [[spring-mvc-result-wrapper]]
 - [[spring-transaction]]
