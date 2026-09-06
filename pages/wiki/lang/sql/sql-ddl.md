@@ -2,6 +2,8 @@
 title: sql-ddl
 description:
 date: 2025-09-25
+update_date:
+  - 2026-09-06
 draft: true
 author: JackyLee
 tags:
@@ -9,62 +11,12 @@ categories:
 comment: true
 ---
 
-## DDL
+> DDL, 数据定义语言（库、表、索引、结构）
 
-### 库操作
-
-```sql
--- 显示数据库
-SHOW DATABASES;
--- 使用数据库
-USE db_test;
--- 建库
-CREATE DATABASE IF NOT EXISTS db_test;
--- 删库
-DROP DATABASE IF EXISTS db_test;
-```
-
-### 表常规操作
-
-```sql
--- 显示数据表
-SHOW TABLES;
--- 建表
-CREATE TABLE IF NOT EXISTS user
-(
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    uname  VARCHAR(50) NOT NULL,
-    points      INT NOT NULL DEFAULT 0,
-    email       VARCHAR(255) NOT NULL UNIQUE
-);
--- 删表
-DROP TABLE IF EXISTS user;
--- 显示表
-DESC user;
--- 复制表结构
-CREATE TABLE user_bak AS SELECT * FROM user
-```
-
-### 更改表
-
-```sql
-ALTER TABLE user
-    -- 新增列
-    ADD age INT NOT NULL,
-    ADD city VARCHAR(50) NOT NULL AFTER email,
-    -- 修改列
-    MODIFY COLUMN uname VARCHAR(55) NOT NULL DEFAULT '',
-    -- 删除列
-    DROP points;
-```
-
-> 建立外键关系 ...
-> 更改主键 ...
-> 更改外键 ...
-> 显示存储引擎 `SHOW ENGINES;`
-> 更改存储引擎 `ALTER TABLE customers ENGINE = InnoDB;`
-> 显示字符集 `SHOW CHARSET;`
-> 更改字符集 ...
+- [[sql-ddl-create]]: 库表创建（库、表、复制表）
+- [[sql-ddl-alter]]: 更改表结构
+- [[sql-ddl-view]]: 视图
+- [[sql-ddl-index]]: 索引
 
 ## 参考资料
 

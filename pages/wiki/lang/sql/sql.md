@@ -16,10 +16,27 @@ comment: true
 SQL 五大分类
 
 - [[sql-ddl]]: 数据定义语言（库、表、索引、结构）
+  - [[sql-ddl-create]]: 库表创建
+  - [[sql-ddl-alter]]: 更改表结构
+  - [[sql-ddl-view]]: 视图
+  - [[sql-ddl-index]]: 索引
 - [[sql-dml]]: 数据操纵语言（增删改 行数据）
+  - [[sql-dml-insert]]: 插入 INSERT
+  - [[sql-dml-update]]: 更新 UPDATE
+  - [[sql-dml-delete]]: 删除 DELETE
 - [[sql-dql]]: 数据查询语言（select 查询）
+  - [[sql-dql-select]]: 基础查询
+  - [[sql-dql-join]]: 连接与合并
+  - [[sql-dql-aggregate]]: 聚合函数
+  - [[sql-dql-subquery]]: 子查询
+  - [[sql-dql-function]]: 函数
 - [[sql-dcl]]: 数据控制语言（权限）
 - [[sql-tcl]]: 事务控制语言（事务提交回滚）
+
+## 其他数据库对象
+
+- [[sql-procedure]]: 存储过程与函数
+- [[sql-trigger]]: 触发器与事件
 
 ## 常用 SQL
 
