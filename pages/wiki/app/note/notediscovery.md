@@ -1,12 +1,12 @@
 ---
-title: notediscovery
-description:
+title: NoteDiscovery
 date: 2026-08-31
-update_date:
-draft: true
+draft: false
 author: JackyLee
 tags:
+  - 笔记工具
 categories:
+  - 编辑器工具
 comment: true
 ---
 

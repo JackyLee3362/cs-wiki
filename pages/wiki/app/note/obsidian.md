@@ -1,13 +1,12 @@
 ---
-title: obsidian
+title: Obsidian
 date: 2024-09-26
-update_time:
-  - 2025-12-13
-draft: true
+draft: false
 author: JackyLee
 tags:
-  - app/gui
+  - 笔记工具
 categories:
+  - 编辑器工具
 comment: true
 ---
 

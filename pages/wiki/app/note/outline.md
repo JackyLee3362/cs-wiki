@@ -1,13 +1,12 @@
 ---
-title: outline
-description:
+title: Outline
 date: 2026-08-19
-update_date:
-draft: true
+draft: false
 author: JackyLee
 tags:
-  - app/server
+  - 笔记工具
 categories:
+  - 编辑器工具
 comment: true
 ---
 

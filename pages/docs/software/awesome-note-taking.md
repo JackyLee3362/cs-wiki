@@ -1,68 +1,74 @@
 ---
-title: awesome-note-taking
-description:
+title: Awesome Note Taking
 date: 2025-11-01
-draft: true
+draft: false
 author: JackyLee
 tags:
+  - 笔记工具
+  - Awesome
 categories:
+  - 编辑器工具
 comment: true
 ---
 
 ## 可部署
 
-- [[joplin]]: 有客户端，笔记以 md 格式存储
-- [[logseq]]: 有客户端
-- [[silverbullet]]: 网页端
-- [[outline]]
-- [[memos]]: 网页端，更像是日记、朋友圈
+自托管或本地优先的笔记工具。
 
-## 客户端
+- ![[joplin#特点]]
+- ![[logseq#特点]]
+- ![[silverbullet#特点]]
+- ![[outline#特点]]
+- ![[memos#特点]]
 
-- vscode 插件 [[foam]]
-- [[typora]] 闭源
+## 客户端编辑器
 
-## 双链
+以编辑体验为主的 Markdown 工具。
 
-Roam 爱好者: Roam Research, Logseq, 虎鲸笔记
+- VSCode 插件 ![[foam#特点]]
+- ![[typora#特点]]
+- ![[marktext#特点]]
+- ![[vnote#特点]]
 
-- [[roam-research]] 闭源
-- [[remnote]] 闭源
-- [[obsidian]] 闭源
+## 双链笔记
+
+基于双向链接和知识图谱的笔记理念。
+
+- ![[roam-research#特点]]
+- ![[remnote#特点]]
+- ![[obsidian#特点]]
+- ![[logseq#特点]]
+- ![[tiddywiki5#核心特点]]
 
 ## 类 Notion
 
-- [[notion]] 闭源, 可以使用 Wolai 或者 FlowUs 代替
-- wolai
-- flowus
-- [[siyuan]]
-- [[appflowy]]
-- [[affine]]
-- [[trilium]]
-- 语雀: [[yuque]] 闭源
+All-in-one 工作空间，支持数据库和块编辑器。
+
+- ![[notion#特点]]
+- ![[siyuan#特点]]
+- ![[appflowy#特点]]
+- ![[affine#特点]]
+- ![[trilium#特点]]
+- ![[yuque#特点]]
+- Wolai / FlowUs（国产 Notion 替代品）
 
 ## 手写笔记
 
-- [[onenote]]
-- 苹果的 goodnotes
+- ![[onenote#特点]]
+- GoodNotes（苹果生态）
 
 ## 大纲笔记
 
-- 大纲笔记: workflowy, 幕布
-
-## 未分类
-
-- [[tiddywiki5]]
-- [[notediscovery]]
-- [[vnote]]
-- [[marktext]]
+- Workflowy
+- 幕布
 
 ## 其他
 
-- MyNotesKeeper: 是一款笔记管理工具,
-- [[wps]]: 便签: 非常方便和微信传信息
-- Flomo: 浮墨笔记
-- minipad2: 多功能笔记工具, 一款便捷的体积小巧的纯文本笔记工具，树形结构，不到 1m
-- FlateNotes: [dullage/flatnotes](https://github.com/dullage/flatnotes)
-- dendron: [dendron - Github](https://github.com/dendronhq/dendron)
-- Arya: 在线 Markdown 编辑器, [Arya - Github](https://github.com/nicejade/markdown-online-editor)
+- ![[notediscovery#特点]]
+- ![[wps#特点]]
+- Flomo 浮墨笔记
+- FlatNotes: [dullage/flatnotes](https://github.com/dullage/flatnotes)
+- Dendron: [dendronhq/dendron](https://github.com/dendronhq/dendron)
+- Arya: [nicejade/markdown-online-editor](https://github.com/nicejade/markdown-online-editor)
+- MyNotesKeeper
+- minipad2
