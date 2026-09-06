@@ -10,13 +10,13 @@ categories:
   - 计算机科学
 comment: true
 ---
-## [[1-introduction|绪论]]
+## [[1-introduction/index|绪论章节]]
 
 ### [[1.1-data-structures-basic-concepts|数据结构的基本概念]]
 
 ### [[1.2-algorithm-and-evaluation|算法和算法评价]]
 
-## [[2-linear-list|线性表]]
+## [[2-linear-list/index|线性表章节]]
 
 ### [[2.1-linear-list-definition-and-operations|线性表]]
 
@@ -24,7 +24,7 @@ comment: true
 
 ### [[2.3-linear-list-linked-representation|链表]]
 
-## [[3-stack-and-queue|栈和队列]]
+## [[3-stack-and-queue/index|栈和队列章节]]
 
 ### [[3.1-stack|栈]]
 
@@ -34,13 +34,13 @@ comment: true
 
 ### [[3.4-special-matrices-and-compressed-storage|特殊矩阵和压缩存储]]
 
-## [[4-string|串]]
+## [[4-string/index|串章节]]
 
 ### [[4.1-string-definition-and-implementation|串]]
 
 ### [[4.2-string-matching-pattern|串的匹配模式]]
 
-## [[5-tree-and-binary-tree|树和二叉树]]
+## [[5-tree-and-binary-tree/index|树和二叉树章节]]
 
 ### [[5.1-tree-basic-concepts|树的基本概念]]
 
@@ -52,7 +52,7 @@ comment: true
 
 ### [[5.5-tree-and-binary-tree-applications|树的应用]]
 
-## [[6-graph|图]]
+## [[6-graph/index|图章节]]
 
 ### [[6.1-graph-basic-concepts|图的基本概念]]
 
@@ -62,7 +62,7 @@ comment: true
 
 ### [[6.4-graph-applications|图的应用]]
 
-## [[7-search|查找]]
+## [[7-search/index|查找章节]]
 
 ### [[7.1-search-basic-concepts|查找的基本概念]]
 
@@ -72,7 +72,7 @@ comment: true
 
 ### [[7.4-hash-table|散列表]]
 
-## [[8-sorting|排序]]
+## [[8-sorting/index|排序章节]]
 
 ### [[8.1-sorting-basic-concepts|排序的基本概念]]
 

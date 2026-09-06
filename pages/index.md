@@ -4,6 +4,7 @@ title: 计算机知识库
 
 👋 你好，我的朋友！
 
-- [[docs/index|文章]]
+- [[bases/index|基础知识]]
 - [[wiki/index|百科]]
-  - [[app/index|应用]]
+- [[compare/index|应用]]
+- [[solution/index|解决方案]]

@@ -11,8 +11,6 @@ categories:
 comment: true
 ---
 
-# 2-物理层
-
 ## [[2.1-communication-basics|通信基础]]
 
 ## [[2.2-transmission-media|传输介质]]
