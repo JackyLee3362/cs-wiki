@@ -11,8 +11,6 @@ categories:
 comment: true
 ---
 
-## [[wiki/README|小知识]]
-
 ## [[operating-system/README|操作系统]]
 
 ### [[operating-system/1-computer-system-overview/1-computer-system-overview|计算机系统概述]]
