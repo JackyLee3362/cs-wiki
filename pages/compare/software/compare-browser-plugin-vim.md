@@ -1,66 +1,69 @@
 ---
-title: collection-browser-vim
-description:
+title: Browser Vim Plugin Comparison
 date: 2025-03-03
-draft: true
+draft: false
 author: JackyLee
 tags:
+  - 浏览器
+  - 插件
+  - Vim
+  - 选型
 categories:
+  - 应用软件
 comment: true
 ---
 
-## 产品调研
+## 产品概览
 
-- 25K 🌟 [philc/vimium: The hacker's browser.](https://github.com/philc/vimium)
-- 04K 🌟 [gdh1995/vimium-c: A keyboard shortcut browser extension for keyboard-based navigation and tab operations with an advanced omnibar](https://github.com/gdh1995/vimium-c)
-- 05K 🌟 [Surfingkeys/docs/API.md at master · brookhong/Surfingkeys](https://github.com/brookhong/Surfingkeys/blob/master/docs/API.md#mapkey)
+| 插件 | Stars | 特点 | 推荐度 |
+|:---|:---:|:---|:---:|
+| [Vimium](https://github.com/philc/vimium) | 25K | 最经典的 Vim 浏览器插件，功能稳定 | ⭐⭐⭐⭐ |
+| [Vimium C](https://github.com/gdh1995/vimium-c) | 4K | Vimium 增强版，支持搜索框、快捷键自定义、更多命令 | ⭐⭐⭐⭐⭐ |
+| [Surfingkeys](https://github.com/brookhong/Surfingkeys) | 5K | 功能最丰富，可自定义配置，但学习曲线较陡 | ⭐⭐⭐⭐ |
 
-## vimium
+## 详细对比
 
-使用默认的
+| 特性 | Vimium | Vimium C | Surfingkeys |
+|:---|:---|:---|:---|
+| 安装即用 | ✅ 默认配置完善 | ✅ 默认配置完善 | ⚠️ 建议自定义配置 |
+| 快捷键自定义 | 有限 | 较丰富 | 极丰富 |
+| 搜索/OmniBar | 基础 | 增强型，支持多引擎 | 增强型 |
+| 配置复杂度 | 低 | 低 | 高 |
+| 稳定性 | 高 | 高 | 中 |
+| 更新维护 | 较慢 | 活跃 | 活跃 |
 
-- [vimium快捷键列表 - 程序媛李李李李蕾 - 博客园](https://www.cnblogs.com/daysme/p/7821438.html)
+## 推荐
 
-## surfingkeys
+- **新手**：选择 **Vimium C**，默认配置已足够强大，无需额外配置
+- **Vim 老手**：选择 **Surfingkeys**，配置灵活度最高，可实现几乎任何键盘操作
+- **追求稳定**：选择原版 **Vimium**，历经多年验证，极少出现兼容问题
 
-### 配置
+## Surfingkeys 配置示例
 
 ```js
 const { map, unmap, mapkey } = api;
-// 上个 tab
-map("H", "E");
-// unmap('E')
 
-// 下个 tab
-map("L", "R");
-// unmap('R')
+// Tab 切换
+map("H", "E");  // 上一个标签页
+map("L", "R");  // 下一个标签页
 
-// 下半页
-map("J", "gh");
-// unmap('d')
+// 页面滚动
+map("J", "d");  // 向下半页
+map("K", "u");  // 向上半页
 
-// 上半页
-map("K", "gl");
-// unmap('u')
+// 前进/后退
+map("gl", "F"); // 前进
+map("gh", "B"); // 后退
 
 // OmniSearch
 map("o", "t");
 unmap("t");
 
-// 前进 Forward 和返回 Backward
-map("gl", "F");
-map("gh", "B");
-
 settings.scrollStepSize = 360;
 ```
-
-### 选择可滚动的元素
-
-使用 `;fs`，按住 `?` 就可以看到
-
-- [Use easymotion to change scroll target · Issue #1053 · brookhong/Surfingkeys](https://github.com/brookhong/Surfingkeys/issues/1053)
 
 ## 参考资料
 
 - [Surfingkeys 实用向推荐 - 少数派](https://sspai.com/post/63692)
-- 实用配置：[Example Configurations · brookhong/Surfingkeys Wiki](https://github.com/brookhong/Surfingkeys/wiki/Example-Configurations)
+- [Example Configurations · Surfingkeys Wiki](https://github.com/brookhong/Surfingkeys/wiki/Example-Configurations)
+- [Vimium 快捷键列表](https://www.cnblogs.com/daysme/p/7821438.html)

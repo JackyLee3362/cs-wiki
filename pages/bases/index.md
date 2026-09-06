@@ -1,5 +1,5 @@
 ---
-title: 408 考研笔记
+title: 计算机基础知识
 date: 2026-09-05
 draft: false
 author: JackyLee
@@ -10,18 +10,6 @@ categories:
   - 计算机科学
 comment: true
 ---
-
-## [[operating-system/index|操作系统]]
-
-### [[operating-system/1-computer-system-overview/index|第一章 操作系统概述]]
-
-### [[2-process-management/index|第二章 进程管理]]
-
-### [[3-memory-management/index|第三章 内存管理]]
-
-### [[4-file-management/index|第四章 文件管理]]
-
-### [[5-io-management/index|第五章 输入输出管理]]
 
 ## [[data-structures/index|数据结构]]
 
@@ -41,6 +29,20 @@ comment: true
 
 ### [[8-sorting/index|第八章 排序]]
 
+## [[computer-network/index|计算机网络]]
+
+### [[1-network-architecture/index|第一章 计算机网络体系结构]]
+
+### [[2-physical-layer/index|第二章 物理层]]
+
+### [[3-data-link-layer/index|第三章 数据链路层]]
+
+### [[4-network-layer/index|第四章 网络层]]
+
+### [[5-transport-layer/index|第五章 传输层]]
+
+### [[6-application-layer/index|第六章 应用层]]
+
 ## [[computer-organization/index|计算机组成原理]]
 
 ### [[computer-organization/1-computer-system-overview/index|第一章 计算机系统概述]]
@@ -57,16 +59,14 @@ comment: true
 
 ### [[7-input-output-system/index|第七章 输入输出系统]]
 
-## [[computer-network/index|计算机网络]]
+## [[operating-system/index|操作系统]]
 
-### [[1-network-architecture/index|第一章 计算机网络体系结构]]
+### [[operating-system/1-computer-system-overview/index|第一章 操作系统概述]]
 
-### [[2-physical-layer/index|第二章 物理层]]
+### [[2-process-management/index|第二章 进程管理]]
 
-### [[3-data-link-layer/index|第三章 数据链路层]]
+### [[3-memory-management/index|第三章 内存管理]]
 
-### [[4-network-layer/index|第四章 网络层]]
+### [[4-file-management/index|第四章 文件管理]]
 
-### [[5-transport-layer/index|第五章 传输层]]
-
-### [[6-application-layer/index|第六章 应用层]]
+### [[5-io-management/index|第五章 输入输出管理]]

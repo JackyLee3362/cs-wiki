@@ -10,4 +10,4 @@ categories:
 comment: true
 ---
 
-[[责任链模式]]
+[[chain-of-responsibility-pattern|责任链模式]]
