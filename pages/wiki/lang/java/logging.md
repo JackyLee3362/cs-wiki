@@ -2,7 +2,7 @@
 title: Java Logging
 description: Java 日志框架体系
 date: 2026-09-07
-draft: false
+draft: true
 author: JackyLee
 tags:
   - java

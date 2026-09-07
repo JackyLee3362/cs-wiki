@@ -2,7 +2,7 @@
 title: Java Command Line Compile
 description: Java 命令行编译与打包
 date: 2026-09-07
-draft: false
+draft: true
 author: JackyLee
 tags:
   - java

@@ -2,7 +2,7 @@
 title: Java State Machine
 description: Java 状态机框架选型
 date: 2026-09-07
-draft: false
+draft: true
 author: JackyLee
 tags:
   - java

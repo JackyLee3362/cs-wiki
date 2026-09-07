@@ -2,7 +2,7 @@
 title: MyBatis
 description: MyBatis 持久层框架核心概念
 date: 2026-09-07
-draft: false
+draft: true
 author: JackyLee
 tags:
   - java

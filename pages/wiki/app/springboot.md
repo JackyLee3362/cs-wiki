@@ -3,7 +3,7 @@ title: Spring Boot
 description: Spring Boot 简化开发与配置
 date: 2025-11-01
 update_date:
-draft: false
+draft: true
 author: JackyLee
 tags:
   - java

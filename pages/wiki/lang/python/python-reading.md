@@ -2,7 +2,7 @@
 title: Python 阅读材料
 description: Python 生态精选文章与资源索引
 date: 2026-09-07
-draft: false
+draft: true
 author: JackyLee
 tags:
   - python

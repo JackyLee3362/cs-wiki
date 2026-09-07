@@ -2,7 +2,7 @@
 title: Java SPI
 description: Java Service Provider Interface 机制
 date: 2026-09-07
-draft: false
+draft: true
 author: JackyLee
 tags:
   - java

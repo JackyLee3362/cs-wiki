@@ -2,7 +2,7 @@
 title: Java Dynamic Proxy
 description: Java 动态代理机制
 date: 2026-09-07
-draft: false
+draft: true
 author: JackyLee
 tags:
   - java

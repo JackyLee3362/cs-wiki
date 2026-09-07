@@ -1,7 +1,7 @@
 ---
 title: gh-ost
 date: 2026-09-05
-draft: false
+draft: true
 author: JackyLee
 tags:
   - app/tool
