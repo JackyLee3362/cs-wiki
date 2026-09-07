@@ -69,6 +69,39 @@ Maven 有三套独立的生命周期：
 
 通过 `<profiles>` 定义不同环境的构建配置（如开发、测试、生产环境的数据库连接）。
 
+## parent 标签
+
+Spring Boot 项目通常继承 `spring-boot-starter-parent` 来统一管理依赖版本：
+
+```xml
+<parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.7.18</version>
+</parent>
+```
+
+Spring Boot 2.x 系列最新版本为 2.7.18，支持 Java 8。
+
+## 测试插件
+
+### Spock 框架
+
+```xml
+<dependency>
+    <groupId>org.spockframework</groupId>
+    <artifactId>spock-core</artifactId>
+    <version>1.3-groovy-2.5</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>org.spockframework</groupId>
+    <artifactId>spock-spring</artifactId>
+    <version>${spock.version}</version>
+    <scope>test</scope>
+</dependency>
+```
+
 ## 常见问题
 
 ### 打包 Spring Boot 可执行 JAR

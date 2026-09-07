@@ -80,4 +80,8 @@ comment: true
 
 ## 参考资料
 
+- [Spring MVC 通过注解完成运行配置 - 51CTO](https://www.51cto.com/article/754191.html) #todo
+- [SpringMVC 解析（一）概览 - 博客园](https://www.cnblogs.com/yuhushen/p/15787827.html) #todo
+- [SpringMVC 解析（二）DispatcherServlet - 博客园](https://www.cnblogs.com/yuhushen/p/15874653.html) #todo
+- [Spring MVC 静态资源处理 - CSDN](https://blog.csdn.net/zzuhkp/article/details/121604937) #todo
 - [黑马程序员 SSM 课程](https://www.bilibili.com/video/BV1Fi4y1S7ix) #todo

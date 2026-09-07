@@ -47,6 +47,10 @@ volatile 保证可见性和有序性，但不保证原子性。适用于一写�
 - **Semaphore**：控制同时访问的线程数量
 - **CompletableFuture**：异步编程，支持链式组合
 
+### ThreadLocal
+
+ThreadLocal 用于在同一线程内跨多层传递状态，按线程隔离数据。最典型的应用是保存用户会话、请求上下文等。
+
 ## 参考资料
 
 - [互斥锁（mutex）的底层原理是什么？ - 知乎](https://www.zhihu.com/question/332113890/answer/2443011003) #todo
@@ -55,3 +59,4 @@ volatile 保证可见性和有序性，但不保证原子性。适用于一写�
 - [从ReentrantLock的实现看AQS的原理及应用 - 美团技术团队](https://tech.meituan.com/2019/12/05/aqs-theory-and-apply.html) #todo
 - [AQS - Lz_蚂蚱 - 博客园](https://www.cnblogs.com/leizia/p/18523403#shouldparkafterfailedacquire) #todo
 - [Java并发编程：volatile关键字解析 - Matrix海子 - 博客园](https://www.cnblogs.com/dolphin0520/p/3920373.html) #todo
+- [Java中ThreadLocal的实际用途是啥？ - 知乎](https://www.zhihu.com/question/341005993/answer/1965545736826488150) #todo
