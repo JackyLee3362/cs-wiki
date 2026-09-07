@@ -50,3 +50,4 @@ Spring Boot 默认使用 `SLF4J + Logback`，可通过 `logback.xml` 或 `applic
 - [深入掌握 Java 日志体系 - 掘金](https://juejin.cn/post/6905026199722917902) #todo
 - [Configuration file :: Apache Log4j](https://logging.apache.org/log4j/2.x/manual/configuration.html) #todo
 - [Chapter 6: Layouts](https://logback.qos.ch/manual/layouts.html#logger) #todo
+- [Logback 配置手册](https://logback.qos.ch/manual/configuration.html) #todo

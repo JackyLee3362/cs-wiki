@@ -30,4 +30,9 @@ Wallabag 是一款自托管的开源稍后阅读工具，允许用户保存网�
 
 - [wallabag/wallabag: wallabag is a self hostable application for saving web pages: Save and classify articles. Read them later. Freely.](https://github.com/wallabag/wallabag)
 
+## 其他工具
+
+- [shaark: Self-hosted platform to keep and share your content](https://github.com/MarceauKa/shaark)
+- [LinkAce: Self-hosted archive to collect links](https://github.com/Kovah/LinkAce)
+
 ## 参考资料

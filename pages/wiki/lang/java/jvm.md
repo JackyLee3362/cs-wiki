@@ -80,3 +80,4 @@ JVM 运行时数据区主要包括：
 - [Java对象的内存布局 - JaJian - 博客园](https://www.cnblogs.com/jajian/p/13681781.html) #todo
 - [class常量池、运行时常量池 和 字符串常量池 的区别-CSDN博客](https://blog.csdn.net/xiaojin21cen/article/details/105300521) #todo
 - [Java八股文（2022最新整理） - 知乎](https://zhuanlan.zhihu.com/p/549668569) #todo
+- [中国 JDK 联盟与 OpenJDK 改进 - GitHub PR](https://github.com/openjdk/jdk/pull/13055) #todo

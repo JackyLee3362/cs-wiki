@@ -47,3 +47,4 @@ comment: true
 - [Camel Demo - GitHub](https://github.com/Simba-cheng/ApacheCamelDemo) #todo
 - [Camel in Action 2nd ed 源码 - GitHub](https://github.com/camelinaction/camelinaction2) #todo
 - [Apache Camel 官方示例 - GitHub](https://github.com/apache/camel-examples/tree/main) #todo
+- [Apache Camel 详解 - devgou](http://devgou.com/article/Apache-Camel/) #todo

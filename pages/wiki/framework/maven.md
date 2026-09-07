@@ -139,3 +139,4 @@ find ~/.m2/repository -name "*.lastUpdated" -delete
 - [Nexus Repository 下载](https://help.sonatype.com/repomanager3/download) #todo
 - [Maven Surefire Plugin - Spock](https://maven.apache.org/surefire/maven-surefire-plugin/examples/spock.html) #todo
 - [Maven Enforcer Plugin](https://maven.apache.org/enforcer/maven-enforcer-plugin/enforce-mojo.html) #todo
+- [Maven Plugin Testing Harness](https://maven.apache.org/plugin-testing/maven-plugin-testing-harness/getting-started/index.html) #todo

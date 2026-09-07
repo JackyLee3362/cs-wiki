@@ -59,6 +59,10 @@ MP 是 MyBatis 的搭档而非替代品，底层依然是 MyBatis，可以在 MP
 - [MyBatis-Plus 官网](https://mp.baomidou.com/) #todo
 - [MyBatis-Plus 代码生成器](https://mp.baomidou.com/guide/generator.html) #todo
 - [MyBatis-Plus 乐观锁插件](https://mp.baomidou.com/guide/interceptor-optimistic-locker.html) #todo
+- [MyBatis-Plus 乐观锁插件 - OptimisticLockerInnerInterceptor](https://mp.baomidou.com/guide/interceptor-optimistic-locker.html#optimisticlockerinnerinterceptor) #todo
 - [MyBatis-Plus Wrapper 条件构造器](https://mp.baomidou.com/guide/wrapper.html) #todo
+- [MyBatis-Plus Wrapper - AbstractWrapper](https://mp.baomidou.com/guide/wrapper.html#abstractwrapper) #todo
 - [MyBatis-Plus CRUD 接口](https://mp.baomidou.com/guide/crud-interface.html) #todo
 - [黑马程序员 SSM 课程](https://www.bilibili.com/video/BV1Fi4y1S7ix) #todo
+- [MyBatis-Plus 旧域名](https://mybatis.plus) #todo
+- [Lombok 插件版本 - JetBrains](https://plugins.jetbrains.com/plugin/6317-lombok/versions) #todo
