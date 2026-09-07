@@ -108,3 +108,13 @@ comment: true
 - [[java]] - JDK / 环境
 - [[springboot]] - Spring Boot
 - [[mvn]] - Maven 命令行
+
+## 参考资料
+
+- [Java 中 int 和 Integer 的区别](https://www.runoob.com/note/37965) #todo
+- [Java 的向上转型与向下转型](https://zhuanlan.zhihu.com/p/34026164) #todo
+- [为什么初学者觉得 JAVA 的 IO 很复杂？](https://www.zhihu.com/question/596862256/answer/3000762722) #todo
+- [java char 类型的存值范围](https://blog.csdn.net/nimasike/article/details/88345414) #todo
+- [JAVA学习-红黑树详解](https://www.jianshu.com/p/4cd37000f4e3) #todo
+- [TheAlgorithms/Java](https://github.com/TheAlgorithms/Java) #todo
+- [Lombok IntelliJ 插件](https://plugins.jetbrains.com/plugin/6317-lombok) #todo

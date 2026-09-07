@@ -28,7 +28,7 @@ comment: true
 - **GPT-4o** — ![[gpt-4o#特点]]
 - **Claude** — ![[claude#特点]]
 - **Gemini** — ![[gemini#特点]]
-- #todo [[gpt6-astro]]
+- #todo [[gpt6-astra]]
 
 ## 开源大语言模型
 
