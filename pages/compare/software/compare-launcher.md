@@ -71,4 +71,5 @@ comment: true
 - [Mac 上哪些好用的软件可以推荐？ - 知乎](https://www.zhihu.com/question/558056930/answer/3353276308) #todo
 - [让你用的最爽的MAC软件是什么? - 知乎](https://www.zhihu.com/question/326384187/answer/3574631227) #todo
 - [常用电脑软件有哪些更好的替代品？ - 知乎](https://www.zhihu.com/question/66493608/answer/1931653730224300251) #todo
+- [espanso - 跨平台文本扩展工具](https://espanso.org/) #todo
 - [效率回归，工具库之美「GitHub 热点速览」 - 知乎](https://zhuanlan.zhihu.com/p/643970461) #todo
