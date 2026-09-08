@@ -34,6 +34,15 @@ comment: true
 - [KEEL 数据挖掘软件与数据集](https://sci2s.ugr.es/keel/index.php) #todo
 - [imgaug: 图像增强库 - GitHub](https://github.com/aleju/imgaug) #todo
 
+## 生成式 AI 与 Stable Diffusion
+
+- [AUTOMATIC1111/stable-diffusion-webui - GitHub](https://github.com/AUTOMATIC1111/stable-diffusion-webui) #todo
+- [喂饭级 Stable Diffusion WebUI 使用教程 - 知乎](https://zhuanlan.zhihu.com/p/617997179) #todo
+- [从零开始本地部署 Stable Diffusion WebUI - 知乎](https://zhuanlan.zhihu.com/p/613530403) #todo
+- [Stable Diffusion 生成教程入门 - 哔哩哔哩](https://www.bilibili.com/opus/766425021440589829) #todo
+- [Stable Diffusion WebUI API 指南](https://profaneservitor.github.io/sdwui-docs/cn/api/) #todo
+- [chatanywhere/GPT_API_free - 免费 ChatGPT API](https://github.com/chatanywhere/GPT_API_free) #todo
+
 ## 学习资源
 
 - [动手学深度学习（PyTorch 版）](https://tangshusen.me/Dive-into-DL-PyTorch/#/) #todo

@@ -71,6 +71,11 @@ comment: true
 - [有哪些适合个人练手的中等规模的 C++项目？ - 知乎](https://www.zhihu.com/question/56579764/answer/3183916295) #todo
 - [TheLartians/ModernCppStarter](https://github.com/TheLartians/ModernCppStarter) #todo
 - [p-ranav/awesome-hpp](https://github.com/p-ranav/awesome-hpp) #todo
+- [Taywee/args: 命令行参数解析库](https://github.com/Taywee/args) #todo
+- [ctabin/libzippp: 基于 zlib/libzip 的跨平台封装](https://github.com/ctabin/libzippp) #todo
+- [felixguendling/cista: header-only 序列化-反射库](https://github.com/felixguendling/cista) #todo
+- [fnc12/sqlite_orm: Sqlite C++ ORM 封装](https://github.com/fnc12/sqlite_orm) #todo
+- [Arsenic-ATG/Qt-calculator: Qt 计算器入门项目](https://github.com/Arsenic-ATG/Qt-calculator) #todo
 
 ## 讨论
 

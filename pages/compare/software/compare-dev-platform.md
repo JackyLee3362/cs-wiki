@@ -57,9 +57,19 @@ comment: true
 
 产品路线图的规划与优先级排序，**Productboard** 将用户反馈汇集一处，通过数据驱动的方式排列需求优先级并生成可视化路线图。
 
+## 其他工具
+
+- [PayloadCMS - 开源无头 CMS / Next.js 后端框架](https://github.com/payloadcms/payload) #todo
+- [Dozzle - 容器实时日志查看器](https://github.com/amir20/dozzle) #todo
+- [Open WebUI - Ollama / OpenAI 友好的 AI 界面](https://github.com/open-webui/open-webui) #todo
+- [DevToys - 开发者瑞士军刀](https://github.com/DevToys-app/DevToys) #todo
+- [ArchiveBox - 一键保存任何内容，私有互联网档案馆](https://zhuanlan.zhihu.com/p/1984313955217327884) #todo
+- [How-To-Secure-A-Linux-Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) #todo
+
 ## 参考资料
 
 - [2025 年程序员必备的开发工具有哪些？ - 知乎](https://www.zhihu.com/question/1936060302715232651/answer/1941184986238679035) #todo
 - [有哪些好用的开源软件？ - 知乎](https://www.zhihu.com/question/56766597/answer/2298732073) #todo
 - [常用电脑软件有哪些更好的替代品？ - 知乎](https://www.zhihu.com/question/66493608/answer/1931653730224300251) #todo
 - [独立开发者宝藏库 - 知乎](https://www.zhihu.com/pin/1929629217794032519?native=0) #todo
+- [The Twelve-Factor App](https://12factor.net/) #todo

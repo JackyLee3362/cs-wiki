@@ -96,6 +96,10 @@ comment: true
 - [TheAlgorithms/Java: 算法实现 - GitHub](https://github.com/TheAlgorithms/Java) #todo
 - [TheAlgorithms Java 二分查找示例](https://github.com/TheAlgorithms/Java/blob/e96f567bfc6e980dc5c4c48ccf185d7f7c7108ab/src/main/java/com/thealgorithms/searches/PerfectBinarySearch.java) #todo
 
+## 代码风格
+
+- [Google Style Guide - GitHub](https://github.com/google/styleguide) #todo
+
 ## 参考资料
 
 - [黑马 Java 磊哥 - Bilibili](https://space.bilibili.com/435021149/upload/video?tid=0&special_type=&pn=1&keyword=&order=click) #todo

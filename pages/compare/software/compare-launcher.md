@@ -59,6 +59,12 @@ comment: true
 
 经常调整显示器分辨率或远程桌面导致桌面图标混乱的用户，推荐 **DesktopOK** 备份图标布局；需要整理大量文件但不希望占用额外磁盘空间的用户，可使用 **HardLinkShellExt** 图形化创建符号链接。
 
+## 命令行工具
+
+- [fd - 简单快速的 find 替代工具](https://github.com/sharkdp/fd) #todo
+- [cheat.sh - 命令行速查表](https://github.com/chubin/cheat.sh) #todo
+- [Wave Terminal - 下一代全能终端](https://zhuanlan.zhihu.com/p/1983585498753680644) #todo
+
 ## 参考资料
 
 - [Vonng/Capslock: Make Capslock Great Again!](https://github.com/Vonng/Capslock) #todo

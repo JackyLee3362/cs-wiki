@@ -45,6 +45,11 @@ comment: true
 - [后端可以直接从 cookie 里取到 token，为什么前端还要设置到 Authorization？ - 知乎](https://www.zhihu.com/question/558219586/answer/116867134686) #todo
 - [zclzone/isme-nest-serve](https://github.com/zclzone/isme-nest-serve) #todo
 
+## 代码风格
+
+- [fex-team/styleguide: 百度前端文档与源码编写风格](https://github.com/fex-team/styleguide) #todo
+- [elsewhencode/project-guidelines: 项目指南模板](https://github.com/elsewhencode/project-guidelines/blob/master/README.sample.md) #todo
+
 ## 其他
 
 - [你见过最烂代码是什么 - 知乎](https://www.zhihu.com/question/306452885/answer/2584585081) #todo

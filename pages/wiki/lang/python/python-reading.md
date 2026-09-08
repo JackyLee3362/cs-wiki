@@ -38,6 +38,10 @@ comment: true
 - [使用 Playwright 构建小红书笔记采集 - 知乎](https://zhuanlan.zhihu.com/p/1929472611991138360) #todo
 - [selenium 爬虫使用了代理为什么还是被判定为机器人？ - 知乎](https://www.zhihu.com/question/638517543/answer/3362046280) #todo
 
+## 数据分析
+
+- [gopup: 百度/谷歌/头条/微博指数等数据接口 - GitHub](https://github.com/justinzm/gopup) #todo
+
 ## 讨论
 
 - [如果让你用 Python 开发一个实用的小工具，你会想做什么？ - 知乎](https://www.zhihu.com/question/14986086706/answer/130430675024) #todo

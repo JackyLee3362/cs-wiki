@@ -37,6 +37,24 @@ comment: true
 
 Spring Boot 默认使用 `SLF4J + Logback`，可通过 `logback.xml` 或 `application.yml` 配置日志级别和输出格式。
 
+## 日志颜色配置
+
+Spring Boot IDEA 控制台常用日志颜色（来自 Spring Boot 默认主题）：
+
+```css
+/* front-end */
+color-log-trace: #abb2bf,
+color-log-debug: #808080,
+color-log-info: #89ca79,
+color-log-warn: #e5c07b,
+color-log-warn-backend: #1e0a36,
+color-log-error: #ef596e,
+color-log-error-backend: #340a0c,
+color-log-num: #d45fde,
+color-log-key: #2bbac5,
+color-log-datetime: #008000,
+```
+
 ## 参考资料
 
 - [万字长文带你了解 Java 日志框架使用 - 程序员晓凡 - 博客园](https://www.cnblogs.com/xiezhr/p/18358066) #todo
