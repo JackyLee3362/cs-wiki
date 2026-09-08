@@ -54,6 +54,15 @@ HTTP：Hyper Text Transfer Protocol(超文本传输协议)，规定了浏览器�
 - Cache-Control：指示客户端应如何缓存，例如max-age=300表示可以最多缓存300秒 ;
 - Set-Cookie: 告诉浏览器为当前页面所在的域设置cookie ;
 
+## Cookie vs Authorization Token
+
+| 特性 | Cookie | Authorization Header |
+|------|--------|----------------------|
+| 自动携带 | HTTP 请求默认自动携带 Cookie | 需要前端手动添加到请求头 |
+| CSRF 风险 | 存在 CSRF 攻击风险（恶意网站可伪造请求） | 不存在 CSRF 风险（跨域无法读取 localStorage 中的 Token） |
+| 存储位置 | 浏览器 Cookie 存储 | 通常存储在 localStorage / sessionStorage |
+| 适用场景 | 传统 Web 应用、需要服务器端状态管理 | SPA 单页应用、RESTful API、前后端分离架构 |
+
 ## 状态码
 
 - 1xx 响应中 临时状态码，表示请求已经接受，告诉客户端应该继续请求或者如果它已经完成则忽略它
@@ -79,3 +88,4 @@ HTTP：Hyper Text Transfer Protocol(超文本传输协议)，规定了浏览器�
 2024/10/20-22:07: [状态 | Status - HTTP 中文开发手册 - 开发者手册 - 腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/chapter/13553)
 
 - HTTP 梗图: [有哪些是程序员才懂的梗？ - 知乎](https://www.zhihu.com/question/450130397/answer/1819211527)
+- [Rick - 后端可以直接从 cookie 里取到 token，为什么前端还要 token 设置到 Authorization？ - 知乎](https://www.zhihu.com/question/558219586/answer/116867134686) #todo

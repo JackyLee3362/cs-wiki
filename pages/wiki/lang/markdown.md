@@ -12,6 +12,10 @@ create_time: 2024-10-20
 - 对外输出的笔记使用外链语法
 - 脚注主要是对部分内容进行解释的，且 vscode 原生不支持
 
+### Callout / GitHub Alerts
+
+- 详见 [[markdown-callout]]
+
 ## 规范
 
 - [styleguide/docguide/style.md at gh-pages · google/styleguide](https://github.com/google/styleguide/blob/gh-pages/docguide/style.md#document-layout)

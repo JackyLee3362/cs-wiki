@@ -53,8 +53,20 @@ vue ui
 npm run build
 ```
 
+## Vue 3 设计决策
+
+### API 重复功能的历史兼容原因
+
+Vue 2 于 2016 年发布，生产环境中有成千上万的应用依赖其 API。Vue 3 引入新 API 时，旧 API 不能删除，因为一定有应用依赖这些旧 API。Semantic versioning 意味着除非出 Vue 4，不然不能删任何旧 API。因此 Vue 3 中会出现功能重复但设计目标不同的 API（如 Options API 与 Composition API）。
+
+### 状态管理：Pinia vs 直接使用 reactive
+
+Pinia 是 Vue 的官方状态管理库。虽然可以通过 `export const state = reactive({})` 在单页应用中共享全局状态，但这种方式在服务器端渲染（SSR）场景下会暴露安全漏洞。Pinia 提供了 SSR 安全的状态管理、Devtools 集成、模块热更新等生产环境必需的功能。
+
 ## 参考资料
 
 - [Vue.js 2 官方文档](https://v2.cn.vuejs.org/v2/guide/installation.html) #todo
 - [黑马程序员 JavaWeb 开发教程](https://www.bilibili.com/video/BV1m84y1w7Tb) #todo
 - [你为什么选择 React 而不选择 Vue？ - 知乎](https://www.zhihu.com/question/294210442/answer/3453828000) #todo
+- [尤雨溪 - 为什么 Vue 3 设计了那么多重复功能的 API？ - 知乎](https://www.zhihu.com/question/1933969813643989014/answer/1935432735381525060) #todo
+- [方应杭 - 为什么我认为 Vue3 不再需要三方的 store，pinia，直接使用 reactive 对象就行？ - 知乎](https://www.zhihu.com/question/604896048/answer/3069136597) #todo

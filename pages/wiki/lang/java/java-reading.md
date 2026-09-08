@@ -34,6 +34,8 @@ comment: true
 - [花宝宝 - IOException: Connection reset by peer 的真正原因是什么？ - 知乎](https://www.zhihu.com/question/270504360/answer/1987463589578167072) #todo
 - [花宝宝 - Spring Boot 项目启动时的效率如何？ - 知乎](https://www.zhihu.com/question/575658014/answer/1981256949573116252) #todo
 - [面试中 java 性能优化会问哪些？ - 知乎](https://www.zhihu.com/question/585552791/answer/3409671059) #todo
+- [架构师专栏 - 为什么在 netty 的眼里 jdk 的许多实现都不是非常高效? - 知乎](https://www.zhihu.com/question/269619656/answer/3590362929) #todo
+- [华复 - 如何看待《我的世界》Java 版性能超越基岩版？ - 知乎](https://www.zhihu.com/question/1961940831893164125/answer/1962082922875064668) #todo
 
 ## 设计模式与思想
 
@@ -51,6 +53,7 @@ comment: true
 - [Java 除了 Spring 还有什么？ - 知乎](https://www.zhihu.com/question/320482163/answer/3618967127) #todo
 - [SamDeepThinking - Java 的那些框架曾经疯狂地使用 xml ，不用硬编码，但现在怎么又"去 xml 化"回归硬编码了？ - 知乎](https://www.zhihu.com/question/429538225/answer/1991250385965442913) #todo
 - [深入解析 String#intern - 美团技术团队](https://tech.meituan.com/2014/03/06/in-depth-understanding-string-intern.html) #todo
+- [tinystruct/tinystruct: 轻量级 Java 框架](https://github.com/tinystruct/tinystruct) #todo
 
 ## 工程实践
 
@@ -69,12 +72,19 @@ comment: true
 - [剽悍一小兔 - 为什么我推荐初学者要死磕 Java 基本功 - 知乎](https://zhuanlan.zhihu.com/p/1952660898930988300) #todo
 - [李二 - 如果你被人说写的代码一股 java 味，很伤心，破防了，该怎么办？ - 知乎](https://www.zhihu.com/question/662538042/answer/3623485948) #todo
 - [柳鲲鹏 - Java 只有中国人在搞了吗？ - 知乎](https://www.zhihu.com/question/360671800/answer/3481640228) #todo
+- [你什么时候感觉学明白 Java 了？ - 知乎](https://www.zhihu.com/question/654003758/answer/3508020193) #todo
+- [双非硕士，自学 java 还是 go? - 知乎](https://www.zhihu.com/question/511623598/answer/2313338833) #todo
+- [Golang 和 Java 到底怎么选? - 知乎](https://www.zhihu.com/question/463826127/answer/3123808052) #todo
+- [为什么 javaer 认为后台系统一定要用 java 开发？ - 知乎](https://www.zhihu.com/question/659831932/answer/3543309901) #todo
 
 ## 面试
 
 - [快手 Java 实习一面面经 - 知乎](https://zhuanlan.zhihu.com/p/681373346) #todo
 - [字节后端面经，实在太菜...... - 知乎](https://zhuanlan.zhihu.com/p/681374809) #todo
 - [国内 Java 面试总是问 StringBuffer，StringBuilder 区别是啥？档次为什么这么低？ - 知乎](https://www.zhihu.com/question/50211894/answer/2396553186) #todo
+- [SamDeepThinking - JAVA 自己写什么功能可以提升技术？ - 知乎](https://www.zhihu.com/question/616660274/answer/1991466689007724296) #todo
+- [星辰大海 - JAVA 自己写什么功能可以提升技术？ - 知乎](https://www.zhihu.com/question/616660274/answer/23920119758) #todo
+- [本科生就会 spring 全家桶，分布式，和微服务吗？ - 知乎](https://www.zhihu.com/question/522616013/answer/2426510331) #todo
 
 ## Banner 生成工具
 
@@ -95,6 +105,15 @@ comment: true
 
 - [TheAlgorithms/Java: 算法实现 - GitHub](https://github.com/TheAlgorithms/Java) #todo
 - [TheAlgorithms Java 二分查找示例](https://github.com/TheAlgorithms/Java/blob/e96f567bfc6e980dc5c4c48ccf185d7f7c7108ab/src/main/java/com/thealgorithms/searches/PerfectBinarySearch.java) #todo
+
+## 泛型与类型系统
+
+- [TopGeeky - 最近看到有人说，List<Integer> 是卡车装钉子，编程界之耻，如何理解？ - 知乎](https://www.zhihu.com/question/13077935547/answer/108358957774) #todo
+
+## 框架演进
+
+- [SamDeepThinking - Java 的那些框架曾经疯狂地使用 xml，不用硬编码，但现在怎么又"去 xml 化"回归硬编码了？ - 知乎](https://www.zhihu.com/question/429538225/answer/1991250385965442913) #todo
+- [daoxinwengu - Java 除了 Spring 还有什么？ - 知乎](https://www.zhihu.com/question/320482163/answer/1946666096456369064) #todo
 
 ## 代码风格
 

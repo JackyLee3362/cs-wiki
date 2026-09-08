@@ -98,6 +98,16 @@ Spring 提供声明式事务管理，通过 `@Transactional` 注解实现。
 | `@Qualifier` | Spring | 配合 `@Autowired` 指定 bean 名称 |
 | `@Primary` | Spring | 同类型多个 bean 时的默认选择 |
 
+## Spring Boot 扩展
+
+### 自定义 Starter
+
+Spring Boot 通过 `spring.factories` 或 `META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports` 文件注册自动配置类，实现第三方 Starter 的按需加载。
+
+### 返回 JSON 与数据封装
+
+Spring Boot 默认使用 Jackson 进行 JSON 序列化。接口返回数据时，通常需要统一封装为结果对象（包含 code、message、data 字段），以便前后端协作。
+
 ## 参考资料
 
 - [Spring 官网](https://spring.io/) #todo
@@ -105,3 +115,7 @@ Spring 提供声明式事务管理，通过 `@Transactional` 注解实现。
 - [Spring @PropertySource 注解详解](https://blog.csdn.net/qq_40837310/article/details/106587158) #todo
 - [深入浅出 JMS 基本概念](https://www.cnblogs.com/binarylei/p/8686277.html) #todo
 - [黑马程序员 SSM 课程](https://www.bilibili.com/video/BV1Fi4y1S7ix) #todo
+- [Spring Boot Reference Guide - Custom Starter](https://docs.spring.io/spring-boot/docs/2.1.3.RELEASE/reference/htmlsingle/#boot-features-custom-starter) #todo
+- [spring-boot-starters 里为什么没有代码 - CSDN](https://blog.csdn.net/javadeaihaozhe/article/details/107105549) #todo
+- [<后端初学者>Spring Boot 返回 JSON 数据及数据封装 - 掘金](https://juejin.cn/post/6873288147820609550) #todo
+- [SpringBoot 实现 WebMvcConfigurationSupport 导致自定义的 JSON 时间返回格式不生效 - CSDN](https://blog.csdn.net/DiligentOrange/article/details/106869878) #todo

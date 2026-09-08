@@ -52,10 +52,13 @@ comment: true
 - [c++ 左值引用与右值引用 - 知乎](https://zhuanlan.zhihu.com/p/97128024) #todo
 - [C++ emplace_back - 简书](https://www.jianshu.com/p/c0cbd9dbf772) #todo
 - [C++ new 的用法 - CSDN](https://blog.csdn.net/xiaorenwuzyh/article/details/44514815) #todo
+- [C++ 中什么情况下需要重载 new 运算符？ - 知乎](https://www.zhihu.com/question/470670449/answer/1984399361) #todo
 - [智能指针(Smart Pointer) - CSDN](https://blog.csdn.net/zone_programming/article/details/47000647) #todo
 - [extern C：实现 C++和 C 的混合编程](https://c.biancheng.net/view/8064.html) #todo
 - [什么是 POD 数据类型？ - 知乎](https://zhuanlan.zhihu.com/p/45545035) #todo
+- [什么是非平凡(non-trivial)构造函数 - 知乎](https://zhuanlan.zhihu.com/p/434531482) #todo
 - [STL 源码剖析：sort 算法的内核 - CSDN](https://blog.csdn.net/qq_48322523/article/details/114980628) #todo
+- [c++ 学习：函数形参 4 种传递形式 - CSDN](https://blog.csdn.net/qq_45487715/article/details/108796609) #todo
 
 ## 环境配置
 
@@ -69,6 +72,9 @@ comment: true
 - [400 行 C 代码实现一个虚拟机 - 知乎](https://zhuanlan.zhihu.com/p/459560753) #todo
 - [适合 C++ 新手学习的开源项目 - 腾讯云](https://cloud.tencent.com/developer/article/1824026) #todo
 - [有哪些适合个人练手的中等规模的 C++项目？ - 知乎](https://www.zhihu.com/question/56579764/answer/3183916295) #todo
+- [哪有适合初学者阅读的 C++代码资源？ - 知乎](https://www.zhihu.com/question/20138166/answer/49707025957) #todo
+- [有哪些值得推荐的 C++ 技术博客？ - 知乎](https://www.zhihu.com/question/20418191/answer/2975620028) #todo
+- [从业五年后转行 c/c++后端开发(13K 到 28K),给兄弟们的一些建议 - 知乎](https://zhuanlan.zhihu.com/p/435261856) #todo
 - [TheLartians/ModernCppStarter](https://github.com/TheLartians/ModernCppStarter) #todo
 - [p-ranav/awesome-hpp](https://github.com/p-ranav/awesome-hpp) #todo
 - [Taywee/args: 命令行参数解析库](https://github.com/Taywee/args) #todo
@@ -82,9 +88,11 @@ comment: true
 - [C++ 是不是正在被淘汰？ - 知乎](https://www.zhihu.com/question/636722796/answer/3395086877) #todo
 - [为什么 C 语言没有被 C++ 取代？ - 知乎](https://www.zhihu.com/question/266995763/answer/2381239985) #todo
 - [为什么说 C++很难？ - 知乎](https://www.zhihu.com/question/357354437/answer/3533717773) #todo
-- [我们是否可以认为 C++ 已经进入了「垃圾时间」？ - 知乎](https://zhuanlan.zhihu.com/p/97128024) #todo
+- [我们是否可以认为 C++ 已经进入了「垃圾时间」？ - 知乎](https://www.zhihu.com/question/1958255526795248594/answer/1961944778812941321) #todo
+- [深入钻研 C++ 值得吗？ - 知乎](https://www.zhihu.com/question/1976683020321829070/answer/1979971642970105380) #todo
 - [你读过的最好的 C++ 开源代码是什么？ - 知乎](https://www.zhihu.com/question/21376384/answer/1925233838) #todo
 - [你读过的最好的 C 开源代码是什么？ - 知乎](https://www.zhihu.com/question/1903327443131040209/answer/1968348154215773078) #todo
+- [你读过的最好的 C 开源代码是什么？ - 知乎](https://www.zhihu.com/question/1903327443131040209/answer/1911482149766407224) #todo
 - [腾讯以及各大厂的 C++ 开发环境是什么样的？ - 知乎](https://www.zhihu.com/question/265829202/answer/1080348517) #todo
 - [什么时候用 C 而不用 C++？ - 知乎](https://www.zhihu.com/question/30567850/answer/3131368997) #todo
 - [自学 C 语言的最恐怖的地方是什么？ - 知乎](https://www.zhihu.com/question/628134205/answer/3279969718) #todo
