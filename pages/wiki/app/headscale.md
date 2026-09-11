@@ -75,12 +75,15 @@ docker compose exec headscale headscale auth register --auth-id hskey-xxx --user
 ```sh
 # 查看节点：
 docker compose exec headscale headscale nodes list
+podman-compose exec headscale headscale nodes list
 
 # 查看全部子命令
 docker compose exec headscale headscale --help
+podman-compose exec headscale headscale --help
 
 # 查看状态
 docker compose exec headscale headscale
+podman-compose exec headscale headscale
 ```
 
 ## FAQ
@@ -94,3 +97,7 @@ docker compose exec headscale headscale
 ```log
 headscale  | 2026/08/29 03:55:51 Error initializing: ephemeral_node_inactivity_timeout () is set too low, must be more than 1m5s
 ```
+
+## 参考资料
+
+- [Tailscale/Headscale自建异地组网](https://www.dhao2001.com/2025/01/11/headscale-self-hosted-quick-start/)
