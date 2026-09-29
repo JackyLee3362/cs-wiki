@@ -1,5 +1,5 @@
 ---
-title: 工具对比与实践
+title: 工具比较
 sidebar_position: 0
 description:
 date: 2026-09-01

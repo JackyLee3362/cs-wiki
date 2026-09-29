@@ -5,7 +5,7 @@ sidebar_position: 0
 
 围绕具体问题整理工具对比、操作实践和解决方案。
 
-- [工具对比与实践](docs/compare/index.md)：按任务和使用场景比较工具，记录选择依据。
+- [工具比较](docs/compare/index.md)：按任务和使用场景比较工具，记录选择依据。
 - [解决方案](docs/solution/index.md)：把多个组件组合为可执行的方案。
 - [问题与解答](docs/issue/index.md)：记录现象、排查过程和处理方法。
 
