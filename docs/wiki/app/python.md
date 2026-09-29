@@ -72,5 +72,18 @@ python -m venv .venv
 
 ## 参考资料
 
-- [Python 虚拟环境教程](https://docs.python.org/3/tutorial/venv.html)
-- [Windows 安装与命令入口](https://docs.python.org/3/using/windows.html)
+### 官方资源
+
+- [官网](https://www.python.org/)
+- [GitHub 仓库：CPython](https://github.com/python/cpython)
+- [官方文档](https://docs.python.org/3/)
+
+### 相关文章
+
+- [uv](docs/wiki/app/uv.md)
+- [SQLite](docs/wiki/app/sqlite.md)
+
+### 其他参考链接
+
+- [Python 虚拟环境教程](https://docs.python.org/3/tutorial/venv.html) #todo
+- [Windows 安装与命令入口](https://docs.python.org/3/using/windows.html) #todo

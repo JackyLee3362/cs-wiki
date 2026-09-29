@@ -199,6 +199,18 @@ sudo sysctl -p
 
 ## 参考资料
 
+### 官方资源
+
+- [官网](https://podman.io/)
+- [GitHub 仓库](https://github.com/podman-container-tools/podman)
+- [官方文档](https://docs.podman.io/)
+
+### 相关文章
+
+- [Docker](docs/wiki/app/docker/docker.md)
+
+### 其他参考链接
+
 - [Podman 官网](https://podman.io/) #todo
 - [Podman 官方文档](https://docs.podman.io/) #todo
 - [Podman 安装指南](https://podman.io/docs/installation) #todo
@@ -209,4 +221,4 @@ sudo sysctl -p
 
 - [原笔记链接](http://127.0.0.1:8888) #todo
 - [原笔记链接](https://ifconfig.me) #todo
-- [podman compose 手册](https://docs.podman.io/en/latest/markdown/podman-compose.1.html)
+- [podman compose 手册](https://docs.podman.io/en/latest/markdown/podman-compose.1.html) #todo

@@ -111,7 +111,20 @@ docker compose exec caddy caddy reload --config /etc/caddy/Caddyfile --adapter c
 
 ## 参考资料
 
-- [Caddy 安装说明](https://caddyserver.com/docs/install)
-- [静态文件快速入门](https://caddyserver.com/docs/quick-starts/static-files)
-- [反向代理指令](https://caddyserver.com/docs/caddyfile/directives/reverse_proxy)
-- [Caddy 命令行](https://caddyserver.com/docs/command-line)
+### 官方资源
+
+- [官网](https://caddyserver.com/)
+- [GitHub 仓库](https://github.com/caddyserver/caddy)
+- [官方文档](https://caddyserver.com/docs/)
+
+### 相关文章
+
+- [Nginx](docs/wiki/app/nginx.md)
+- [Docker](docs/wiki/app/docker/docker.md)
+
+### 其他参考链接
+
+- [Caddy 安装说明](https://caddyserver.com/docs/install) #todo
+- [静态文件快速入门](https://caddyserver.com/docs/quick-starts/static-files) #todo
+- [反向代理指令](https://caddyserver.com/docs/caddyfile/directives/reverse_proxy) #todo
+- [Caddy 命令行](https://caddyserver.com/docs/command-line) #todo

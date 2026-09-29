@@ -70,7 +70,20 @@ restic -r ../restic-repo forget --keep-daily 7 --keep-weekly 4 --prune
 
 ## 参考资料
 
-- [安装说明](https://restic.readthedocs.io/en/stable/020_installation.html)
-- [初始化仓库](https://restic.readthedocs.io/en/stable/030_preparing_a_new_repo.html)
-- [创建备份](https://restic.readthedocs.io/en/stable/040_backup.html)
-- [恢复备份](https://restic.readthedocs.io/en/stable/050_restore.html)
+### 官方资源
+
+- [官网](https://restic.net/)
+- [GitHub 仓库](https://github.com/restic/restic)
+- [官方文档](https://restic.readthedocs.io/en/stable/)
+
+### 相关文章
+
+- [tar](docs/wiki/app/tar.md)
+- [rclone](docs/wiki/app/rclone.md)
+
+### 其他参考链接
+
+- [安装说明](https://restic.readthedocs.io/en/stable/020_installation.html) #todo
+- [初始化仓库](https://restic.readthedocs.io/en/stable/030_preparing_a_new_repo.html) #todo
+- [创建备份](https://restic.readthedocs.io/en/stable/040_backup.html) #todo
+- [恢复备份](https://restic.readthedocs.io/en/stable/050_restore.html) #todo

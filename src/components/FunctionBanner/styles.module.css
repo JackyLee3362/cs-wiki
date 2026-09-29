@@ -2,15 +2,13 @@
   --mesh-color: #42d4c1;
   position: relative;
   width: 100%;
-  min-height: 520px;
+  min-height: max(580px, calc(100svh - var(--ifm-navbar-height) - 110px));
   display: flex;
   align-items: center;
   overflow: hidden;
   color: #f5f7f8;
-  background: #283237;
+  background: #101e29;
 }
 .banner canvas {position: absolute; inset: 0; display: block; width: 100%; height: 100%;}
-.content {position: relative; z-index: 1; width: 100%; background: linear-gradient(90deg, #283237 0%, rgba(40,50,55,.92) 30%, rgba(40,50,55,.2) 62%, transparent 75%);}
-.playback {position: absolute; z-index: 2; bottom: 1.3rem; right: 1.5rem; border: 1px solid rgba(255,255,255,.2); border-radius: 6px; background: rgba(40,50,55,.6); color: #b2c6cc; cursor: pointer; font: inherit; font-size: .75rem; padding: .35rem .55rem;}
-.playback:hover {color: white; border-color: #42d4c1;}
-@media (max-width: 700px) {.banner {min-height: 450px;}.content {background: linear-gradient(90deg, rgba(40,50,55,.95), rgba(40,50,55,.45));}}
+.content {position: relative; z-index: 1; width: 100%; background: linear-gradient(90deg, #101e29 0%, rgba(16,30,41,.94) 28%, rgba(16,30,41,.2) 56%, transparent 72%);}
+@media (max-width: 700px) {.banner {min-height: 620px; align-items: flex-start;}.content {background: linear-gradient(180deg, #101e29 15%, rgba(16,30,41,.86) 65%, transparent);}}

@@ -1,3 +1,4 @@
+.controls {display: flex; align-items: center;}
 .trigger {display: flex; align-items: center; gap: .6rem; border: 1px solid var(--ifm-color-emphasis-300); border-radius: 8px; padding: .45rem .7rem; color: var(--ifm-font-color-base); background: var(--ifm-background-surface-color); font: inherit; cursor: pointer;}
 .trigger svg {width: 18px; height: 18px; stroke: currentColor; stroke-width: 1.8;}
 .trigger kbd {font-size: .65rem; padding: .1rem .3rem; box-shadow: none; color: var(--ifm-color-emphasis-600);}

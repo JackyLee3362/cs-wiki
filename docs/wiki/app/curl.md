@@ -67,7 +67,20 @@ curl -i -H 'Content-Type: application/json' \
 
 ## 参考资料
 
+### 官方资源
+
+- [官网](https://curl.se/)
+- [GitHub 仓库](https://github.com/curl/curl)
+- [官方文档](https://curl.se/docs/manpage.html)
+
+### 相关文章
+
+- [Nginx](docs/wiki/app/nginx.md)
+- [Caddy](docs/wiki/app/caddy.md)
+
+### 其他参考链接
+
 - [原笔记链接](https://www.google.com) #todo
 - [原笔记链接](https://cip.cc) #todo
-- [curl 参数手册](https://curl.se/docs/manpage.html)
-- [curl 下载入口](https://curl.se/download.html)
+- [curl 参数手册](https://curl.se/docs/manpage.html) #todo
+- [curl 下载入口](https://curl.se/download.html) #todo

@@ -55,7 +55,6 @@ export default {
         {type: 'docSidebar', sidebarId: 'basesSidebar', label: '基础', position: 'left'},
         {type: 'docSidebar', sidebarId: 'wikiSidebar', label: 'wiki', position: 'left'},
         {type: 'docSidebar', sidebarId: 'articlesSidebar', label: '文章', position: 'left'},
-        {href: 'https://github.com/jackylee3362/cs-wiki', label: 'GitHub', position: 'right'},
       ],
     },
     footer: {style: 'dark', copyright: '计算机知识库 · Built with Docusaurus'},

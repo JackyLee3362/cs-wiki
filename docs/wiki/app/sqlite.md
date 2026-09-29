@@ -96,6 +96,19 @@ SQL 语句以分号结束；以下点命令不需要分号，必须单独输入�
 
 ## 参考资料
 
+### 官方资源
+
+- [官网](https://sqlite.org/)
+- [GitHub 源码镜像（官方）](https://github.com/sqlite/sqlite)
+- [官方文档](https://sqlite.org/docs.html)
+- [官方源码仓库（Fossil）](https://sqlite.org/src)
+
+### 相关文章
+
+- [Python](docs/wiki/app/python.md)
+
+### 其他参考链接
+
 - [sqlite.org](https://www.sqlite.org/) #todo
-- [SQLite 命令行手册](https://sqlite.org/cli.html)
-- [官方下载](https://sqlite.org/download.html)
+- [SQLite 命令行手册](https://sqlite.org/cli.html) #todo
+- [官方下载](https://sqlite.org/download.html) #todo

@@ -67,4 +67,17 @@ tar -xvf archive.tar
 
 ## 参考资料
 
-- [GNU tar 官方手册](https://www.gnu.org/software/tar/manual/)
+### 官方资源
+
+- [官网](https://www.gnu.org/software/tar/)
+- [GitHub 源码镜像（非官方）](https://github.com/gnu-mirror-unofficial/tar)
+- [官方文档](https://www.gnu.org/software/tar/manual/)
+
+### 相关文章
+
+- [restic](docs/wiki/app/backup/restic.md)
+- [rclone](docs/wiki/app/rclone.md)
+
+### 其他参考链接
+
+- [GNU tar 官方手册](https://www.gnu.org/software/tar/manual/) #todo

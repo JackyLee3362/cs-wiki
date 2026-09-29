@@ -184,6 +184,19 @@ git status
 
 ## 参考资料
 
+### 官方资源
+
+- [官网](https://git-scm.com/)
+- [GitHub 源码镜像](https://github.com/git/git)
+- [官方文档](https://git-scm.com/docs)
+
+### 相关文章
+
+- [OpenSSH](docs/wiki/app/ssh.md)
+- [fzf](docs/wiki/app/fzf.md)
+
+### 其他参考链接
+
 - [深入理解 git 合并操作 | Shall We Code?](https://waynerv.com/posts/git-merge-intro/) #todo
 - [github/gitignore: A collection of useful .gitignore templates](https://github.com/github/gitignore) #todo
 - [GitHub does dotfiles - dotfiles.github.io](https://dotfiles.github.io/) #todo
@@ -223,4 +236,4 @@ git status
 - [git仓库清理--"保姆级"教程这是一篇关于Git仓库清理的文章; 或许你现在还用不到里面的操作;但是看完保证你会有不少 - 掘金](https://juejin.cn/post/7024922528514572302) #todo
 - [git项目大小优化笔记,删除历史提交中的大文件 - 凉游浅笔深画眉 - 博客园](https://www.cnblogs.com/fuhua/p/15527023.html#git%E9%A1%B9%E7%9B%AE%E5%A4%A7%E5%B0%8F%E4%BC%98%E5%8C%96%E7%AC%94%E8%AE%B0%E5%88%A0%E9%99%A4%E5%8E%86%E5%8F%B2%E6%8F%90%E4%BA%A4%E4%B8%AD%E7%9A%84%E5%A4%A7%E6%96%87%E4%BB%B6) #todo
 - [Windows 大小写不敏感导致的 git 冲突 | Finisky Garden](https://finisky.github.io/git-is-case-sensitive-while-file-system-is-not/) #todo
-- [Git 安装指南](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- [Git 安装指南](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) #todo

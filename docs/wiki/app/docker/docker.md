@@ -101,6 +101,20 @@ sudo journalctl -u docker --no-pager -n 50 | grep -i "daemon.json\|mirror\|error
 
 ## 参考资料
 
+### 官方资源
+
+- [官网](https://www.docker.com/)
+- [GitHub 仓库：Docker CLI](https://github.com/docker/cli)
+- [官方文档](https://docs.docker.com/)
+- [GitHub 仓库：Moby（Docker Engine 上游）](https://github.com/moby/moby)
+
+### 相关文章
+
+- [Podman](docs/wiki/app/docker/podman.md)
+- [Caddy](docs/wiki/app/caddy.md)
+
+### 其他参考链接
+
 - [将Docker Desktop（WSL 2 方式）文件存储移出系统盘 - 简书](https://www.jianshu.com/p/dfbb3e9ecf8a) #todo
 - [Windows Docker 代理设置 - 知乎](https://zhuanlan.zhihu.com/p/586645526) #todo
 - [5分钟实现用docker搭建Redis集群模式和哨兵模式 | iBit程序猿](https://ibit.tech/archives/docker-redis-pattern) #todo
@@ -116,5 +130,5 @@ sudo journalctl -u docker --no-pager -n 50 | grep -i "daemon.json\|mirror\|error
 - [原笔记链接](https://docker.1ms.run) #todo
 - [原笔记链接](https://docker.m.daocloud.io) #todo
 - [原笔记链接](https://hub.rat.dev) #todo
-- [Docker Engine Ubuntu 安装](https://docs.docker.com/engine/install/ubuntu/)
-- [Docker Desktop 文档](https://docs.docker.com/desktop/)
+- [Docker Engine Ubuntu 安装](https://docs.docker.com/engine/install/ubuntu/) #todo
+- [Docker Desktop 文档](https://docs.docker.com/desktop/) #todo

@@ -10,13 +10,58 @@ tags:
 categories:
   - 命令行
 comment: true
+update_date: 2026-09-29
 ---
+
+## 安装与验证
+
+uv 管理 Python 版本、项目依赖和虚拟环境。选择一种安装方式即可：
+
+```sh
+# macOS，已有 Homebrew
+brew install uv
+# 已有 pipx 的环境
+pipx install uv
+uv --version
+```
+
+Windows 可使用 WinGet：
+
+```powershell
+winget install --id astral-sh.uv -e
+uv --version
+```
+
+安装后重新打开终端；其他平台和独立安装器见官方安装说明。
+
+## 基本使用：创建 Python 项目
+
+```sh
+uv init hello-uv
+cd hello-uv
+uv add requests
+uv run python -c "import requests; print(requests.__version__)"
+uv sync
+uv tree
+```
+
+uv add 更新 pyproject.toml 与锁文件；uv run 使用项目环境执行程序，不需要先激活环境。团队协作时提交 pyproject.toml 和 uv.lock，忽略 .venv。
+
+## 已有依赖与工具
+
+```sh
+uv add -r requirements.txt
+uv run python main.py
+uvx ruff --version
+```
+
+main.py 需先创建。uvx 在隔离工具环境中运行命令，不会自动把工具加入当前项目依赖。
 
 ## 特点
 
 - 用 Rust 编写的极速 Python 包管理器
-- 比 pip 快 10~100 倍
-- 同时支持 pip 和 Poetry 的依赖解析
+- 采用缓存和并行操作加速依赖安装；实际速度取决于网络与项目
+- 提供 pip 风格接口，并通过 pyproject.toml 管理项目依赖
 - 内置虚拟环境管理，无需额外工具
 - Astral 公司出品，与 ruff 同源
 
@@ -147,5 +192,23 @@ uv add -r requirements.txt
 
 ## 参考资料
 
-- [Python 包管理不再头疼：uv 工具快速上手 - wang_yb - 博客园](https://www.cnblogs.com/wang_yb/p/18635441)
-- [Python 虚拟环境工具对比：venv、conda、和 uv，我为什么最终选择了 uv？](https://zhuanlan.zhihu.com/p/1896161993444017735)
+### 官方资源
+
+- [官网](https://docs.astral.sh/uv/)
+- [GitHub 仓库](https://github.com/astral-sh/uv)
+- [官方文档](https://docs.astral.sh/uv/guides/projects/)
+
+### 相关文章
+
+- [Python](docs/wiki/app/python.md)
+
+### 其他参考链接
+
+- [Python 包管理不再头疼：uv 工具快速上手 - wang_yb - 博客园](https://www.cnblogs.com/wang_yb/p/18635441) #todo
+- [Python 虚拟环境工具对比：venv、conda、和 uv，我为什么最终选择了 uv？](https://zhuanlan.zhihu.com/p/1896161993444017735) #todo
+
+- [原笔记链接](https://pypi.org/simple) #todo
+- [原笔记链接](https://pypi.tuna.tsinghua.edu.cn/simple) #todo
+- [原笔记链接](https://mirrors.aliyun.com/pypi/simple/) #todo
+- [uv 安装](https://docs.astral.sh/uv/getting-started/installation/) #todo
+- [uv 项目指南](https://docs.astral.sh/uv/guides/projects/) #todo
