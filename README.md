@@ -1,5 +1,7 @@
 # 计算机知识库
 
+[访问知识库网站](https://wiki.jackylee.top) · [GitHub 项目](https://github.com/jackylee3362/cs-wiki)
+
 使用官方 create-docusaurus classic JavaScript 模板初始化，基于 Docusaurus 3.10.2。
 
 ## 本地开发
@@ -25,6 +27,8 @@ npm run serve
 
 ## 内容维护
 
+主页位于 src/pages/index.jsx，全宽 banner 由正弦与余弦函数实时绘制变化曲面，标题与“进入知识库”按钮叠在上方；动画尊重系统减少动态效果的设置，也可手动播放。原文档首页保留在 /overview/。搜索入口位于顶部导航栏最右侧，点击或使用 Ctrl+K 打开浮层，支持中文、英文；生产构建后运行 npm run serve 验证搜索。搜索不索引被排除的草稿。
+
 - docs/：原 pages/ 的全部内容，保留目录结构，正文双链已迁移为标准 Markdown 链接。
 - cache/：保持原样，不参与站点构建。
 - sidebars.js：按目录自动生成侧边栏。
@@ -46,7 +50,7 @@ npm run serve
 - ALIYUN_VPS_USER
 - ALIYUN_VPS_SSH_KEY
 
-域名保持 wiki.jackylee.fun。本地迁移不会触发部署。
+网站域名为 [wiki.jackylee.top](https://wiki.jackylee.top)。本地迁移不会触发部署。
 
 ## 参考资料
 

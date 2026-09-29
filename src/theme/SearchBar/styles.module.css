@@ -1,0 +1,12 @@
+.trigger {display: flex; align-items: center; gap: .6rem; border: 1px solid var(--ifm-color-emphasis-300); border-radius: 8px; padding: .45rem .7rem; color: var(--ifm-font-color-base); background: var(--ifm-background-surface-color); font: inherit; cursor: pointer;}
+.trigger svg {width: 18px; height: 18px; stroke: currentColor; stroke-width: 1.8;}
+.trigger kbd {font-size: .65rem; padding: .1rem .3rem; box-shadow: none; color: var(--ifm-color-emphasis-600);}
+.dialog {position: fixed; inset: 5rem 0 auto; width: min(640px, calc(100vw - 2rem)); max-height: calc(100vh - 7rem); overflow: auto; margin: 0 auto; padding: 1.2rem; border: 1px solid var(--ifm-color-emphasis-300); border-radius: 12px; color: var(--ifm-font-color-base); background: var(--ifm-background-surface-color); box-shadow: 0 20px 70px rgba(0,0,0,.25);}
+.dialog::backdrop {background: rgba(0,0,0,.38); backdrop-filter: blur(3px);}
+.heading {display: flex; justify-content: space-between; align-items: center; font-weight: 600; margin-bottom: 1rem;}
+.heading button {border: 0; background: transparent; color: var(--ifm-color-emphasis-600); cursor: pointer; font-size: 1rem;}
+.dialog :global(.navbar__search) {display: block; width: 100%; margin: 0;}
+.dialog :global(.navbar__search-input) {width: 100% !important; height: 2.8rem; font-size: 1rem;}
+.dialog :global([class*='dropdownMenu']) {width: 100% !important; box-shadow: none; margin-top: .6rem;}
+.hint {font-size: .75rem; color: var(--ifm-color-emphasis-600); margin: 1rem 0 0;}
+@media (max-width: 520px) {.trigger kbd {display: none;}.dialog {inset-block-start: 4.5rem;}}

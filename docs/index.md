@@ -1,5 +1,6 @@
 ---
 title: 计算机知识库
+slug: /overview
 ---
 
 👋 你好，我的朋友！

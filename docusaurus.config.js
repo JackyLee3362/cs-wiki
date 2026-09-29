@@ -8,7 +8,7 @@ import parseFrontMatter from './plugins/parse-front-matter.mjs';
 export default {
   title: '计算机知识库',
   tagline: '计算机基础、工具与实践笔记',
-  url: 'https://wiki.jackylee.fun',
+  url: 'https://wiki.jackylee.top',
   baseUrl: '/',
   trailingSlash: true,
   onBrokenLinks: 'throw',
@@ -19,7 +19,19 @@ export default {
     mermaid: true,
     hooks: {onBrokenMarkdownLinks: 'warn', onBrokenMarkdownImages: 'warn'},
   },
-  themes: ['@docusaurus/theme-mermaid'],
+  themes: [
+    '@docusaurus/theme-mermaid',
+    ['@easyops-cn/docusaurus-search-local', {
+      hashed: true,
+      language: ['en', 'zh'],
+      docsRouteBasePath: '/',
+      indexBlog: false,
+      indexPages: true,
+      highlightSearchTermsOnTargetPage: true,
+      explicitSearchResultPath: true,
+      searchBarShortcut: false,
+    }],
+  ],
   presets: [['classic', {
     docs: {
       routeBasePath: '/',
@@ -31,7 +43,7 @@ export default {
       editUrl: 'https://github.com/jackylee3362/cs-wiki/edit/main/',
     },
     blog: false,
-    pages: false,
+    pages: {},
     theme: {customCss: ['./src/css/custom.css', './node_modules/katex/dist/katex.min.css']},
   }]],
   themeConfig: {
@@ -39,6 +51,7 @@ export default {
     navbar: {
       title: '计算机知识库',
       items: [
+        {to: '/', label: '首页', position: 'left', activeBaseRegex: '^/$'},
         {type: 'docSidebar', sidebarId: 'docsSidebar', label: '文档', position: 'left'},
         {href: 'https://github.com/jackylee3362/cs-wiki', label: 'GitHub', position: 'right'},
       ],

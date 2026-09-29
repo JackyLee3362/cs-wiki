@@ -1,0 +1,8 @@
+.home {flex: 1; width: 100%;}
+.content {padding-top: 6rem; padding-bottom: 6rem;}
+.content h1 {margin: 0 0 1.4rem; font-size: clamp(2.5rem, 5.5vw, 4.5rem); line-height: 1.2; letter-spacing: -.04em;}
+.content h1 span {color: #42d4c1;}
+.content p {margin-bottom: 2.5rem; color: #c2cfd3; font-size: 1.2rem;}
+.content :global(.button) {background: #42d4c1; border-color: #42d4c1; color: #132a29; border-radius: 8px; padding: .9rem 1.8rem;}
+.content :global(.button:hover) {background: #63e0d0; border-color: #63e0d0;}
+@media (max-width: 700px) {.content {padding-top: 5rem; padding-bottom: 5rem;}.content p {font-size: 1rem;}}
