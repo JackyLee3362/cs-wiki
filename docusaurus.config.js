@@ -63,7 +63,7 @@ export default {
         {type: 'docSidebar', sidebarId: 'selfHostedSidebar', label: '自部署', position: 'left'},
         {type: 'docSidebar', sidebarId: 'compareSidebar', label: '工具比较', position: 'left'},
         {type: 'docSidebar', sidebarId: 'solutionSidebar', label: '解决方案', position: 'left'},
-        {type: 'docSidebar', sidebarId: 'interviewSidebar', label: '面试', position: 'left'},
+        {type: 'docSidebar', sidebarId: 'workSidebar', label: '工作', position: 'left'},
       ],
     },
     footer: {style: 'dark', copyright: '计算机知识库 · Built with Docusaurus'},

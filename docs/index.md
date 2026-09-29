@@ -10,7 +10,7 @@ slug: /overview
 - [自部署](docs/self-hosted/index.md)
 - [工具比较](docs/compare/index.md)
 - [解决方案](docs/solution/index.md)
-- [面试](docs/interview/index.md)
+- [工作](docs/work/index.md)
 - [问题与解答](docs/issue/index.md)
 
 - wiki 更像是固定的永久卡片
