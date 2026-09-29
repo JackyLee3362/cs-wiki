@@ -33,6 +33,7 @@ npm run serve
 - cache/：保持原样，不参与站点构建。
 - sidebars.js：基础知识按数据结构、计算机网络、计算机组成原理和操作系统分成独立侧边栏，顶部「基础」下拉菜单提供分类入口；章节通过 _category_.json 配置中文名称和顺序。wiki、自部署、工具比较、解决方案和工作按各自目录生成独立侧边栏；工作栏目位于 docs/work/，记录工作中遇到的问题。问题与解答保留总览入口和独立侧边栏。
 - docusaurus.config.js：中文站点、根路径文档、数学公式与 Mermaid 配置。
+- docs/lang/：顶部「语言」下拉菜单的内容目录，python、java、cpp、go、javascript、rust、html、css 各有独立目录、首页和自动生成的侧边栏。
 - docs/self-hosted/：顶部「自部署」栏目的内容目录，按应用整理 compose.yaml、启动、备份恢复、运维与踩坑记录，Markdown 文档自动生成独立侧边栏。
 - plugins/remark-project-links.mjs：让 Docusaurus 解析以项目根目录为基准的 docs/ 链接。
 - link-migration-report.json：无法唯一定位目标的链接及候选文件，供人工核对。
