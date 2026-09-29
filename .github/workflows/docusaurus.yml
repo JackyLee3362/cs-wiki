@@ -1,0 +1,58 @@
+name: Build and deploy Docusaurus
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: docusaurus-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Install dependencies
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          else
+            npm install
+          fi
+      - run: npm test
+      - run: npm run build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: docusaurus-build
+          path: build/
+          if-no-files-found: error
+          retention-days: 7
+
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: docusaurus-build
+          path: build/
+      - name: Deploy to existing Aliyun VPS
+        uses: burnett01/rsync-deployments@7.0.1
+        with:
+          switches: -avz --delete
+          path: build/
+          remote_host: ${{ secrets.ALIYUN_VPS_HOST }}
+          remote_user: ${{ secrets.ALIYUN_VPS_USER }}
+          remote_key: ${{ secrets.ALIYUN_VPS_SSH_KEY }}
+          remote_path: /opt/caddy/site/wiki/
