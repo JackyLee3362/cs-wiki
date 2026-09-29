@@ -63,8 +63,8 @@ cd /opt/caddy/ && docker compose exec caddy caddy reload --config /etc/caddy/Cad
 docker compose exec caddy caddy reload --config /etc/caddy/Caddyfile
 docker compose exec caddy caddy fmt --overwrite /etc/caddy/Caddyfile
 
-podman-compose exec caddy caddy reload --config /etc/caddy/Caddyfile
-podman-compose exec caddy caddy fmt --overwrite /etc/caddy/Caddyfile
+podman exec caddy caddy fmt --overwrite /etc/caddy/Caddyfile
+podman exec caddy caddy reload --config /etc/caddy/Caddyfile
 ```
 
 ## FAQ

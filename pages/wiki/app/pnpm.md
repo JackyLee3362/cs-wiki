@@ -18,3 +18,15 @@ comment: true
 - 严格的依赖隔离，避免幽灵依赖
 - 支持 monorepo 工作区管理
 - 兼容 npm 生态，迁移成本低
+
+## 增加代理
+
+```sh
+# 开启代理
+pnpm config set proxy http://127.0.0.1:7897
+pnpm config set https-proxy http://127.0.0.1:7897
+
+# 关闭代理
+pnpm config set proxy
+pnpm config set https-proxy
+```
