@@ -1,0 +1,628 @@
+{
+  "converted": 856,
+  "changedFiles": 244,
+  "unresolved": [
+    {
+      "source": "docs/bases/computer-network/3-data-link-layer/3.5-medium-access-control.md",
+      "reference": "aloha",
+      "destination": "docs/aloha.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/bases/computer-network/6-application-layer/6.2-domain-name-system.md",
+      "reference": "dns",
+      "destination": "docs/dns.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/computer-network/dns.md",
+        "docs/wiki/concept/dns.md"
+      ]
+    },
+    {
+      "source": "docs/bases/computer-network/6-application-layer/6.3-file-transfer-protocol.md",
+      "reference": "ftp",
+      "destination": "docs/ftp.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/computer-network/ftp.md",
+        "docs/wiki/concept/ftp.md"
+      ]
+    },
+    {
+      "source": "docs/bases/computer-network/6-application-layer/6.4-email.md",
+      "reference": "mime",
+      "destination": "docs/mime.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/computer-network/mime.md",
+        "docs/wiki/concept/mime.md"
+      ]
+    },
+    {
+      "source": "docs/bases/computer-organization/2-data-representation-and-operation/2.3-floating-point-number.md",
+      "reference": "floating-point",
+      "destination": "docs/floating-point.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/computer-organiztion/floating-point.md",
+        "docs/wiki/concept/floating-point.md"
+      ]
+    },
+    {
+      "source": "docs/bases/computer-organization/2-data-representation-and-operation/2.4-arithmetic-logic-unit.md",
+      "reference": "alu",
+      "destination": "docs/alu.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/computer-organiztion/alu.md",
+        "docs/wiki/concept/alu.md"
+      ]
+    },
+    {
+      "source": "docs/bases/computer-organization/3-memory-system/3.6-cache-memory.md",
+      "reference": "cache",
+      "destination": "docs/cache.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/computer-organiztion/cache.md",
+        "docs/wiki/concept/cache.md"
+      ]
+    },
+    {
+      "source": "docs/bases/computer-organization/3-memory-system/3.7-virtual-memory.md",
+      "reference": "virtual-memory",
+      "destination": "docs/virtual-memory.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/computer-organiztion/virtual-memory.md",
+        "docs/wiki/base/operating-system/virtual-memory.md",
+        "docs/wiki/concept/virtual-memory.md"
+      ]
+    },
+    {
+      "source": "docs/bases/computer-organization/5-central-processing-unit/5.1-cpu-function-and-structure.md",
+      "reference": "cpu",
+      "destination": "docs/cpu.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/computer-organiztion/cpu.md",
+        "docs/wiki/concept/cpu.md"
+      ]
+    },
+    {
+      "source": "docs/bases/computer-organization/5-central-processing-unit/5.2-instruction-execution-process.md",
+      "reference": "cpu",
+      "destination": "docs/cpu.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/computer-organiztion/cpu.md",
+        "docs/wiki/concept/cpu.md"
+      ]
+    },
+    {
+      "source": "docs/bases/computer-organization/5-central-processing-unit/5.3-data-path-function-and-structure.md",
+      "reference": "cpu",
+      "destination": "docs/cpu.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/computer-organiztion/cpu.md",
+        "docs/wiki/concept/cpu.md"
+      ]
+    },
+    {
+      "source": "docs/bases/data-structures/5-tree-and-binary-tree/5.2-binary-tree-concepts.md",
+      "reference": "binary-tree",
+      "destination": "docs/binary-tree.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/algorithm/binary-tree.md",
+        "docs/wiki/concept/binary-tree.md"
+      ]
+    },
+    {
+      "source": "docs/bases/data-structures/5-tree-and-binary-tree/5.5-tree-and-binary-tree-applications.md",
+      "reference": "binary-tree",
+      "destination": "docs/binary-tree.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/algorithm/binary-tree.md",
+        "docs/wiki/concept/binary-tree.md"
+      ]
+    },
+    {
+      "source": "docs/bases/data-structures/7-search/7.3-b-tree-and-b-plus-tree.md",
+      "reference": "b-plus-tree",
+      "destination": "docs/b-plus-tree.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/data-structure/b-plus-tree.md",
+        "docs/wiki/concept/b-plus-tree.md"
+      ]
+    },
+    {
+      "source": "docs/bases/data-structures/8-sorting/8.3-exchange-sort.md",
+      "reference": "bubble-sort",
+      "destination": "docs/bubble-sort.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/algorithm/bubble-sort.md",
+        "docs/wiki/concept/bubble-sort.md"
+      ]
+    },
+    {
+      "source": "docs/bases/data-structures/8-sorting/8.3-exchange-sort.md",
+      "reference": "quick-sort",
+      "destination": "docs/quick-sort.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/algorithm/quick-sort.md",
+        "docs/wiki/concept/quick-sort.md"
+      ]
+    },
+    {
+      "source": "docs/bases/data-structures/8-sorting/8.3-exchange-sort.md",
+      "reference": "bubble-sort",
+      "destination": "docs/bubble-sort.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/algorithm/bubble-sort.md",
+        "docs/wiki/concept/bubble-sort.md"
+      ]
+    },
+    {
+      "source": "docs/bases/data-structures/8-sorting/8.3-exchange-sort.md",
+      "reference": "quick-sort",
+      "destination": "docs/quick-sort.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/algorithm/quick-sort.md",
+        "docs/wiki/concept/quick-sort.md"
+      ]
+    },
+    {
+      "source": "docs/bases/data-structures/8-sorting/8.4-selection-sort.md",
+      "reference": "heap-sort",
+      "destination": "docs/heap-sort.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/algorithm/heap-sort.md",
+        "docs/wiki/concept/heap-sort.md"
+      ]
+    },
+    {
+      "source": "docs/bases/data-structures/8-sorting/8.5-merge-sort-and-radix-sort.md",
+      "reference": "merge-sort",
+      "destination": "docs/merge-sort.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/algorithm/merge-sort.md",
+        "docs/wiki/concept/merge-sort.md"
+      ]
+    },
+    {
+      "source": "docs/bases/data-structures/8-sorting/8.5-merge-sort-and-radix-sort.md",
+      "reference": "radix-sort",
+      "destination": "docs/radix-sort.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/algorithm/radix-sort.md",
+        "docs/wiki/concept/radix-sort.md"
+      ]
+    },
+    {
+      "source": "docs/bases/data-structures/8-sorting/8.5-merge-sort-and-radix-sort.md",
+      "reference": "merge-sort",
+      "destination": "docs/merge-sort.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/algorithm/merge-sort.md",
+        "docs/wiki/concept/merge-sort.md"
+      ]
+    },
+    {
+      "source": "docs/bases/data-structures/8-sorting/8.5-merge-sort-and-radix-sort.md",
+      "reference": "radix-sort",
+      "destination": "docs/radix-sort.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/algorithm/radix-sort.md",
+        "docs/wiki/concept/radix-sort.md"
+      ]
+    },
+    {
+      "source": "docs/bases/data-structures/8-sorting/8.7-external-sort.md",
+      "reference": "merge-sort",
+      "destination": "docs/merge-sort.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/algorithm/merge-sort.md",
+        "docs/wiki/concept/merge-sort.md"
+      ]
+    },
+    {
+      "source": "docs/bases/operating-system/2-process-management/2.1-process-and-thread.md",
+      "reference": "process",
+      "destination": "docs/process.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/operating-system/process.md",
+        "docs/wiki/concept/process.md"
+      ]
+    },
+    {
+      "source": "docs/bases/operating-system/2-process-management/2.1-process-and-thread.md",
+      "reference": "thread",
+      "destination": "docs/thread.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/operating-system/thread.md",
+        "docs/wiki/concept/thread.md"
+      ]
+    },
+    {
+      "source": "docs/bases/operating-system/2-process-management/2.2-cpu-scheduling.md",
+      "reference": "scheduling",
+      "destination": "docs/scheduling.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/operating-system/scheduling.md",
+        "docs/wiki/concept/scheduling.md"
+      ]
+    },
+    {
+      "source": "docs/bases/operating-system/2-process-management/2.4-deadlock.md",
+      "reference": "deadlock",
+      "destination": "docs/deadlock.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/operating-system/deadlock.md",
+        "docs/wiki/concept/deadlock.md"
+      ]
+    },
+    {
+      "source": "docs/bases/operating-system/3-memory-management/3.1-memory-management-concepts.md",
+      "reference": "memory-management",
+      "destination": "docs/memory-management.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/operating-system/memory-management.md",
+        "docs/wiki/concept/memory-management.md"
+      ]
+    },
+    {
+      "source": "docs/bases/operating-system/3-memory-management/3.2-virtual-memory-management.md",
+      "reference": "virtual-memory",
+      "destination": "docs/virtual-memory.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/computer-organiztion/virtual-memory.md",
+        "docs/wiki/base/operating-system/virtual-memory.md",
+        "docs/wiki/concept/virtual-memory.md"
+      ]
+    },
+    {
+      "source": "docs/bases/operating-system/4-file-management/4.1-file-system-basics.md",
+      "reference": "file-system",
+      "destination": "docs/file-system.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/operating-system/file-system.md",
+        "docs/wiki/concept/file-system.md"
+      ]
+    },
+    {
+      "source": "docs/bases/operating-system/4-file-management/4.2-file-system-implementation.md",
+      "reference": "file-system",
+      "destination": "docs/file-system.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/operating-system/file-system.md",
+        "docs/wiki/concept/file-system.md"
+      ]
+    },
+    {
+      "source": "docs/bases/operating-system/4-file-management/4.3-disk-organization-and-management.md",
+      "reference": "file-system",
+      "destination": "docs/file-system.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/operating-system/file-system.md",
+        "docs/wiki/concept/file-system.md"
+      ]
+    },
+    {
+      "source": "docs/wiki/app/mullvad-browser.md",
+      "reference": "tor-browser",
+      "destination": "docs/tor-browser.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/concept/cache.md",
+      "reference": "cache-memory",
+      "destination": "docs/cache-memory.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/concept/cpu.md",
+      "reference": "central-processing-unit",
+      "destination": "docs/central-processing-unit.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/concept/process.md",
+      "reference": "process-management",
+      "destination": "docs/process-management.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/concept/thread.md",
+      "reference": "process-management",
+      "destination": "docs/process-management.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "annotation",
+      "destination": "docs/annotation.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "function",
+      "destination": "docs/function.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "java-basic",
+      "destination": "docs/java-basic.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "java-faq",
+      "destination": "docs/java-faq.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "jms",
+      "destination": "docs/jms.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "reflection",
+      "destination": "docs/reflection.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "stream",
+      "destination": "docs/stream.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "java-juc",
+      "destination": "docs/java-juc.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "java-jvm",
+      "destination": "docs/java-jvm.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "autoconfig",
+      "destination": "docs/autoconfig.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "config-priority",
+      "destination": "docs/config-priority.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "spring-config",
+      "destination": "docs/spring-config.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "spring-es",
+      "destination": "docs/spring-es.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "maven-enforcer",
+      "destination": "docs/maven-enforcer.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "maven-faq",
+      "destination": "docs/maven-faq.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "maven-private-repo",
+      "destination": "docs/maven-private-repo.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "maven-surefire",
+      "destination": "docs/maven-surefire.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "db",
+      "destination": "docs/db.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "mybatis-generator",
+      "destination": "docs/mybatis-generator.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "spring-redis",
+      "destination": "docs/spring-redis.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "java-logging",
+      "destination": "docs/java-logging.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "log4j",
+      "destination": "docs/log4j.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "logback",
+      "destination": "docs/logback.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "java-test-junit",
+      "destination": "docs/java-test-junit.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "junit4-runwith",
+      "destination": "docs/junit4-runwith.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "mock-spy-stub",
+      "destination": "docs/mock-spy-stub.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "spring-junit",
+      "destination": "docs/spring-junit.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "jackson",
+      "destination": "docs/jackson.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "json-unit",
+      "destination": "docs/json-unit.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "awesome-util",
+      "destination": "docs/awesome-util.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "spring-mvc-anno-note",
+      "destination": "docs/spring-mvc-anno-note.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "spring-web-controller",
+      "destination": "docs/spring-web-controller.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "ssm",
+      "destination": "docs/ssm.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/java/index.md",
+      "reference": "spring-mq",
+      "destination": "docs/spring-mq.md",
+      "reason": "missing",
+      "candidates": []
+    },
+    {
+      "source": "docs/wiki/lang/sql/sql-ddl-index.md",
+      "reference": "b-plus-tree",
+      "destination": "docs/b-plus-tree.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/data-structure/b-plus-tree.md",
+        "docs/wiki/concept/b-plus-tree.md"
+      ]
+    },
+    {
+      "source": "docs/wiki/lang/sql/sql-tcl.md",
+      "reference": "deadlock",
+      "destination": "docs/deadlock.md",
+      "reason": "ambiguous",
+      "candidates": [
+        "docs/wiki/base/operating-system/deadlock.md",
+        "docs/wiki/concept/deadlock.md"
+      ]
+    }
+  ]
+}

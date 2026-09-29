@@ -23,3 +23,10 @@ TODO.md
 
 # pdf 文件
 *.pdf
+
+# Docusaurus
+node_modules/
+build/
+.docusaurus/
+.env.local
+npm-debug.log*
