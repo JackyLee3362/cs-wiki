@@ -52,8 +52,15 @@ export default {
       title: '计算机知识库',
       items: [
         {to: '/', label: '首页', position: 'left', activeBaseRegex: '^/$'},
-        {type: 'docSidebar', sidebarId: 'basesSidebar', label: '基础', position: 'left'},
+        {type: 'dropdown', label: '基础', position: 'left', items: [
+          {type: 'docSidebar', sidebarId: 'basesSidebar', label: '基础知识总览'},
+          {type: 'docSidebar', sidebarId: 'dataStructuresSidebar', label: '数据结构'},
+          {type: 'docSidebar', sidebarId: 'computerNetworkSidebar', label: '计算机网络'},
+          {type: 'docSidebar', sidebarId: 'computerOrganizationSidebar', label: '计算机组成原理'},
+          {type: 'docSidebar', sidebarId: 'operatingSystemSidebar', label: '操作系统'},
+        ]},
         {type: 'docSidebar', sidebarId: 'wikiSidebar', label: 'wiki', position: 'left'},
+        {type: 'docSidebar', sidebarId: 'selfHostedSidebar', label: '自部署', position: 'left'},
         {type: 'docSidebar', sidebarId: 'articlesSidebar', label: '文章', position: 'left'},
       ],
     },

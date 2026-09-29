@@ -31,8 +31,9 @@ npm run serve
 
 - docs/：原 pages/ 的全部内容，保留目录结构，正文双链已迁移为标准 Markdown 链接。
 - cache/：保持原样，不参与站点构建。
-- sidebars.js：按目录自动生成侧边栏。
+- sidebars.js：基础知识按数据结构、计算机网络、计算机组成原理和操作系统分成独立侧边栏，顶部「基础」下拉菜单提供分类入口；章节通过 _category_.json 配置中文名称和顺序。wiki 和文章按各自目录生成侧边栏。
 - docusaurus.config.js：中文站点、根路径文档、数学公式与 Mermaid 配置。
+- docs/self-hosted/：顶部「自部署」栏目的内容目录，按应用整理 compose.yaml、启动、备份恢复、运维与踩坑记录，Markdown 文档自动生成独立侧边栏。
 - plugins/remark-project-links.mjs：让 Docusaurus 解析以项目根目录为基准的 docs/ 链接。
 - link-migration-report.json：无法唯一定位目标的链接及候选文件，供人工核对。
 
@@ -41,6 +42,8 @@ npm run serve
 完善 wiki 工具条目时，在「参考资料」中提供官网、GitHub 仓库或源码镜像、官方文档、站内相关文章和其他参考链接；源码镜像需注明来源，原有外部链接保留并添加 #todo。
 
 代码块统一使用三个反引号作为围栏，并标注语言，不使用波浪线围栏。
+
+首页「进入知识库」链接到 docs/index.md 对应的 /overview/ 文档总览，展示 docs/ 下各栏目入口；基础知识分类从顶部「基础」菜单或首页「基础原理」进入。
 
 迁移时优先按当前目录、文档根目录解析，再匹配唯一的路径后缀。缺失或歧义引用也转为标准链接，记录在检查报告中。构建时将 docs/ 路径转换为 Docusaurus 可解析的文件引用；缺失目标以及生产环境中的草稿目标只显示链接文字，避免生成无效站点导航。
 

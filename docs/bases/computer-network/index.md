@@ -1,5 +1,6 @@
 ---
 title: 计算机网络
+sidebar_position: 0
 date: 2026-09-05
 draft: false
 author: JackyLee
