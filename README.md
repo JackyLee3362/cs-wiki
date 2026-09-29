@@ -7,11 +7,11 @@
 推荐 Node.js 24（与 CI 一致）。
 
 ```sh
-npm install
+npm ci
 npm start
 ```
 
-默认地址：http://localhost:3000。首次安装生成 package-lock.json，验证构建后应将锁文件纳入版本控制；之后使用 npm ci。
+默认地址：http://localhost:3000。依赖版本由 package-lock.json 固定，使用 npm ci 安装。
 
 ```sh
 npm test
@@ -20,6 +20,8 @@ npm run serve
 ```
 
 构建产物在 build/。开发模式显示草稿，生产构建排除 draft: true 的文档。
+
+本地查看生产构建：`npm run serve -- --host 127.0.0.1 --port 3000 --no-open`。浏览器访问 http://127.0.0.1:3000/。
 
 ## 内容维护
 

@@ -2,6 +2,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 import remarkProjectLinks from './plugins/remark-project-links.mjs';
+import parseFrontMatter from './plugins/parse-front-matter.mjs';
 
 /** @type {import('@docusaurus/types').Config} */
 export default {
@@ -13,6 +14,7 @@ export default {
   onBrokenLinks: 'throw',
   i18n: {defaultLocale: 'zh-Hans', locales: ['zh-Hans']},
   markdown: {
+    parseFrontMatter,
     format: 'md',
     mermaid: true,
     hooks: {onBrokenMarkdownLinks: 'warn', onBrokenMarkdownImages: 'warn'},
@@ -23,13 +25,14 @@ export default {
       routeBasePath: '/',
       sidebarPath: './sidebars.js',
       numberPrefixParser: false,
-      remarkPlugins: [remarkProjectLinks, remarkMath],
+      beforeDefaultRemarkPlugins: [remarkProjectLinks],
+      remarkPlugins: [remarkMath],
       rehypePlugins: [rehypeKatex],
       editUrl: 'https://github.com/jackylee3362/cs-wiki/edit/main/',
     },
     blog: false,
     pages: false,
-    theme: {customCss: ['./src/css/custom.css', 'katex/dist/katex.min.css']},
+    theme: {customCss: ['./src/css/custom.css', './node_modules/katex/dist/katex.min.css']},
   }]],
   themeConfig: {
     colorMode: {respectPrefersColorScheme: true},

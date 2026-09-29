@@ -44,7 +44,7 @@ comment: true
 
 ### 五、历史查看
 
-[git-log#历史：在 commit 信息中查找并展示 commit](docs/wiki/app/git/git-log.md#历史：在-commit-信息中查找并展示-commit)
+[git-log#历史：在 commit 信息中查找并展示 commit](docs/wiki/app/git/git-log.md#历史在-commit-信息中查找并展示-commit)
 
 [git-reflog#恢复本地已删除分支](docs/wiki/app/git/git-reflog.md#恢复本地已删除分支)
 
@@ -86,9 +86,9 @@ comment: true
 
 ### git 如何对历史搜索
 
-[git-log#历史：在 commit 信息中查找并展示 commit](docs/wiki/app/git/git-log.md#历史：在-commit-信息中查找并展示-commit)
+[git-log#历史：在 commit 信息中查找并展示 commit](docs/wiki/app/git/git-log.md#历史在-commit-信息中查找并展示-commit)
 
-[git-log#历史: 在文件中查找内容并展示 commit](docs/wiki/app/git/git-log.md#历史:-在文件中查找内容并展示-commit)
+[git-log#历史: 在文件中查找内容并展示 commit](docs/wiki/app/git/git-log.md#历史-在文件中查找内容并展示-commit)
 
 ### 本地 Git 仓库删除大 object
 

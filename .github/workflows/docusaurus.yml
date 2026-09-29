@@ -22,13 +22,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 24
-      - name: Install dependencies
-        run: |
-          if [ -f package-lock.json ]; then
-            npm ci
-          else
-            npm install
-          fi
+          cache: npm
+      - run: npm ci
       - run: npm test
       - run: npm run build
       - uses: actions/upload-artifact@v4
