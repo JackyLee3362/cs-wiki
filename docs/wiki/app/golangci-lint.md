@@ -4,6 +4,7 @@ date: 2026-09-05
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - lint
   - Go
 categories:

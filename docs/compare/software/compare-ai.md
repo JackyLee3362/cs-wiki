@@ -1,5 +1,5 @@
 ---
-title: collection-ai
+title: 人工智能工具与生态概览
 description:
 date: 2026-08-19
 update_date:

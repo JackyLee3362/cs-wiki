@@ -1,5 +1,5 @@
 ---
-title: Media Player & Viewer
+title: 媒体播放器与查看器对比
 description: 媒体播放器与查看器对比
 date: 2026-09-07
 draft: true

@@ -1,5 +1,5 @@
 ---
-title: Awesome 同步类工具
+title: 文件同步工具对比
 date: 2025-11-01
 update_date:
   - 2026-08-15

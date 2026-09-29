@@ -4,6 +4,7 @@ date: 2021-06-29
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - AI模型
   - 代码
   - GitHub

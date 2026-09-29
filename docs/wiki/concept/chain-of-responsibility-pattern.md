@@ -6,6 +6,7 @@ update_date:
 draft: true
 author: JackyLee
 tags:
+  - wiki
   - 设计模式
 categories:
 comment: true

@@ -1,5 +1,5 @@
 ---
-title: collection-lint
+title: 代码静态检查工具对比
 description:
 date: 2026-09-05
 draft: false

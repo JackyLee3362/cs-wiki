@@ -1,5 +1,5 @@
 ---
-title: collection-wechat
+title: 微信自动化与数据管理工具整理
 description:
 date: 2026-08-22
 update_date:

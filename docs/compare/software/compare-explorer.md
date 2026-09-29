@@ -1,5 +1,5 @@
 ---
-title: collection-explorer
+title: 文件搜索与浏览工具对比
 description: 资源管理器横向对比
 date: 2025-11-02
 draft: true

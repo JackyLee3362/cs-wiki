@@ -4,6 +4,7 @@ date: 2025-03-14
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - VSCode
   - IDE
 categories:

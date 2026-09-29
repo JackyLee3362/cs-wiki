@@ -1,10 +1,11 @@
-ghgh---
+---
 title: Markdown Callout（GitHub Alerts）
 description: GitHub Alerts 与 Obsidian Callout 语法详解
 date: 2026-09-08
 draft: true
 author: JackyLee
 tags:
+  - wiki
   - markdown
   - github
   - obsidian

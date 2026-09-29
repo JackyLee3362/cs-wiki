@@ -1,5 +1,5 @@
 ---
-title: compare-template-generator-tool
+title: 项目模板与代码生成工具对比
 description: 项目模板/脚手架工具选型：cookiecutter / copier / degit / plop / hygen
 date: 2026-09-10
 draft: true

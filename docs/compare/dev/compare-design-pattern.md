@@ -1,5 +1,5 @@
 ---
-title: collection-design-pattern
+title: 设计模式分类与应用
 description:
 date: 2026-08-22
 update_date:

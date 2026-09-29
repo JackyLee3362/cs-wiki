@@ -4,6 +4,7 @@ date: 2024-09-26
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - 笔记工具
   - Obsidian
   - 插件

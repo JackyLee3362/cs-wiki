@@ -4,6 +4,7 @@ date: 2024-02-03
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - Windows
 categories:
   - Windows

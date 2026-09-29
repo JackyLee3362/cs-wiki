@@ -1,5 +1,5 @@
 ---
-title: Awesome Package Management
+title: 软件包管理器对比
 date: 2025-01-01
 draft: false
 author: JackyLee

@@ -1,5 +1,5 @@
 ---
-title: collection-agent
+title: 人工智能编程智能体对比
 description:
 date: 2026-08-19
 update_date:

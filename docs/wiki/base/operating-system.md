@@ -6,6 +6,7 @@ date: 2025-03-02
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - 基础知识
   - 操作系统
 categories:

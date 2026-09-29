@@ -5,6 +5,7 @@ date: 2025-02-26
 draft: true
 author: JackyLee
 tags:
+  - wiki
   - 机器学习
   - ai
 categories:

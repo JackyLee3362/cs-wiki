@@ -1,5 +1,5 @@
 ---
-title: Awesome 收集箱
+title: 软件与工具收集清单
 date: 2026-07-30T00:04:42+08:00
 draft: false
 author: JackyLee

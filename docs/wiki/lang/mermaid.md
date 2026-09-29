@@ -8,6 +8,7 @@ update_date::
 draft: true
 author: JackyLee
 tags:
+  - wiki
 categories:
 comment: true
 ---

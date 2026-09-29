@@ -1,5 +1,5 @@
 ---
-title: compare-mac-open-port
+title: macOS 端口占用排查实践
 description: macOS 查看开放端口与修改开放端口的完整方案
 date: 2026-09-10
 draft: true
@@ -13,7 +13,7 @@ categories:
 comment: true
 ---
 
-[lsof](docs/wiki/app/lsof.md)
+[lsof](lsof)
 [netstat](docs/wiki/app/netstat.md)
 [macos](docs/wiki/app/macos/macos.md)
 

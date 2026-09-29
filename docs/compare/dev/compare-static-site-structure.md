@@ -1,5 +1,5 @@
 ---
-title: collection-static-site-structure
+title: 静态网站生成器对比
 description:
 date: 2026-08-19
 update_date:

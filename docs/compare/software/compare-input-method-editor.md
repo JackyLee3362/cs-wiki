@@ -1,5 +1,5 @@
 ---
-title: collection-input-method-editor
+title: 输入法对比
 description: 输入法对比
 date: 2025-11-02
 draft: true

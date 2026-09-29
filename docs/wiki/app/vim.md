@@ -8,6 +8,7 @@ update_date:
 draft: true
 author: JackyLee
 tags:
+  - wiki
   - 命令行
   - 命令行
 categories:

@@ -1,5 +1,5 @@
 ---
-title: collection-notification
+title: 消息通知服务对比
 description:
 date: 2026-09-02
 update_date:

@@ -1,5 +1,5 @@
 ---
-title: collection-homepage
+title: 自托管导航与仪表盘对比
 description:
 date: 2026-08-27
 update_date:

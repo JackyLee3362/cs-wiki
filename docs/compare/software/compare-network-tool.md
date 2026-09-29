@@ -1,5 +1,5 @@
 ---
-title: Network Tools
+title: 网络诊断工具对比
 description: 网络工具对比
 date: 2026-09-07
 draft: true

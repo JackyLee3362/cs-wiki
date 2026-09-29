@@ -1,5 +1,5 @@
 ---
-title: collection-log-tracer
+title: 分布式链路追踪工具对比
 description:
 date: 2026-09-01
 update_date:

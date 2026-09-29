@@ -6,6 +6,7 @@ update_date:
 draft: true
 author: JackyLee
 tags:
+  - wiki
   - app/gui
 categories:
 comment: true

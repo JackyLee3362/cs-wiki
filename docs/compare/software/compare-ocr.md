@@ -1,5 +1,5 @@
 ---
-title: collection-ocr
+title: 光学字符识别工具对比
 description:
 date: 2025-11-02
 draft: true

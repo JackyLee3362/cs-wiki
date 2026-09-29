@@ -4,6 +4,7 @@ date: 2026-08-19
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - 笔记工具
 categories:
   - 编辑器工具

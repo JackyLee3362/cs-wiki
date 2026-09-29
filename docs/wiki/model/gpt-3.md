@@ -4,6 +4,7 @@ date: 2020-05-28
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - AI模型
   - LLM
   - OpenAI

@@ -1,5 +1,5 @@
 ---
-title: collection-bookmark
+title: 书签管理工具对比
 date: 2025-11-02
 draft: true
 author: JackyLee

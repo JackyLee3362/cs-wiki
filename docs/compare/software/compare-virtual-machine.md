@@ -1,6 +1,6 @@
 ---
 type: basic-note
-title: collection-vm-虚拟机
+title: 虚拟机与容器运行环境对比
 author: JackyLee
 create_time: 2025-11-02
 update_time:

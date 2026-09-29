@@ -1,5 +1,5 @@
 ---
-title: compare-db-tools
+title: 数据库辅助工具对比
 description: 数据库周边工具对比
 date: 2026-08-22
 update_date:

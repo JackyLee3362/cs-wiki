@@ -1,5 +1,5 @@
 ---
-title: compare-code-intelligence
+title: 代码智能分析工具对比
 description: AI 代码知识图谱工具选型：GitNexus / CodeGraph / Graphify / codebase-memory-mcp
 date: 2026-09-08
 draft: true

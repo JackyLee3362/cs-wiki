@@ -1,5 +1,5 @@
 ---
-title: collection-tracer
+title: 个人运动与健康记录工具对比
 description:
 date: 2026-08-20
 update_date:

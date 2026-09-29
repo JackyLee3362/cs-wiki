@@ -5,6 +5,7 @@ date: 2026-09-10
 draft: true
 author: JackyLee
 tags:
+  - wiki
   - nodejs
   - git
   - 脚手架

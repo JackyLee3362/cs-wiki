@@ -1,5 +1,5 @@
 ---
-title: macos-disk-manage-sop
+title: macOS 磁盘空间管理实践
 description:
 date: 2026-08-22
 update_date:

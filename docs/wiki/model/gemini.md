@@ -4,6 +4,7 @@ date: 2023-12-06
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - AI模型
   - LLM
   - Google

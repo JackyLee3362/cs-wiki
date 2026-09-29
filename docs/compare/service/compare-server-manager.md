@@ -1,5 +1,5 @@
 ---
-title: collection-server-manager
+title: 服务器管理工具对比
 description:
 date: 2026-09-01
 update_date:

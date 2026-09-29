@@ -4,6 +4,7 @@ date: 2025-03-14
 draft: true
 author: JackyLee
 tags:
+  - wiki
   - app/server
 categories:
 comment: true

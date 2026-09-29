@@ -1,5 +1,5 @@
 ---
-title: Awesome Photo Server
+title: 照片管理与相册服务对比
 date: 2026-08-29T10:41:27+08:00
 description:
 update_date:

@@ -1,5 +1,5 @@
 ---
-title: open-project-structure-best-practicemd
+title: 开源项目目录与文档规范
 description: 开源项目结构规范-最佳实践
 date: 2026-02-14
 update_date:

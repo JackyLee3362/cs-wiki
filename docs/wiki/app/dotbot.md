@@ -4,6 +4,7 @@ date: 2025-10-11
 draft: true
 author: JackyLee
 tags:
+  - wiki
 categories:
   - 命令行  - lang/python
   - dotfile

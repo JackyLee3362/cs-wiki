@@ -1,6 +1,7 @@
 ---
 title: markdown 基础
 tags:
+  - wiki
 create_time: 2024-10-20
 ---
 

@@ -4,6 +4,7 @@ date: 2023-11-04
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - AI模型
   - LLM
   - xAI

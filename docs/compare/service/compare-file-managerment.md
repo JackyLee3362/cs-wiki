@@ -1,5 +1,5 @@
 ---
-title: collection-file-managerment
+title: 自托管文件管理服务对比
 description:
 date: 2026-09-02
 update_date:

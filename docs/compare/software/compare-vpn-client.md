@@ -1,5 +1,5 @@
 ---
-title: collection-vpn-client
+title: 网络代理客户端对比
 date: 2026-02-14
 draft: true
 author: JackyLee

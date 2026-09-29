@@ -4,6 +4,7 @@ date: 2026-08-18
 draft: true
 author: JackyLee
 tags:
+  - wiki
   - 命令行
   - lang/perl
 categories:

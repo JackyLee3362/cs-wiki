@@ -1,5 +1,5 @@
 ---
-title: compare-db-client
+title: 数据库客户端对比
 description: 数据库客户端工具对比
 date: 2025-11-02
 update_date:

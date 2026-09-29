@@ -1,5 +1,5 @@
 ---
-title: collection-access-control-model
+title: 访问控制模型对比
 description:
 date: 2026-08-22
 update_date:

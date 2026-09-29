@@ -1,5 +1,5 @@
 ---
-title: Awesome Vpn Server
+title: 虚拟专用网络服务对比
 date: 2026-08-29T17:56:15+08:00
 description:
 update_date:

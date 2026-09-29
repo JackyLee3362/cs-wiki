@@ -1,5 +1,5 @@
 ---
-title: collection-remote-desk
+title: 远程桌面工具对比
 description: 远程桌面对比
 date: 2025-11-02
 draft: true

@@ -4,6 +4,7 @@ date: 2025-08-27
 draft: true
 author: JackyLee
 tags:
+  - wiki
   - 命令行
   - 必装软件
 categories:

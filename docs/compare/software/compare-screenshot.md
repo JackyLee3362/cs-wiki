@@ -1,5 +1,5 @@
 ---
-title: collection-screenshot
+title: 截图与屏幕录制工具对比
 description:
 date: 2025-11-02
 draft: true

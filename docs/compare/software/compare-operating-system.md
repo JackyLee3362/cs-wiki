@@ -1,5 +1,5 @@
 ---
-title: Operating System Comparison
+title: 操作系统对比
 description: 桌面与服务器操作系统选型对比
 date: 2026-09-05
 draft: true

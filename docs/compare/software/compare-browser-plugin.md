@@ -1,5 +1,5 @@
 ---
-title: Browser Plugin Comparison
+title: 浏览器扩展分类与对比
 date: 2026-09-05
 draft: false
 author: JackyLee

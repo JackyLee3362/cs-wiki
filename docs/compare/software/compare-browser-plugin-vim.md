@@ -1,5 +1,5 @@
 ---
-title: Browser Vim Plugin Comparison
+title: 浏览器 Vim 操作扩展对比
 date: 2025-03-03
 draft: false
 author: JackyLee

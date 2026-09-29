@@ -1,5 +1,5 @@
 ---
-title: collection-gui-lib
+title: 图形界面开发框架对比
 description:
 date: 2025-11-01
 draft: true

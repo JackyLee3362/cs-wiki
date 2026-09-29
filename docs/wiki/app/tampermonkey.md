@@ -4,6 +4,7 @@ date: 2024-10-19
 draft: true
 author: JackyLee
 tags:
+  - wiki
   - app/gui
 categories:
 comment: true

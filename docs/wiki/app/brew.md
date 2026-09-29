@@ -4,6 +4,7 @@ date: 2025-11-18
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - 包管理
   - macOS
 categories:

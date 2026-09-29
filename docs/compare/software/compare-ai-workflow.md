@@ -1,5 +1,5 @@
 ---
-title: collection-ai-workflow
+title: 人工智能工作流工具对比
 description:
 date: 2026-08-31
 update_date:

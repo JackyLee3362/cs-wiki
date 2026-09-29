@@ -1,5 +1,5 @@
 ---
-title: collection-dotfile
+title: 配置文件管理工具对比
 date: 2026-08-18
 draft: true
 author: JackyLee

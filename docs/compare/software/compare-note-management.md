@@ -1,5 +1,5 @@
 ---
-title: collection-note-management
+title: 笔记整理与知识管理方法
 alisa: 笔记方法论
 description:
 date: 2026-09-05

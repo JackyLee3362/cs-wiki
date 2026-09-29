@@ -1,5 +1,5 @@
 ---
-title: collection-formatter
+title: 代码格式化工具对比
 description:
 date: 2026-09-05
 draft: false

@@ -4,6 +4,7 @@ date: 2026-08-16
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - 包管理
   - Linux
 categories:

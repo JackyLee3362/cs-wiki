@@ -4,6 +4,7 @@ date: 2025-08-18
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - 概念
   - AI
 categories:

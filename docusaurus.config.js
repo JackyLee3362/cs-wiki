@@ -52,7 +52,9 @@ export default {
       title: '计算机知识库',
       items: [
         {to: '/', label: '首页', position: 'left', activeBaseRegex: '^/$'},
-        {type: 'docSidebar', sidebarId: 'docsSidebar', label: '文档', position: 'left'},
+        {type: 'docSidebar', sidebarId: 'basesSidebar', label: '基础', position: 'left'},
+        {type: 'docSidebar', sidebarId: 'wikiSidebar', label: 'wiki', position: 'left'},
+        {type: 'docSidebar', sidebarId: 'articlesSidebar', label: '文章', position: 'left'},
         {href: 'https://github.com/jackylee3362/cs-wiki', label: 'GitHub', position: 'right'},
       ],
     },

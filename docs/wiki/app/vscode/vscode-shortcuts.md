@@ -4,6 +4,7 @@ date: 2026-02-14
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - VSCode
   - IDE
   - 快捷键

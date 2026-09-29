@@ -4,6 +4,7 @@ date: 2025-05-14
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - 包管理
   - Windows
 categories:

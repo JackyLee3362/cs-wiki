@@ -1,5 +1,5 @@
 ---
-title: collection-zip
+title: 归档压缩与图片压缩工具对比
 description: 压缩软件横向对比
 date: 2025-11-02
 draft: true

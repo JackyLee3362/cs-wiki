@@ -6,6 +6,7 @@ date: 2023-04-07
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - 基础知识
   - 编译原理
 categories:

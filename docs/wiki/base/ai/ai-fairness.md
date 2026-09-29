@@ -6,6 +6,7 @@ date: 2025-02-26
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - 基础知识
   - AI
   - 可解释性

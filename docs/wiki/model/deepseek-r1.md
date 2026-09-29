@@ -4,6 +4,7 @@ date: 2025-01-20
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - AI模型
   - LLM
   - DeepSeek

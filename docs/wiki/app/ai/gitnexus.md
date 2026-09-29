@@ -5,6 +5,7 @@ date: 2026-09-08
 draft: true
 author: JackyLee
 tags:
+  - wiki
   - ai
   - 代码分析
   - 知识图谱

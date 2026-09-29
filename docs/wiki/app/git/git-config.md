@@ -4,6 +4,7 @@ date: 2025-06-25
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - Git
   - 版本管理
 categories:

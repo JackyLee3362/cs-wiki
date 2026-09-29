@@ -4,6 +4,7 @@ date: 2026-02-14
 draft: true
 author: JackyLee
 tags:
+  - wiki
 categories:
   - 命令行
 comment: true

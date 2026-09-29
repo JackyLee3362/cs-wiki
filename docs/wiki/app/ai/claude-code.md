@@ -6,6 +6,7 @@ date: 2026-05-04
 draft: true
 author: JackyLee
 tags:
+  - wiki
 categories:
   - 命令行
 comment: true

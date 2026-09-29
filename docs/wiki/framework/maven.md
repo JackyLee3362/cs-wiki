@@ -5,6 +5,7 @@ date: 2026-09-07
 draft: true
 author: JackyLee
 tags:
+  - wiki
   - java
   - 构建工具
   - 包管理

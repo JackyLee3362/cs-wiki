@@ -1,5 +1,5 @@
 ---
-title: collection-config-lib
+title: 配置管理库对比
 description: 配置解决方案
 date: 2026-02-14
 update_date:

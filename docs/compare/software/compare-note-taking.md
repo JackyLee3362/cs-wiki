@@ -1,5 +1,5 @@
 ---
-title: Collection Note Taking
+title: 笔记软件对比
 date: 2025-11-01
 draft: false
 author: JackyLee

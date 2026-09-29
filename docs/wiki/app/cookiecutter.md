@@ -5,6 +5,7 @@ date: 2026-09-10
 draft: true
 author: JackyLee
 tags:
+  - wiki
   - python
   - 脚手架
   - 模板

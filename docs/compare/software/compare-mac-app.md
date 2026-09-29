@@ -1,5 +1,5 @@
 ---
-title: collection-mac-app
+title: macOS 应用整理
 description:
 date: 2026-08-22
 update_date:

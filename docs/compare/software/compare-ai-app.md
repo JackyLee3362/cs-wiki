@@ -1,5 +1,5 @@
 ---
-title: collection-ai-app
+title: 人工智能应用工具对比
 description:
 date: 2026-08-19
 update_date:

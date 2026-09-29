@@ -4,6 +4,7 @@ date: 2018-06-11
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - AI模型
   - NLP
   - OpenAI

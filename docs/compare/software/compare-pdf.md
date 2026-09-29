@@ -1,5 +1,5 @@
 ---
-title: collection-pdf
+title: PDF 阅读与编辑工具对比
 description:
 date: 2025-11-02
 draft: true

@@ -1,5 +1,5 @@
 ---
-title: collection-shell
+title: 命令行终端与 Shell 对比
 date: 2025-11-02
 draft: true
 author: JackyLee

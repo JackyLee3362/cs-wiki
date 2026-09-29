@@ -1,5 +1,5 @@
 ---
-title: collection-monitor
+title: 系统资源监控工具对比
 description:
 date: 2026-02-14
 update_date:

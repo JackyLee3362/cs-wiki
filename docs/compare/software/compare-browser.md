@@ -1,5 +1,5 @@
 ---
-title: Browser Comparison
+title: 浏览器对比
 date: 2025-03-02
 draft: false
 author: JackyLee

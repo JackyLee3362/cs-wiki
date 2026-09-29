@@ -1,5 +1,5 @@
 ---
-title: collection-white-board
+title: 协作白板工具对比
 description:
 date: 2026-09-05
 update_date:

@@ -1,5 +1,5 @@
 ---
-title: collection-code-editor
+title: 代码编辑器与集成开发环境对比
 description:
 date: 2025-11-01
 draft: true

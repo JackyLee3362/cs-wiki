@@ -1,5 +1,5 @@
 ---
-title: collection-disk-manager
+title: 磁盘管理工具对比
 description: 磁盘管理
 date: 2025-11-02
 draft: true

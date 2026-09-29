@@ -4,6 +4,7 @@ date: 2023-02-24
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - AI模型
   - LLM
   - Meta

@@ -1,5 +1,5 @@
 ---
-title: collection-encrypt-tool
+title: 文件加密工具对比
 description: 加密工具对比
 date: 2025-11-02
 draft: true

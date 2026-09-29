@@ -1,5 +1,5 @@
 ---
-title: collection-search
+title: 搜索引擎与检索工具对比
 date: 2026-02-14
 update_date:
   - 2026-02-14

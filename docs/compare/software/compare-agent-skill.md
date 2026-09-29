@@ -1,5 +1,5 @@
 ---
-title: collection-agent-skill
+title: 智能体技能与资源整理
 description:
 date: 2026-08-19
 update_date:

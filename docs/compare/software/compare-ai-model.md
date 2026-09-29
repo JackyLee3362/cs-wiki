@@ -1,5 +1,5 @@
 ---
-title: Collection AI Model
+title: 人工智能模型分类与对比
 date: 2025-09-06
 draft: false
 author: JackyLee

@@ -4,6 +4,7 @@ date: 2023-09-27
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - AI模型
   - LLM
   - Mistral AI

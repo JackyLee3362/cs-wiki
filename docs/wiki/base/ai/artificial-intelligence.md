@@ -6,6 +6,7 @@ date: 2025-01-01
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - 基础知识
   - AI
 categories:

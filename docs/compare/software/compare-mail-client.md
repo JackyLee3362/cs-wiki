@@ -1,5 +1,5 @@
 ---
-title: collection-mail-client
+title: 电子邮件客户端对比
 description: 邮箱客户端对比
 date: 2025-11-01
 draft: true

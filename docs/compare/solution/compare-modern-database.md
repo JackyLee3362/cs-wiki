@@ -1,5 +1,5 @@
 ---
-title: Awesome Modern Database
+title: 低代码数据管理平台对比
 date: 2026-08-29T17:54:27+08:00
 description:
 update_date:

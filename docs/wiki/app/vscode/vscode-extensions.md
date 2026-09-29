@@ -4,6 +4,7 @@ date: 2025-02-26
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - VSCode
   - IDE
   - 插件

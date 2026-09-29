@@ -4,6 +4,7 @@ date: 2025-01-01
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - 包管理
 categories:
   - 命令行

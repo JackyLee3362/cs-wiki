@@ -1,5 +1,5 @@
 ---
-title: compare-db-server
+title: 数据库服务器对比
 description: 数据库服务器选型对比
 date: 2026-08-20
 update_date:

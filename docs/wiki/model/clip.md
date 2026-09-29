@@ -4,6 +4,7 @@ date: 2021-02-26
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - AI模型
   - 多模态
   - OpenAI

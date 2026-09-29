@@ -1,5 +1,5 @@
 ---
-title: collection-linux-operation
+title: Linux 运维工具与实践
 description:
 date: 2026-09-04
 update_date:

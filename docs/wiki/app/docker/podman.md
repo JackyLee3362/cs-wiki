@@ -1,15 +1,49 @@
 ---
-title: podman
+title: Podman
 description: 无守护进程、默认 rootless 的开源容器引擎，可作为 Docker 的替代品
 date: 2026-09-01
-update_date: 2026-09-11
-draft: true
+update_date: 2026-09-29
+draft: false
 author: JackyLee
 tags:
+  - wiki
 categories:
   - 命令行
 comment: true
 ---
+
+## 基本使用：启动第一个容器
+
+Linux 安装完成后，可直接以普通用户运行 rootless 容器：
+
+```sh
+podman run --rm docker.io/library/hello-world
+podman run -d --name wiki-demo -p 127.0.0.1:8080:80 docker.io/library/nginx:alpine
+podman ps
+podman logs --tail 50 wiki-demo
+curl -I http://127.0.0.1:8080
+podman stop wiki-demo
+podman rm wiki-demo
+```
+
+使用完整镜像名可避免短名解析提示。普通用户与 root 用户管理的容器和存储相互独立，排查时不要混用 sudo podman 和 podman。
+
+## Windows 与 macOS
+
+按 [官方安装说明](https://podman.io/docs/installation)安装 Podman 或 Podman Desktop 后，需要 Linux 虚拟机运行 Linux 容器：
+
+```sh
+podman machine init
+podman machine start
+podman info
+```
+
+已有 machine 时不必重复 init。完成启动后可执行上面的容器示例，使用 podman machine stop 停止虚拟机。
+
+## Compose 使用前检查
+
+podman compose 是调用外部 Compose provider 的包装命令，并不是独立的 Compose 实现。先安装兼容 provider，再在包含 compose.yaml 的目录执行 podman compose version 和 podman compose up -d。
+
 
 ## 介绍
 
@@ -72,10 +106,10 @@ sudo dnf -y install podman-docker
 
 ## podman compose
 
-Podman 内置 `podman compose`，也可使用 Python 实现的 `podman-compose`：
+Podman 提供 `podman compose` 包装命令，实际调用外部 provider；也可直接使用 Python 实现的 `podman-compose`：
 
 ```sh
-# 内置子命令
+# 通过已安装的外部 provider 运行
 podman compose up -d
 podman compose down
 
@@ -137,10 +171,10 @@ HTTP_PROXY=http://127.0.0.1:8888 HTTPS_PROXY=http://127.0.0.1:8888 NO_PROXY=127.
 ```conf
 # ssh 转发, 配合 vps 上 tinyproxy
 # ssh -N -L 127.0.0.1:8888:127.0.0.1:8888 user@domain
-export http_proxy="127.0.0.1:8888"
-export httpx_proxy="127.0.0.1:8888"
-export HTTP_PROXY="127.0.0.1:8888"
-export HTTPS_PROXY="127.0.0.1:8888"
+export http_proxy="http://127.0.0.1:8888"
+export https_proxy="http://127.0.0.1:8888"
+export HTTP_PROXY="http://127.0.0.1:8888"
+export HTTPS_PROXY="http://127.0.0.1:8888"
 ```
 
 > 测试代理链路 `curl -x http://127.0.0.1:8888 https://ifconfig.me`
@@ -165,10 +199,14 @@ sudo sysctl -p
 
 ## 参考资料
 
-- [Podman 官网](https://podman.io/)
-- [Podman 官方文档](https://docs.podman.io/)
-- [Podman 安装指南](https://podman.io/docs/installation)
-- [podman-run 手册页](https://docs.podman.io/en/latest/markdown/podman-run.1.html)
-- [containers/podman - GitHub](https://github.com/containers/podman)
-- [[译]Docker和Podman的差异 - 飞狐的部落格](https://lucumt.info/post/docker/difference-between-docker-and-podman/)
+- [Podman 官网](https://podman.io/) #todo
+- [Podman 官方文档](https://docs.podman.io/) #todo
+- [Podman 安装指南](https://podman.io/docs/installation) #todo
+- [podman-run 手册页](https://docs.podman.io/en/latest/markdown/podman-run.1.html) #todo
+- [containers/podman - GitHub](https://github.com/containers/podman) #todo
+- [[译]Docker和Podman的差异 - 飞狐的部落格](https://lucumt.info/post/docker/difference-between-docker-and-podman/) #todo
 - [24.podman-registries.conf配置文件 - 知乎](https://zhuanlan.zhihu.com/p/719978088) #todo
+
+- [原笔记链接](http://127.0.0.1:8888) #todo
+- [原笔记链接](https://ifconfig.me) #todo
+- [podman compose 手册](https://docs.podman.io/en/latest/markdown/podman-compose.1.html)

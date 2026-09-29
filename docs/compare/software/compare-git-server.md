@@ -1,5 +1,5 @@
 ---
-title: collection-git-server
+title: Git 托管服务对比
 date: 2025-11-14
 draft: true
 author: JackyLee

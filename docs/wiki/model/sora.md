@@ -4,6 +4,7 @@ date: 2024-02-15
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - AI模型
   - 视频生成
   - OpenAI

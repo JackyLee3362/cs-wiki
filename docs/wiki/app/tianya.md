@@ -4,6 +4,7 @@ date: 2026-01-01
 draft: true
 author: JackyLee
 tags:
+  - wiki
   - app/website
 categories:
 comment: true

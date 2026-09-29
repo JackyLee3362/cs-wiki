@@ -4,6 +4,7 @@ date: 2022-07-12
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - AI模型
   - 图像生成
   - 闭源

@@ -1,5 +1,5 @@
 ---
-title: collection-mindmap
+title: 思维导图工具对比
 description:
 date: 2025-11-03
 draft: true

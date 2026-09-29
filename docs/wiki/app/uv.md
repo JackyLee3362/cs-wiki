@@ -4,6 +4,7 @@ date: 2025-04-26
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - 包管理
   - Python
 categories:

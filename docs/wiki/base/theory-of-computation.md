@@ -6,6 +6,7 @@ date: 2025-11-01
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - 基础知识
   - 计算理论
 categories:

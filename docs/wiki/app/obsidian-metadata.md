@@ -4,6 +4,7 @@ date: 2026-09-05
 draft: true
 author: JackyLee
 tags:
+  - wiki
   - 命令行
   - obsidian
   - python

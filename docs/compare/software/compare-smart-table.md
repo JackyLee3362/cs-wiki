@@ -1,5 +1,5 @@
 ---
-title: collection-table
+title: 多维表格工具对比
 description:
 date: 2025-07-30
 draft: true

@@ -1,5 +1,5 @@
 ---
-title: collection-plot-tool
+title: 绘图与图表工具对比
 description: 画图工具对比
 date: 2026-02-14
 update_date:

@@ -1,5 +1,5 @@
 ---
-title: java-process-debug-sop
+title: Java 进程与 JVM 排查流程
 description: JVM 调试步骤
 date: 2025-11-03
 update_date:

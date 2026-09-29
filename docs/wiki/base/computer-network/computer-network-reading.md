@@ -6,6 +6,7 @@ date: 2025-03-02
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - 基础知识
   - 计算机网络
 categories:

@@ -4,6 +4,7 @@ date: 2017-06-12
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - AI模型
   - 架构
   - NLP

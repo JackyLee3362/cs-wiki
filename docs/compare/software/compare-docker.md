@@ -1,5 +1,5 @@
 ---
-title: Awesome 同步类工具
+title: 容器管理与部署工具对比
 date: 2026-08-15T00:17:30+08:00
 draft: true
 author: JackyLee

@@ -4,6 +4,7 @@ date: 2026-01-01
 draft: false
 author: JackyLee
 tags:
+  - wiki
   - app/gui
   - 浏览器
 categories:
