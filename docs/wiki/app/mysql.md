@@ -132,3 +132,5 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY '新密码';
 ```ini
 skip_grant_tables
 ```
+
+补充：[密码恢复流程](docs/wiki/app/mysql/password-recovery.md)。

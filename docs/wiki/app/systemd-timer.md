@@ -15,7 +15,7 @@ comment: true
 
 ```sh
 # 列出全部timer，包括系统自带 + 你自己创建的
-systemctl list-timers
+systemctl list-timers --all
 
 # 看自建timer详情
 systemctl cat some-app-backup.timer
@@ -54,3 +54,19 @@ sudo systemctl stop some-app-backup.timer
 # 禁用开机自启
 sudo systemctl disable some-app-backup.timer
 ```
+
+## 最佳实践
+
+```sh
+# 提交启动作业后立即返回，不代表任务已完成
+sudo systemctl start --no-block some-app-backup.service
+# 查看日志
+journalctl -u some-app-backup.service -f
+
+```
+
+## 相关条目
+
+- [systemctl：管理服务与定时器](docs/wiki/app/systemctl.md)
+- [journalctl：查询任务日志](docs/wiki/app/journalctl.md)
+- [Linux 定时任务运维手册](docs/solution/linux-scheduled-task-operations.md)

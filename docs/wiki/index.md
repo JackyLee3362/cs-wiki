@@ -30,3 +30,8 @@ comment: true
 - [fzf](docs/wiki/app/fzf.md)：终端中的模糊查找。
 - [uv](docs/wiki/app/uv.md)、[npm](docs/wiki/app/npm.md) 与 [pnpm](docs/wiki/app/pnpm.md)：项目环境与依赖管理。
 - [Scoop](docs/wiki/app/scoop.md) 与 [Homebrew](docs/wiki/app/brew.md)：系统软件安装与维护。
+- [Cryptomator](docs/wiki/app/cryptomator.md)：云盘文件客户端加密。
+- [Ansible](docs/wiki/app/ansible.md)：批量配置与自动化运维。
+- [Squid](docs/wiki/app/squid.md)：正向代理与访问控制。
+- [Harbor](docs/wiki/app/harbor.md)：私有镜像仓库与制品管理。
+- [systemctl](docs/wiki/app/systemctl.md) 与 [journalctl](docs/wiki/app/journalctl.md)：服务管理与日志查询。

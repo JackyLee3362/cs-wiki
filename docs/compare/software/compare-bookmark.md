@@ -8,6 +8,8 @@ categories:
 comment: true
 ---
 
+自部署服务器选型见[Karakeep、Linkwarden 与其他开源收藏夹服务对比](docs/compare/service/compare-bookmark-server.md)。
+
 ## Raindrop.io
 
 书签管理工具，用于保存和组织网页链接
