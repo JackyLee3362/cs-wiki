@@ -30,3 +30,37 @@
 }
 .navbar-github-link:hover {color: var(--ifm-color-primary); background: var(--ifm-hover-overlay);}
 .navbar-github-link:focus-visible {outline: 2px solid var(--ifm-color-primary); outline-offset: 2px;}
+
+:root {--ifm-navbar-height: 6.5rem;}
+.navbar__inner.wiki-navbar {display: block; width: 100%;}
+.wiki-navbar__top {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(15rem, 22rem) minmax(0, 1fr);
+  align-items: center;
+  min-height: 3rem;
+  gap: 1rem;
+}
+.wiki-navbar__brand, .wiki-navbar__actions {display: flex; align-items: center;}
+.wiki-navbar__actions {justify-content: flex-end;}
+.wiki-navbar__search {min-width: 0;}
+.wiki-navbar__search .navbar__search {width: 100%; margin: 0;}
+.wiki-navbar__search .navbar__search > span {display: block; width: 100%;}
+.wiki-navbar__search .navbar__search-input {width: 100% !important;}
+.wiki-navbar__search .navbar__search [class*='dropdownMenu'] {
+  position: absolute;
+  left: 50% !important;
+  right: auto !important;
+  width: min(35rem, calc(100vw - 2rem));
+  max-width: calc(100vw - 2rem);
+  transform: translateX(-50%);
+  z-index: 10;
+}
+.wiki-navbar__links {display: flex; align-items: center; justify-content: center; min-height: 2.5rem;}
+.wiki-navbar__links .navbar__item {padding-block: .45rem;}
+.wiki-navbar__actions .navbar-github-link {margin-right: 0;}
+@media (max-width: 996px) {
+  .wiki-navbar__top {grid-template-columns: minmax(0, 1fr) auto; grid-template-rows: 2.75rem 2.75rem; gap: 0 .5rem;}
+  .wiki-navbar__search {grid-column: 1 / -1; grid-row: 2; width: min(22rem, 100%); justify-self: center;}
+  .wiki-navbar__actions {grid-column: 2; grid-row: 1;}
+  .wiki-navbar__links {display: none;}
+}
