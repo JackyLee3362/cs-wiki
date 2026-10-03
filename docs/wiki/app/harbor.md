@@ -25,6 +25,7 @@ docker pull registry.example.com/demo/app:1.0
 
 ## 参考资料
 
+- [横向比较：Harbor 与其他镜像仓库](docs/compare/service/compare-container-registry.md)
 - [官网](https://goharbor.io/)
 - [源码](https://github.com/goharbor/harbor)
 - [官方文档](https://goharbor.io/docs/)

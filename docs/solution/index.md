@@ -22,3 +22,4 @@ comment: true
 - [Squid：配置受限的本地正向代理](docs/solution/squid-restricted-proxy.md)
 - [Harbor：私有镜像推送与验证](docs/solution/harbor-image-publish.md)
 - [Linux 定时任务运维手册](docs/solution/linux-scheduled-task-operations.md)
+- [工具资料采集与 AI 报告流水线](docs/solution/tool-research-pipeline.md)

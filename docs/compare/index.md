@@ -17,4 +17,8 @@ comment: true
 
 ## 自部署服务
 
+- [自托管首页：Homepage、Glance 与其他工具](docs/compare/service/compare-homepage.md)
 - [收藏夹服务：Karakeep、Linkwarden 与其他开源工具](docs/compare/service/compare-bookmark-server.md)
+- [正向代理：Squid、Tinyproxy 与 Privoxy](docs/compare/service/compare-forward-proxy.md)
+- [镜像仓库：Harbor、Distribution、GitLab 与 Gitea](docs/compare/service/compare-container-registry.md)
+- [主机配置管理：Ansible、Shell、Salt 与 Puppet](docs/compare/service/compare-configuration-management.md)

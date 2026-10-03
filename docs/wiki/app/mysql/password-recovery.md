@@ -57,5 +57,5 @@ ALTER USER '<账号>'@'<Host>' IDENTIFIED BY '<新密码>';
 - [镜像环境变量](https://mariadb.com/docs/server/server-management/install-and-upgrade-mariadb/installing-mariadb/binary-packages/automated-mariadb-deployment-and-administration/docker-and-mariadb/mariadb-server-docker-official-image-environment-variables) #todo
 - [ALTER USER](https://mariadb.com/docs/server/reference/sql-statements/account-management-sql-statements/alter-user) #todo
 - [恢复参数](https://mariadb.com/docs/server/server-management/starting-and-stopping-mariadb/mariadbd-options) #todo
-- [MySQL](docs/wiki/app/mysql.md) · [Podman](docs/wiki/app/docker/podman.md)
+- [MySQL](docs/wiki/app/mysql.md) · [Podman](docs/wiki/app/docker/podman/index.md)
 - [原始聊天](https://chatgpt.com/share/6abf6199-dc40-83e8-b7a2-10d58b78dcee) #todo

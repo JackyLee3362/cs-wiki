@@ -1,8 +1,9 @@
 ---
 title: Podman
+slug: /wiki/app/docker/podman/
 description: 无守护进程、默认 rootless 的开源容器引擎，可作为 Docker 的替代品
 date: 2026-09-01
-update_date: 2026-09-29
+update_date: 2026-10-03
 draft: false
 author: JackyLee
 tags:
@@ -11,6 +12,8 @@ categories:
   - 命令行
 comment: true
 ---
+
+本目录分为 [Podman 基础](docs/wiki/app/docker/podman/index.md)、[Podman build](docs/wiki/app/docker/podman/podman-build.md) 和 [Podman Compose](docs/wiki/app/docker/podman/podman-compose.md)。
 
 ## 基本使用：启动第一个容器
 
@@ -39,11 +42,6 @@ podman info
 ```
 
 已有 machine 时不必重复 init。完成启动后可执行上面的容器示例，使用 podman machine stop 停止虚拟机。
-
-## Compose 使用前检查
-
-podman compose 是调用外部 Compose provider 的包装命令，并不是独立的 Compose 实现。先安装兼容 provider，再在包含 compose.yaml 的目录执行 podman compose version 和 podman compose up -d。
-
 
 ## 介绍
 
@@ -104,20 +102,6 @@ Fedora / RHEL 也可安装 `podman-docker`，它提供 `/usr/bin/docker` 的兼�
 sudo dnf -y install podman-docker
 ```
 
-## podman compose
-
-Podman 提供 `podman compose` 包装命令，实际调用外部 provider；也可直接使用 Python 实现的 `podman-compose`：
-
-```sh
-# 通过已安装的外部 provider 运行
-podman compose up -d
-podman compose down
-
-# 第三方 podman-compose
-pipx install podman-compose
-podman-compose up -d
-```
-
 ## pod（Pod 概念）
 
 Pod 是 Podman 相比 Docker 的差异化能力，可将多个容器放进同一个 pod，共享网络命名空间与端口：
@@ -135,28 +119,24 @@ podman pod stop mypod
 podman pod rm mypod
 ```
 
-## 镜像仓库配置 registries.conf
+## 镜像仓库配置 `registries.conf`
 
-`registries.conf` 控制短名镜像（如 `podman pull nginx`）的搜索仓库与镜像加速（mirror）：
+正确文件名是 `registries.conf`，不是 `register.conf`。系统配置位于 `/etc/containers/registries.conf`；当前用户若有 `~/.config/containers/registries.conf`，它会取代系统主配置，而非与其自动合并。Windows / macOS 的容器在 Podman machine 虚拟机内运行，需先用 `podman machine ssh` 进入虚拟机再编辑对应文件。
+
+示例使用占位镜像仓库，只有镜像服务确实提供 Docker Hub 的同路径镜像时才能替换成真实地址：
 
 ```toml
-# /etc/containers/registries.conf（root 用户）
-# ~/.config/containers/registries.conf（rootless 用户）
+unqualified-search-registries = ["docker.io"]
 
-# 短名搜索顺序
-unqualified-search-registries = ["docker.io", "quay.io"]
-
-# 为 docker.io 配置镜像加速
 [[registry]]
 prefix = "docker.io"
 location = "docker.io"
 
 [[registry.mirror]]
-location = "docker.m.daocloud.io"
-
-[[registry.mirror]]
-location = "docker.1ms.run"
+location = "mirror.example.com"
 ```
+
+`unqualified-search-registries` 只影响 `podman pull nginx` 之类的短名解析；使用 `docker.io/library/nginx:alpine` 可消除来源歧义。拉取 `docker.io` 镜像时，`[[registry.mirror]]` 按顺序尝试，随后才回退到原仓库；它不改变推送目标，也不保证第三方镜像服务可用或与原站 tag 内容一致。修改后执行 `podman --log-level=debug pull docker.io/library/nginx:alpine`，核对实际访问的仓库；生产环境优先固定 digest。
 
 ## 代理
 
@@ -204,6 +184,9 @@ sudo sysctl -p
 - [官网](https://podman.io/)
 - [GitHub 仓库](https://github.com/podman-container-tools/podman)
 - [官方文档](https://docs.podman.io/)
+- [registries.conf 手册](https://github.com/containers/image/blob/main/docs/containers-registries.conf.5.md)
+- [安装说明（含 machine 仓库配置）](https://podman.io/docs/installation)
+- [podman build 手册](https://docs.podman.io/en/latest/markdown/podman-build.1.html)
 
 ### 相关文章
 
@@ -211,6 +194,8 @@ sudo sysctl -p
 
 ### 其他参考链接
 
+- [原笔记镜像候选 docker.m.daocloud.io](https://docker.m.daocloud.io) #todo
+- [原笔记镜像候选 docker.1ms.run](https://docker.1ms.run) #todo
 - [Podman 官网](https://podman.io/) #todo
 - [Podman 官方文档](https://docs.podman.io/) #todo
 - [Podman 安装指南](https://podman.io/docs/installation) #todo

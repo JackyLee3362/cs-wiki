@@ -110,7 +110,7 @@ sudo journalctl -u docker --no-pager -n 50 | grep -i "daemon.json\|mirror\|error
 
 ### 相关文章
 
-- [Podman](docs/wiki/app/docker/podman.md)
+- [Podman](docs/wiki/app/docker/podman/index.md)
 - [Caddy](docs/wiki/app/caddy.md)
 
 ### 其他参考链接

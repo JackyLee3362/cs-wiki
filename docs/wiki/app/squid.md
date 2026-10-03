@@ -25,6 +25,7 @@ sudo squid -k parse
 
 ## 参考资料
 
+- [横向比较：Squid、Tinyproxy 与 Privoxy](docs/compare/service/compare-forward-proxy.md)
 - [官网](https://www.squid-cache.org/)
 - [源码](https://github.com/squid-cache/squid)
 - [配置文档](https://www.squid-cache.org/Doc/config/)

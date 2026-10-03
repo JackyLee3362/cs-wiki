@@ -5,6 +5,8 @@ description: 通过项目权限和机器人账户发布容器镜像。
 
 目标：把应用镜像推到团队私有仓库。依赖已配置 HTTPS 的 [Harbor](docs/wiki/app/harbor.md) 和 Docker 客户端；域名、项目和账户均为示例，未连接实际仓库验证。
 
+选型见[容器镜像仓库对比](docs/compare/service/compare-container-registry.md)。
+
 ## 发布流程
 
 1. 创建私有项目 `demo`，建立具有 Pull Repository 和 Push Repository 权限的项目机器人账户，并设置有效期。

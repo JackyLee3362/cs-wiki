@@ -31,6 +31,7 @@ ansible-playbook -i inventory.ini site.yml --check --diff
 
 ## 参考资料
 
+- [横向比较：Ansible、Shell、Salt 与 Puppet](docs/compare/service/compare-configuration-management.md)
 - [官网](https://www.ansible.com/)
 - [源码](https://github.com/ansible/ansible)
 - [官方文档](https://docs.ansible.com/projects/ansible/latest/)

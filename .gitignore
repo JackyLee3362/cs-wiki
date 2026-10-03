@@ -30,3 +30,6 @@ build/
 .docusaurus/
 .env.local
 npm-debug.log*
+
+# AI
+.agents

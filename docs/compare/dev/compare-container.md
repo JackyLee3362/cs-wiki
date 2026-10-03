@@ -11,7 +11,7 @@ comment: true
 ---
 
 [docker](docs/wiki/app/docker/docker.md)
-[podman](docs/wiki/app/docker/podman.md)
+[podman](docs/wiki/app/docker/podman/index.md)
 
 ## 参考资料
 
