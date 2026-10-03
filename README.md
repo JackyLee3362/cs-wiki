@@ -31,7 +31,7 @@ npm run serve
 
 - docs/：原 pages/ 的全部内容，保留目录结构，正文双链已迁移为标准 Markdown 链接。
 - cache/：保持原样，不参与站点构建。
-- 临时收集箱：[collection-note.local](../../Note.local/collection-note.local/README.md)，src/ 暂存待处理内容；用户确认后由目标仓库 skill 承接，全部分支验证完成后清理源项，不新增永久对话摘要。
+- 临时收集箱：[collection-note.local](../../Note.local/collection-note.local/README.md)，src/ 暂存待处理内容；用户确认后按目标仓库 AGENTS.md 承接，全部分支验证完成后清理源项，不新增永久对话摘要。
 - 内容分流：计算机通用知识 → cs-wiki，计算机随笔 → jackylee3362.github.io；公共知识 → common-wiki，日常随笔 → ob-note。一个事件可拆为知识与随笔，同一正文不复制。不再需要的内容经确认进入 archivebox（archive-note.local）；devops 历史内容逐步迁移。
 - sidebars.js：基础知识按数据结构、计算机网络、计算机组成原理和操作系统分成独立侧边栏，顶部「基础」下拉菜单提供分类入口；章节通过 _category_.json 配置中文名称和顺序。wiki、自部署、工具比较、解决方案和工作按各自目录生成独立侧边栏；工作栏目位于 docs/work/，记录工作中遇到的问题。问题与解答保留总览入口和独立侧边栏。
 - docusaurus.config.js：中文站点、根路径文档、数学公式与 Mermaid 配置。
@@ -42,7 +42,7 @@ npm run serve
 
 文档内链接统一使用 `[名称](docs/目录/文件.md)`，标题锚点使用 `[名称](docs/目录/文件.md#标题)`。笔记嵌入转为跳转链接，不内嵌正文。代码块、行内代码和模板示例中的双链保持原样。
 
-计算机通用知识由 `.agents/skills/cs-wiki-skill/SKILL.md` 承接，返回实际文件位置、网站页面与验证状态。collection 不保存完成后的对话摘要；所有分支验证成功后清除对应 src 源项，失败时保留未完成状态。
+计算机通用知识按本仓库 `AGENTS.md` 承接，返回实际文件位置、网站页面与验证状态。collection 不保存完成后的对话摘要；所有分支验证成功后清除对应 src 源项，失败时保留未完成状态。
 
 完善 wiki 工具条目时，在「参考资料」中提供官网、GitHub 仓库或源码镜像、官方文档、站内相关文章和其他参考链接；源码镜像需注明来源，原有外部链接保留并添加 #todo。
 

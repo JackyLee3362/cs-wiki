@@ -29,7 +29,7 @@ export default {
       indexPages: true,
       highlightSearchTermsOnTargetPage: true,
       explicitSearchResultPath: true,
-      searchBarShortcut: false,
+      searchBarShortcut: true,
     }],
   ],
   presets: [['classic', {
