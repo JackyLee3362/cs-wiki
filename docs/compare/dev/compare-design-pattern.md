@@ -10,4 +10,4 @@ categories:
 comment: true
 ---
 
-[责任链模式](docs/wiki/concept/chain-of-responsibility-pattern.md)
+[责任链模式](docs/wiki/theory/software-engineering/chain-of-responsibility-pattern.md)

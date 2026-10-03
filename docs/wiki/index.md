@@ -3,7 +3,7 @@ title: wiki 知识条目
 sidebar_position: 0
 description:
 date: 2026-09-06
-update_date:
+update_date: 2026-10-03
 draft: false
 author: JackyLee
 tags:
@@ -13,6 +13,10 @@ comment: true
 ---
 
 按技术主题整理概念、工具和语言，工具条目包含安装、验证与基本使用示例。
+
+## 理论与原理
+
+- [计算机理论](docs/wiki/theory/index.md)：基础课程、算法、网络、操作系统及其他理论主题。
 
 ## 安装与入门
 

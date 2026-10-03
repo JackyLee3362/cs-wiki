@@ -99,5 +99,5 @@ rclone ls 连接名:
 
 ### 相关文章
 
-- [Syncthing](cs-wiki/docs/wiki/app/syncthing)
+- [Syncthing](docs/wiki/app/syncthing.md)
 - [restic](docs/wiki/app/backup/restic.md)

@@ -80,4 +80,4 @@ SET TRANSACTION ISOLATION LEVEL SERIALIZABLE;
 
 ## 死锁
 
-详见 [deadlock](docs/deadlock.md) 与 [distributed-transaction](docs/wiki/concept/distributed-transaction.md)。
+详见 [deadlock](docs/deadlock.md) 与 [distributed-transaction](docs/wiki/theory/distributed-systems/distributed-transaction.md)。

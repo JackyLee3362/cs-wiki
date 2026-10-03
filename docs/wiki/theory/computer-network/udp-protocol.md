@@ -1,0 +1,19 @@
+---
+title: UDP 协议
+alias:
+  - UDP Protocol
+date: 2025-01-01
+draft: false
+author: JackyLee
+tags:
+  - wiki
+  - 基础知识
+  - 计算机网络
+  - UDP
+categories:
+  - 计算机科学
+comment: true
+update_date: 2026-10-03
+---
+
+User Datagram Protocol

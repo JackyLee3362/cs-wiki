@@ -12,4 +12,4 @@ comment: true
 
 权限控制模型
 
-[rbac](docs/wiki/concept/rbac.md)
+[rbac](docs/wiki/theory/security/rbac.md)

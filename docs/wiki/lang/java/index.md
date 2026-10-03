@@ -40,7 +40,7 @@ comment: true
 
 ## 数据结构
 
-- [data-structure](docs/wiki/base/data-structure/data-structure.md)
+- [data-structure](docs/wiki/theory/data-structures/data-structure.md)
 
 ## Spring
 
