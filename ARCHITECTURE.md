@@ -1,60 +1,74 @@
-# 文档架构（重设计草案）
+# 文档架构
 
-只描述 `docs/` 的目标结构与归档边界。目录树依据实际 `tree /A` 输出整理，最多展开三层，每个展示项都有说明；规划目录明确标注，尚未执行正文迁移。
+正文以知识、选型、实践三类组织。本轮已将基础课程、原 base 与 concept 迁入 `wiki/theory`，将自部署迁入 `solution/self-hosted`。大类名称与部分子分类仍待确定。
 
-## 目标目录
+## 已落地的目录职责
+
+只展示 `docs/`；结构依据 `tree /A` 输出整理，最多展开三层，省略叶子文档与无正文的空目录。应用细分不在此逐个展开。
 
 ```text
- docs/                              # 唯一知识正文根目录
- +---index.md                       # 总览，只聚合栏目入口
- +---bases                          # 按课程章节学习基础原理
- |   +---computer-network           # 计算机网络
- |   +---computer-organization      # 计算机组成原理
- |   +---data-structures            # 数据结构与算法
- |   \---operating-system          # 操作系统
- +---lang                           # 语言语法、标准与工程实践
- |   +---cpp                        # C++
- |   +---css                        # CSS
- |   +---go                         # Go
- |   +---html                       # HTML
- |   +---java                       # Java
- |   +---javascript                 # JavaScript
- |   +---python                     # Python
- |   +---rust                       # Rust
- |   +---shell                      # Shell，规划从 wiki/lang 迁入
- |   +---sql                        # SQL，规划从 wiki/lang 迁入
- |   \---其他语言目录              # 按实际内容建立，如 YAML、TOML、XML
- +---wiki                           # 按主题查询独立知识条目
- |   +---app                        # 软件、命令与平台；按应用集中维护
- |   |   \---<应用>/               # 按实际名称建目录，集中用法与部署
- |   +---concept                    # 基础课程体系之外的技术概念
- |   +---framework                  # 开发框架与组件体系
- |   +---model                      # 模型原理与特性；产品客户端归 app
- |   \---skill                     # 独立技术技能；完整任务流程归 solution
- +---compare                        # 多个选项的差异、取舍与选型
- |   +---dev                        # 开发库、技术与架构比较
- |   +---service                    # 服务端与自托管服务比较
- |   +---software                   # 客户端与通用软件比较
- |   \---solution                  # 备份、组网等整体方案比较
- \---solution                      # 跨工具操作方案、排查步骤与实践手册
+docs/                                   # 知识正文根目录
++---index.md                            # 站点总览，聚合栏目入口
++---articles.md                         # 历史文章索引，待并入相应栏目
++---wiki                                # 单主题知识，回答是什么、如何工作和基本用法
+|   +---index.md                        # 知识条目入口
+|   +---app                             # 软件、命令和平台条目
+|   +---framework                       # 开发框架
+|   +---model                           # 模型原理与特性
+|   +---skill                           # 独立技术技能；完整任务流程归实践类
+|   +---lang                            # 现有语言条目，待与根目录 lang 统一
+|   \---theory                          # 基础课程、概念与原理，已完成迁移
+|       +---artificial-intelligence     # 人工智能与机器学习
+|       +---computer-network            # 计算机网络
+|       +---computer-organization       # 计算机组成原理
+|       +---data-engineering            # 数据仓库与数据处理
+|       +---data-structures             # 数据结构与算法
+|       +---distributed-systems         # 分布式系统
+|       +---information-theory          # 信息论
+|       +---operating-system            # 操作系统
+|       +---product                     # 产品与业务概念，归档位置待复核
+|       +---reading                     # 基础知识阅读入口
+|       +---security                    # 密码学、认证与访问控制
+|       +---software-engineering        # 编译原理、设计模式与软件工程
+|       \---theory-of-computation       # 计算理论
++---compare                             # 多选项比较与选型，名称暂用
+|   +---dev                             # 开发技术与库的比较
+|   +---service                         # 服务端产品比较
+|   +---software                        # 通用软件比较
+|   +---solution                        # 整体方案比较
+|   \---sop                             # 历史操作文档，待移入实践类
++---solution                            # 任务步骤、系统方案与排查方法，名称暂用
+|   \---self-hosted                     # 自部署配置、启动验证、备份恢复与运维
++---lang                                # 现有语言学习内容，待并入 wiki 内的语言分类
++---work                                # 混合历史内容，按下方方案逐篇归档
+\---issue                               # 仅有问题入口，拟并入实践类
 ```
 
-各栏目用 `index.md` 聚合入口，`_category_.json` 设置分类名称和排序；叶子文档按主题维护，不逐篇列出。单篇应用条目可直接使用 `<应用>.md`，正文较多时拆为应用目录中的 `index.md`、`deployment.md` 等。
+`index.md` 聚合入口，`_category_.json` 设置分类名称与排序。课程章节和独立条目在学科内共存，原有正文与引用保留；26 组同名但不同正文的概念条目暂用 `-concept.md` 区分，待逐篇合并精简。
 
-## 归档边界
+## 正文引用方向
 
-- 基础课程知识放 `bases`，语言学习放 `lang`；`wiki` 按工具、平台和独立技术主题组织。
-- 基础概念只维护一份正文，例如虚拟内存归 `bases/operating-system`，其他条目引用它。
-- 单应用的安装、用法、部署、升级和恢复集中在 `wiki/app`；`self-hosted` 不再作为独立目标分类。
-- `service`、`cli`、`gui` 是可重叠的工具属性，不据此拆散同一应用正文。
-- “选哪个”放 `compare`；“完成一个任务、排查一个问题”放 `solution`，通过链接引用相关应用。
-- 只保存通用知识，具体现场、操作经过与个人经历归对应私有记录或随笔仓库。
+```text
+compare  ───> wiki                      # 选型引用产品事实与原理
+solution ───> compare                   # 实践引用已有选型结论
+solution ───> wiki                      # 实践引用工具用法与基础原理
+```
 
-## 待迁移内容
+wiki 不重复维护比较结论或完整实践流程；compare 不复制工具教程；solution 不复述原理。索引导航可跨类关联，不视为正文依赖。现有反向引用后续逐篇整理。
 
-1. `wiki/base` 归入 `bases`；`wiki/concept` 中属于基础课程的条目同时核对，合并重复内容并保留独特正文。
-2. `wiki/lang` 按语言归入 `lang`；解释器、编译器的工具用法仍归 `wiki/app`。
-3. `self-hosted` 的应用正文归相应应用目录，跨工具方案归 `solution`；`compare/sop` 的操作步骤也归 `solution`。
-4. `work` 逐篇按主题归档，现场与个人内容单独确认去向；`issue` 的通用排查内容并入 `solution`。
-5. 移除迁空目录和空的 `docs/docs`，同步栏目入口、导航及引用，保留旧网址兼容入口。
-6. 运行链接测试和生产构建，检查导航、草稿排除和旧链接；完成后将本草案改为实际架构。
+## work 与 issue 的分类方案
+
+- `work/mysql.md`、`work/redis.md`：归对应 `wiki/app` 的专题问答；与已有正文核对，避免重复。
+- `work/microservices.md`：原理归 `wiki/theory/distributed-systems`，设计步骤归实践类；整篇迁移前先拆分内容。
+- `work/moc-color-颜色.md`：提取日志配色配置，归对应工具或开发主题。
+- `work/程序员.md`、`work/独立开发.md` 和两篇阅读材料：混有技术、职业与个人内容，逐项分流，不整体塞进某一知识目录。
+- `work/index.md`：全部内容归档完成后删除该入口，不再按“工作场景”建分类。
+- `issue/index.md`：当前无独立问题正文，拟删除入口；以后可复用的排查文章归实践类，现场日志归私有记录。
+
+以上为待执行方案，本轮未搬迁 work、issue 或语言目录。迁移直接更新站内引用和导航，不设置旧网址兼容入口。
+
+## 大类命名建议
+
+建议 `wiki / decisions / guides`，对应知识、选型和实践。`decisions` 比 compare 更强调选择结论，`guides` 能覆盖部署、任务步骤和排查；现有 compare、solution 暂不改名。
+
+`doc`、`article` 和 `post` 是文体名称，无法区分三类职责。若更喜欢“专题分析＋实战手册”，可选 `wiki / analysis / handbook`；正式改名时同步迁移所有引用。

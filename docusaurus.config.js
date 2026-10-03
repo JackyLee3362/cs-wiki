@@ -53,7 +53,7 @@ export default {
       items: [
         {to: '/', label: '首页', position: 'left', activeBaseRegex: '^/$'},
         {type: 'dropdown', label: '基础', position: 'left', items: [
-          {type: 'docSidebar', sidebarId: 'basesSidebar', label: '基础知识总览'},
+          {type: 'docSidebar', sidebarId: 'theorySidebar', label: '理论与原理总览'},
           {type: 'docSidebar', sidebarId: 'dataStructuresSidebar', label: '数据结构'},
           {type: 'docSidebar', sidebarId: 'computerNetworkSidebar', label: '计算机网络'},
           {type: 'docSidebar', sidebarId: 'computerOrganizationSidebar', label: '计算机组成原理'},
@@ -71,7 +71,6 @@ export default {
           {type: 'docSidebar', sidebarId: 'cssSidebar', label: 'CSS'},
         ]},
         {type: 'docSidebar', sidebarId: 'wikiSidebar', label: 'wiki', position: 'left'},
-        {type: 'docSidebar', sidebarId: 'selfHostedSidebar', label: '自部署', position: 'left'},
         {type: 'docSidebar', sidebarId: 'compareSidebar', label: '工具比较', position: 'left'},
         {type: 'docSidebar', sidebarId: 'solutionSidebar', label: '解决方案', position: 'left'},
         {type: 'docSidebar', sidebarId: 'workSidebar', label: '工作', position: 'left'},

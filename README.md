@@ -35,10 +35,10 @@ npm run serve
 - cache/：保持原样，不参与站点构建。
 - 临时收集箱：[collection-note.local](../../Note.local/collection-note.local/README.md)，src/ 暂存待处理内容；用户确认后按目标仓库 AGENTS.md 承接，全部分支验证完成后清理源项，不新增永久对话摘要。
 - 内容分流：计算机通用知识 → cs-wiki，计算机随笔 → jackylee3362.github.io；公共知识 → common-wiki，日常随笔 → ob-note。一个事件可拆为知识与随笔，同一正文不复制。不再需要的内容经确认进入 archivebox（archive-note.local）；devops 历史内容逐步迁移。
-- sidebars.js：基础知识按数据结构、计算机网络、计算机组成原理和操作系统分成独立侧边栏，顶部「基础」下拉菜单提供分类入口；章节通过 _category_.json 配置中文名称和顺序。wiki、自部署、工具比较、解决方案和工作按各自目录生成独立侧边栏；工作栏目位于 docs/work/，记录工作中遇到的问题。问题与解答保留总览入口和独立侧边栏。
+- sidebars.js：wiki/theory 汇集基础课程和按主题归档的概念，四门基础课程保留独立侧边栏，顶部「基础」下拉菜单提供分类入口；章节通过 _category_.json 配置中文名称和顺序。wiki、自部署、工具比较、解决方案和工作按各自目录生成独立侧边栏；工作栏目位于 docs/work/，记录工作中遇到的问题。问题与解答保留总览入口和独立侧边栏。
 - docusaurus.config.js：中文站点、根路径文档、数学公式与 Mermaid 配置。
 - docs/lang/：顶部「语言」下拉菜单的内容目录，python、java、cpp、go、javascript、rust、html、css 各有独立目录、首页和自动生成的侧边栏。
-- docs/self-hosted/：顶部「自部署」栏目的内容目录，按应用整理 compose.yaml、启动、备份恢复、运维与踩坑记录，Markdown 文档自动生成独立侧边栏。
+- docs/solution/self-hosted/：解决方案下的自部署分类，按应用整理 compose.yaml、启动、备份恢复、运维与踩坑记录，Markdown 文档自动生成独立侧边栏。
 - plugins/remark-project-links.mjs：让 Docusaurus 解析以项目根目录为基准的 docs/ 链接。
 - link-migration-report.json：无法唯一定位目标的链接及候选文件，供人工核对。
 
