@@ -1,6 +1,12 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import {listDocuments} from './remark-wiki-links.mjs';
+
+function listDocuments(root) {
+  return fs.readdirSync(root, {withFileTypes: true}).flatMap((entry) => {
+    const absolute = path.join(root, entry.name);
+    return entry.isDirectory() ? listDocuments(absolute) : absolute.endsWith('.md') ? [absolute] : [];
+  });
+}
 
 export function transformProjectLinks(tree, source, root, files, drafts = new Set(), production = false) {
   function walk(parent) {
