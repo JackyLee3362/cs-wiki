@@ -15,7 +15,8 @@ update_date: 2026-10-03
 
 ## 定义
 
-HTTP（HyperText Transfer Protocol，超文本传输协议）是应用层协议，用于在 Web 浏览器和服务器之间传输超文本数据，是万维网（WWW）的基础。
+HTTP（HyperText Transfer Protocol，超文本传输协议）是应用层协议，
+用于在 Web 浏览器和服务器之间传输超文本数据，是万维网（WWW）的基础。
 
 ## 特点
 
@@ -50,3 +51,19 @@ HTTP（HyperText Transfer Protocol，超文本传输协议）是应用层协议�
 - **HTTP/1.1**：持久连接、管道化、分块传输
 - **HTTP/2**：二进制分帧、多路复用、头部压缩、服务器推送
 - **HTTP/3**：基于 QUIC（UDP），减少连接建立延迟
+
+## 常用工具
+
+使用 curl -I 返回内容如下 #todo 解释下面返回内容的含义
+
+```sh
+curl -I https://www.baidu.com
+
+HTTP/1.1 200 OK
+Cache-Control: private, no-cache, no-store, proxy-revalidate, no-transform
+Content-Length: 0
+Content-Type: text/html
+Pragma: no-cache
+Server: bfe
+Date: Sun, 04 Oct 2026 14:58:03 GMT
+```

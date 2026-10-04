@@ -13,30 +13,49 @@ update_date: 2026-09-29
 
 ## 简介
 
-curl 用于通过 URL 收发数据，常用于下载文件和检查 HTTP 接口。以下示例使用命令行程序；Windows PowerShell 中显式写 curl.exe 可避开旧版 PowerShell 的同名别名。
+curl 用于通过 URL 收发数据，常用于下载文件和检查 HTTP 接口。
+Windows PowerShell 中显式写 curl.exe 可避开旧版 PowerShell 的同名别名。
 
-## 安装与验证
+## 安装
 
 ```sh
 # Ubuntu / Debian
 sudo apt update
 sudo apt install curl
+# 查看版本
 curl --version
 ```
 
-Windows 可先运行 curl.exe --version；macOS 可先运行 curl --version。若不存在，再按 [官方安装入口](https://curl.se/download.html)选择对应平台。
+Windows 可先运行 curl.exe --version；
+macOS 可先运行 curl --version。
+若不存在，再按 [官方安装入口](https://curl.se/download.html)选择对应平台。
 
-## 查看网页与响应头
+## 查看帮助
+
+```sh
+tldr curl
+man curl
+curl --manual
+```
+
+- [curl 参数手册](https://curl.se/docs/manpage.html)
+
+## 查看响应头
+
+```sh
+curl -I https://example.com
+# -I 发送 HEAD 请求，只查看响应头。
+```
+
+## 查看网页返回内容
 
 ```sh
 curl https://example.com
-curl -I https://example.com
 curl -i https://example.com
+# -i 在正常响应中同时显示响应头和正文。
+curl -v https://example.com
+# -v 输出连接过程，排查域名、代理和 TLS 问题。
 ```
-
-- -I 发送 HEAD 请求，只查看响应头。
-- -i 在正常响应中同时显示响应头和正文。
-- -v 输出连接过程，排查域名、代理和 TLS 问题。
 
 ## 下载文件
 
@@ -77,10 +96,3 @@ curl -i -H 'Content-Type: application/json' \
 
 - [Nginx](docs/wiki/app/nginx.md)
 - [Caddy](docs/wiki/app/caddy.md)
-
-### 其他参考链接
-
-- [原笔记链接](https://www.google.com) #todo
-- [原笔记链接](https://cip.cc) #todo
-- [curl 参数手册](https://curl.se/docs/manpage.html) #todo
-- [curl 下载入口](https://curl.se/download.html) #todo

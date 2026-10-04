@@ -13,7 +13,9 @@ update_date: 2026-09-29
 
 ## 安装与验证
 
-Windows、macOS 使用 [Docker Desktop](https://docs.docker.com/desktop/)安装器；Windows 需满足所选 WSL 2 或 Hyper-V 后端的要求。Linux 服务器按 [Docker Engine 官方安装说明](https://docs.docker.com/engine/install/)配置对应发行版的软件仓库。
+Windows、macOS 使用 [Docker Desktop](https://docs.docker.com/desktop/)安装器；
+Windows 需满足所选 WSL2 或 Hyper-V 后端的要求。
+Linux 服务器按 [Docker Engine 官方安装说明](https://docs.docker.com/engine/install/)配置对应发行版的软件仓库。
 
 Ubuntu 完成官方仓库配置后，安装软件包：
 
@@ -25,13 +27,14 @@ sudo docker run --rm hello-world
 docker compose version
 ```
 
-Desktop 启动后通常不需要 sudo；Linux 本文使用 sudo 执行容器命令。hello-world 成功输出说明镜像拉取和容器启动链路可用。
-
 ## 基本使用：运行 Web 容器
 
 ```sh
+# 启动 docker 命令
 sudo docker run -d --name wiki-demo -p 127.0.0.1:8080:80 nginx:alpine
+# 查看 docker 运行时
 sudo docker ps
+# 查看日志
 sudo docker logs --tail 50 wiki-demo
 sudo docker inspect wiki-demo
 curl -I http://127.0.0.1:8080

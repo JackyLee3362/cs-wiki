@@ -10,7 +10,7 @@ categories:
 comment: true
 ---
 
-[docker](docs/wiki/app/docker/docker.md)
+[docker](docker)
 [podman](docs/wiki/app/docker/podman/index.md)
 
 ## 参考资料
