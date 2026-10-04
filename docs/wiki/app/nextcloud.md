@@ -20,37 +20,6 @@ comment: true
 
 - [all-in-one/compose.yaml at main · nextcloud/all-in-one](https://github.com/nextcloud/all-in-one/blob/main/compose.yaml)
 
-## 禁用的应用
-
-```sh
-docker compose exec -it -u www-data app php occ app:disable activity
-docker compose exec -it -u www-data app php occ app:disable collaborative_tags
-docker compose exec -it -u www-data app php occ app:disable comments
-docker compose exec -it -u www-data app php occ app:disable dashboard
-docker compose exec -it -u www-data app php occ app:disable federation
-docker compose exec -it -u www-data app php occ app:disable file_reminders
-docker compose exec -it -u www-data app php occ app:disable files_download_limit
-docker compose exec -it -u www-data app php occ app:disable first_run_wizard
-docker compose exec -it -u www-data app php occ app:disable log_reader
-docker compose exec -it -u www-data app php occ app:disable monitoring
-docker compose exec -it -u www-data app php occ app:disable nextcloud_webhook
-docker compose exec -it -u www-data app php occ app:disable nextcloud_announcements
-docker compose exec -it -u www-data app php occ app:disable photos
-docker compose exec -it -u www-data app php occ app:disable recommendations
-docker compose exec -it -u www-data app php occ app:disable related_resources
-docker compose exec -it -u www-data app php occ app:disable sharebymail
-docker compose exec -it -u www-data app php occ app:disable support
-docker compose exec -it -u www-data app php occ app:disable teams
-docker compose exec -it -u www-data app php occ app:disable privacy
-docker compose exec -it -u www-data app php occ app:disable updatenotification
-docker compose exec -it -u www-data app php occ app:disable usagesurvey
-docker compose exec -it -u www-data app php occ app:disable user_status
-docker compose exec -it -u www-data app php occ app:disable weather_status
-docker compose exec -it -u www-data app php occ app:disable versions
-docker compose exec -it -u www-data app php occ app:disable teams
-docker compose exec -it -u www-data app php occ app:disable usagesurvey
-```
-
 ## 优化方案
 
 - [nextcloud性能优化 - tlanyan](https://itlanyan.com/optimize-nextcloud/)
