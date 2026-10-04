@@ -14,7 +14,7 @@ export default function Home() {
             <h1>计算机<span>知识库</span></h1>
             <p>从基础原理到动手实践，<br />让知识相互连接。</p>
             <Link className="button button--primary button--lg" to="/overview/">进入知识库 <span aria-hidden="true">→</span></Link>
-            <div className={styles.topics}><Link to="/wiki/theory/">基础原理</Link><span> / </span><Link to="/wiki/">工具百科</Link><span> / </span><Link to="/compare/">工具比较</Link></div>
+            <div className={styles.topics}><Link to="/theory/">基础原理</Link><span> / </span><Link to="/app/">应用与工具</Link><span> / </span><Link to="/compare/">工具比较</Link></div>
           </div>
         </FunctionBanner>
       </main>

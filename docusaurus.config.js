@@ -70,7 +70,7 @@ export default {
           {type: 'docSidebar', sidebarId: 'htmlSidebar', label: 'HTML'},
           {type: 'docSidebar', sidebarId: 'cssSidebar', label: 'CSS'},
         ]},
-        {type: 'docSidebar', sidebarId: 'wikiSidebar', label: 'wiki', position: 'left'},
+        {type: 'docSidebar', sidebarId: 'appSidebar', label: '应用与工具', position: 'left'},
         {type: 'docSidebar', sidebarId: 'compareSidebar', label: '工具比较', position: 'left'},
         {type: 'docSidebar', sidebarId: 'solutionSidebar', label: '解决方案', position: 'left'},
         {type: 'docSidebar', sidebarId: 'workSidebar', label: '工作', position: 'left'},

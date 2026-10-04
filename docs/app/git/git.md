@@ -1,0 +1,239 @@
+---
+title: Git
+date: 2026-08-19
+draft: false
+author: JackyLee
+tags:
+  - wiki
+  - Git
+  - 版本管理
+categories:
+  - 命令行
+cover:
+comment: true
+update_date: 2026-09-29
+---
+
+## 安装与验证
+
+Windows 从 [Git 官方安装入口](https://git-scm.com/install/)安装 Git for Windows。Linux 可使用发行版软件包：
+
+```sh
+sudo apt update
+sudo apt install git
+git --version
+```
+
+macOS 可通过 Xcode Command Line Tools 或已有的包管理器安装。首次提交前，在当前仓库设置作者信息：
+
+```sh
+git config user.name "Your Name"
+git config user.email "you@example.com"
+```
+
+如希望作用于所有仓库，增加 --global；提交中的作者信息会写入历史记录。
+
+## 基本使用：本地提交
+
+在新的示例目录执行：
+
+```sh
+git init -b main
+# 创建或修改 README.md 后继续
+git status
+git add README.md
+git diff --cached
+git commit -m "docs: add README"
+git log --oneline -5
+```
+
+工作区保存正在编辑的文件，暂存区保存下一次提交的内容，提交历史保存版本快照。git diff 比较工作区与暂存区，git diff --cached 比较暂存区与当前提交。
+
+## 克隆与分支
+
+```sh
+git clone https://github.com/jackylee3362/cs-wiki.git
+cd cs-wiki
+git switch -c docs/example
+git status
+```
+
+克隆会下载仓库及历史。上述操作只发生在本地，不包含推送；开始新分支前先确认现有修改。
+
+
+## 常用命令
+
+### 一、仓库初始化与克隆
+
+[git-init#初始化本地仓库](docs/app/git/git-init.md#初始化本地仓库)
+
+[git-clone#克隆远程仓库到本地](docs/app/git/git-clone.md#克隆远程仓库到本地)
+
+### 二、配置
+
+[git-config#config 配置](docs/app/git/git-config.md#config-配置)
+
+### 三、日常 workflow：查看 → 添加 → 比较 → 提交
+
+[git-status#查看当前状态](docs/app/git/git-status.md#查看当前状态)
+
+[git-add#添加文件](docs/app/git/git-add.md#添加文件)
+
+[git-diff#工作区 vs 暂存区](docs/app/git/git-diff.md#工作区-vs-暂存区)
+
+[git-commit#提交](docs/app/git/git-commit.md#提交)
+
+### 四、撤销与恢复
+
+[git-restore#取消工作区的修改](docs/app/git/git-restore.md#取消工作区的修改)
+
+[git-reset#撤销本地暂存](docs/app/git/git-reset.md#撤销本地暂存)
+
+[git-rm#从暂存区移除文件](docs/app/git/git-rm.md#从暂存区移除文件)
+
+### 五、历史查看
+
+[git-log#历史：在 commit 信息中查找并展示 commit](docs/app/git/git-log.md#历史在-commit-信息中查找并展示-commit)
+
+[git-reflog#恢复本地已删除分支](docs/app/git/git-reflog.md#恢复本地已删除分支)
+
+### 六、分支管理
+
+[git-branch#查看当前分支](docs/app/git/git-branch.md#查看当前分支)
+
+[git-switch#切换分支](docs/app/git/git-switch.md#切换分支)
+
+[git-checkout#切换分支](docs/app/git/git-checkout.md#切换分支)
+
+[git-merge#合并其他分支](docs/app/git/git-merge.md#合并其他分支)
+
+[git-stash#暂存](docs/app/git/git-stash.md#暂存)
+
+[git-cherry-pick#TLDR](docs/app/git/git-cherry-pick.md#tldr)
+
+### 七、远程交互
+
+[git-remote#查看远程分支](docs/app/git/git-remote.md#查看远程分支)
+
+[git-fetch#下载远程更新](docs/app/git/git-fetch.md#下载远程更新)
+
+[git-pull#拉取并合并](docs/app/git/git-pull.md#拉取并合并)
+
+[git-push#推送到远程](docs/app/git/git-push.md#推送到远程)
+
+### 八、高级操作
+
+[git-submodule#添加子模块](docs/app/git/git-submodule.md#添加子模块)
+
+[git-sparse-checkout#稀疏检出](docs/app/git/git-sparse-checkout.md#稀疏检出)
+
+## FAQ
+
+### Git 如何恢复本地分支
+
+[git-reflog#恢复本地已删除分支](docs/app/git/git-reflog.md#恢复本地已删除分支)
+
+### git 如何对历史搜索
+
+[git-log#历史：在 commit 信息中查找并展示 commit](docs/app/git/git-log.md#历史在-commit-信息中查找并展示-commit)
+
+[git-log#历史: 在文件中查找内容并展示 commit](docs/app/git/git-log.md#历史-在文件中查找内容并展示-commit)
+
+### 本地 Git 仓库删除大 object
+
+- [Git - git-gc Documentation](https://git-scm.com/docs/git-gc/zh_HANS-CN) #todo
+- [git仓库清理--"保姆级"教程这是一篇关于Git仓库清理的文章; 或许你现在还用不到里面的操作;但是看完保证你会有不少 - 掘金](https://juejin.cn/post/7024922528514572302) #todo
+
+最简单的方法，删除远程仓库，重新上传并重新提交，缺点是会丢失历史数据，
+
+2025-09-27 由于之前加入 rime-ice 仓库，导致仓库过大，只好按照这个方法
+
+- [git项目大小优化笔记,删除历史提交中的大文件 - 凉游浅笔深画眉 - 博客园](https://www.cnblogs.com/fuhua/p/15527023.html#git%E9%A1%B9%E7%9B%AE%E5%A4%A7%E5%B0%8F%E4%BC%98%E5%8C%96%E7%AC%94%E8%AE%B0%E5%88%A0%E9%99%A4%E5%8E%86%E5%8F%B2%E6%8F%90%E4%BA%A4%E4%B8%AD%E7%9A%84%E5%A4%A7%E6%96%87%E4%BB%B6) #todo
+
+- [git仓库清理--"保姆级"教程这是一篇关于Git仓库清理的文章; 或许你现在还用不到里面的操作;但是看完保证你会有不少 - 掘金](https://juejin.cn/post/7024922528514572302) #todo
+
+### git 文件名大小写敏感
+
+原因是 windows 系统大小写不敏感，而 git 大小写敏感
+
+- [Windows 大小写不敏感导致的 git 冲突 | Finisky Garden](https://finisky.github.io/git-is-case-sensitive-while-file-system-is-not/) #todo
+
+### git CR/CRLF 是怎么解决的？
+
+[git-config#git 在 powershell 使用命令行时出现乱码](docs/app/git/git-config.md#git-在-powershell-使用命令行时出现乱码)
+
+### 签出会覆盖本地修改
+
+场景描述：
+
+通常我会在 `dev` 分支上操作，然后细粒度地提交 commit，上传到 github 上形成一个 pull-request，然后 `main` 再接受 pr，合并成一个
+
+但是有时候会忘记切换分支（比如现在就是），直接在 main 上更改
+
+在 vscode 的状态栏就会出现 `*`，此时想换到 `dev` 分支
+
+直接切换会出现签出会覆盖本地修改的提示
+
+该提示下的三个选项分别是什么意思呢？
+
+1. 储藏并签出：希望【暂存区】仍然在当前分支，然后切换到另一个分支
+2. 迁移更改：希望将【暂存区】的内容切换到另一个分支，可能要处理冲突问题
+3. 强制签出：（不推荐）直接放弃当前分支（比如 `main`）未提交的 `commmit`，然后切换为分支 `dev`
+
+所以该场景我们需要的是【迁移更改】
+
+## 参考资料
+
+### 官方资源
+
+- [官网](https://git-scm.com/)
+- [GitHub 源码镜像](https://github.com/git/git)
+- [官方文档](https://git-scm.com/docs)
+
+### 相关文章
+
+- [OpenSSH](docs/app/ssh.md)
+- [fzf](docs/app/fzf.md)
+
+### 其他参考链接
+
+- [深入理解 git 合并操作 | Shall We Code?](https://waynerv.com/posts/git-merge-intro/) #todo
+- [github/gitignore: A collection of useful .gitignore templates](https://github.com/github/gitignore) #todo
+- [GitHub does dotfiles - dotfiles.github.io](https://dotfiles.github.io/) #todo
+
+- [为什么 Git 的教程都那么繁杂？ - 知乎](https://www.zhihu.com/question/594294987/answer/3614054565) #todo
+- [在开发过程中使用 git rebase 还是 git merge，优缺点分别是什么？ - 知乎](https://www.zhihu.com/question/36509119/answer/2949504859) #todo
+- [为什么 Git 的教程都那么繁杂？ - 知乎](https://www.zhihu.com/question/594294987/answer/3027078087) #todo
+- [想法：git 问题](https://www.zhihu.com/pin/1885383452485997432?native=0) #todo
+- [lenck - 为什么要先 git add 才能 git commit ？ - 知乎](https://www.zhihu.com/question/19946553/answer/1937683960948856692) #todo
+  - 概要: 前言你是否也曾有过这样的经历：熟练地敲下 git add . 和 git commit -m "..."，感觉自己已经掌握了版本控制的奥秘。但当 merge 冲突的红色警告占满屏幕，或者当你想撤销一次错误的提交时，心中是否会涌起一丝恐慌？git reset --hard 就像一个充满诱惑又极其危险的红色按钮，你渴望按下它，却又害怕它会摧毁一切。如果这听起来很熟悉，那么恭喜你，这篇文章正是为你量身打造的。许多教程教会了我们 如何 使用 Git 命令，但很少有…
+  - 点赞: 474
+
+- [Null - 中国的高校计算机教育存在哪些问题？ - 知乎](https://www.zhihu.com/question/265513614/answer/3343125574) #todo
+  - 概要: 1.校园网不带梯子 2.不教 git，make 等现代工具链 3.代码量不足，课程报告过多，杂七杂八的课太多，比如物理实验 4.教材老旧，ppt 跟着老旧，念他的人不免的也老旧。 5.核心课程缺失或者不重视，比如编译原理，有的学校甚至不开 6.Coding 和计算机原理和数学原理没法很好的融合统一，Coding 的课没数学原理，数学原理的课没计算机，计算机原理的课没 coding。 7. 课程报告，毕业设计能不能别再用什么 word 了，小报告 markdown 大报告 latex…
+  - 点赞: 4339
+
+- [一个小号 - 在开发过程中使用 git rebase 还是 git merge，优缺点分别是什么？ - 知乎](https://www.zhihu.com/question/36509119/answer/1990894567) #todo
+  - 概要: rebase 和 merge 不是二选一的关系，要协同使用，毕竟作者设计出两个命令不是让你挑一个来用的。 一个最简单的模型，从 master 分支 checkout 出几个本地 feature 分支，你或者你的团队在协同开发某个 feature-a 时，可能别人已把 feature-b 的代码 merge 回 master 了，所以应该及时将 master 的改动 rebase 到你的本地分支，顺便 fix conflicts。即： $ git switch feature-a $ git rebase master fix conflicts... $ git reba…
+  - 点赞: 1613
+
+- [七哥在成长 - 如何克服解决 Git 冲突的恐惧症？ - 知乎](https://www.zhihu.com/question/27507789/answer/2500277042) #todo
+  - 概要: 最近新入职，在提交 pr，然后 code review 后，关于分支合并我产生了一个小问题，那就是 squash merge 和 rebase merge 到底有什么区别呢？ 公司为什么要求使用 git rebase merge 呢？之前我们都是直接一把梭 git merge 分支名来合并。 [图片] 带着这两个疑问我们以一个实际的开发场景来搞明白 merge, squash merge, 和 rebase merge 之间的区别，接着往后看吧。举个例子，如果我们有一个项目，它包含一个 master 主分支，有 3 个提交，分别…
+  - 点赞: 159
+- [quink - 5 分钟学不会 git - 知乎](https://zhuanlan.zhihu.com/p/1906160397867810885) #todo
+
+- [Git 入门图文教程(1.5W 字 40 图)🔥🔥--深入浅出、图文并茂 - 安木夕 - 博客园](https://www.cnblogs.com/anding/p/16987769.html) #todo
+- [git bash 报错 fatal: detected dubious ownership in repository at 的解决方法 - Clotho_Lee - 博客园](https://www.cnblogs.com/live41/p/17290417.html) #todo
+- [linux - "git submodule update" failed with 'fatal: detected dubious ownership in repository at...' - Stack Overflow](https://stackoverflow.com/questions/72978485/git-submodule-update-failed-with-fatal-detected-dubious-ownership-in-reposit) #todo
+
+- [rcbb.cc - 为什么 Git 的教程都那么繁杂？ - 知乎](https://www.zhihu.com/question/594294987/answer/1896625057062704247) #todo
+  - 概要: 团队开发中，遵循一个合理、清晰的 Git 规范，是非常重要的。 否则，每个人都提交一堆杂乱无章的 commit 和 分支，项目很快就会变得难以协调和维护。 分支规范 master：主分支。主分支，始终与正式环境代码保持一致。 不能将代码直接 commit 到该分支，仅合并 develop 在测试服验证完成的代码。 develop：开发分支。开发分支，在测试环境验证过的分支请求合并到该分支。 不能将代码直接 commit 到该分支，合并 feature、fixbug 分…
+  - 点赞: 331
+- [小高笔记 - 为什么 Git 的教程都那么繁杂？ - 知乎](https://www.zhihu.com/question/594294987/answer/90657535810) #todo
+- [Cv大法代码酱 - 为什么要先 git add 才能 git commit ？ - 知乎](https://www.zhihu.com/question/19946553/answer/1968639801591854084) #todo
+
+- [Git - git-gc Documentation](https://git-scm.com/docs/git-gc/zh_HANS-CN) #todo
+- [git仓库清理--"保姆级"教程这是一篇关于Git仓库清理的文章; 或许你现在还用不到里面的操作;但是看完保证你会有不少 - 掘金](https://juejin.cn/post/7024922528514572302) #todo
+- [git项目大小优化笔记,删除历史提交中的大文件 - 凉游浅笔深画眉 - 博客园](https://www.cnblogs.com/fuhua/p/15527023.html#git%E9%A1%B9%E7%9B%AE%E5%A4%A7%E5%B0%8F%E4%BC%98%E5%8C%96%E7%AC%94%E8%AE%B0%E5%88%A0%E9%99%A4%E5%8E%86%E5%8F%B2%E6%8F%90%E4%BA%A4%E4%B8%AD%E7%9A%84%E5%A4%A7%E6%96%87%E4%BB%B6) #todo
+- [Windows 大小写不敏感导致的 git 冲突 | Finisky Garden](https://finisky.github.io/git-is-case-sensitive-while-file-system-is-not/) #todo
+- [Git 安装指南](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) #todo

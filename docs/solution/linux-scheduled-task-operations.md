@@ -3,7 +3,7 @@ title: Linux 定时任务运维手册
 description: 使用 systemd timer 创建、检查、排障和停用周期任务。
 ---
 
-适用于使用 systemd 的 Linux：以 timer 调度、service 执行，用 [systemctl](docs/wiki/app/systemctl.md) 管状态、[journalctl](docs/wiki/app/journalctl.md) 查日志。以下为通用示例，未在实际 Linux 主机执行验证。
+适用于使用 systemd 的 Linux：以 timer 调度、service 执行，用 [systemctl](docs/app/systemctl.md) 管状态、[journalctl](docs/app/journalctl.md) 查日志。以下为通用示例，未在实际 Linux 主机执行验证。
 
 ## 创建任务
 

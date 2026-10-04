@@ -3,9 +3,9 @@ title: Ansible：使用 Playbook 批量下发配置
 description: 用 inventory、copy 模块和限定主机执行实现可重复配置。
 ---
 
-目标：统一测试主机上的示例配置。依赖已安装的 [Ansible](docs/wiki/app/ansible.md)、SSH 访问、远端 Python 与 sudo 权限；以下示例未连接实际主机验证。
+目标：统一测试主机上的示例配置。依赖已安装的 [Ansible](docs/app/ansible.md)、SSH 访问、远端 Python 与 sudo 权限；以下示例未连接实际主机验证。
 
-选型见[主机配置管理工具对比](docs/compare/service/compare-configuration-management.md)。
+选型见[主机配置管理工具对比](docs/app/ops/compare-configuration-management.md)。
 
 创建 `inventory.ini`，替换主机地址和登录用户：
 
