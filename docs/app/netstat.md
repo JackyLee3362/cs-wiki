@@ -1,7 +1,8 @@
 ---
 title: netstat
 date: 2025-07-04
-draft: true
+update_date: 2026-10-09
+draft: false
 author: JackyLee
 tags:
   - wiki
@@ -10,26 +11,29 @@ categories:
 comment: true
 ---
 
-## 安装
+`netstat` 显示网络连接和套接字状态。macOS 与 Linux 的选项不同。
 
-## 使用
+## macOS：查看 TCP 监听端口
 
 ```sh
-netstat -nl | grep "端口"
+netstat -an -p tcp | grep LISTEN
 ```
 
-## FAQ: 如何查找一个进程的 http 端口
+`-a` 包含监听套接字，`-n` 用数字显示地址和端口，macOS 的 `-p tcp` 指定协议，**不是显示 PID**。需要进程名和 PID 时使用 [lsof](docs/app/lsof.md)。
+
+UDP 没有 `LISTEN` 状态；可用 `netstat -an -p udp` 查看 UDP 套接字，但结果不能按 `LISTEN` 过滤。
+
+## Linux：查看监听端口及进程
 
 ```sh
-# linux
 netstat -tunlp
-# -t 表示 tcp
-# -u 表示 udp
-# -n 表示 拒绝显示别名，能显示数字的端口全部转化为数字
-# -l 表示 仅列出在Listen(监听)的服务状态
-# -p 表示 显示建立相关链接的程序名PID
+```
 
-# 输出
+Linux 下 `-t` / `-u` 选择 TCP / UDP，`-n` 显示数字地址，`-l` 只列监听套接字，`-p` 显示关联进程。该组合**不能直接照搬到 macOS**。
+
+示例输出：
+
+```text
 Proto Recv-Q Send-Q Local Address       Foreign Address     State       PID/Program name
 tcp        0      0 0.0.0.0:80          0.0.0.0:*           LISTEN      1234/nginx
 tcp        0      0 127.0.0.1:3306      0.0.0.0:*           LISTEN      2345/mysqld
@@ -37,16 +41,16 @@ tcp        0      0 127.0.0.1:3306      0.0.0.0:*           LISTEN      2345/mys
 
 ### Local Address 解释
 
-0.0.0.0:xxxx 意思是监听所有本地 IP 地址的 xxxx 端口（即外网 IP、内网 IP、localhost 都包括）。
-比如 0.0.0.0:80 表示该服务（如 nginx）监听本机所有网卡上的 80 端口，只要有请求来，不管用哪个网卡、本地还是远程，都能接受。
+`0.0.0.0:80` 表示监听本机所有 IPv4 地址的 80 端口；能否从其他设备访问还取决于防火墙和网络路径。
 
-如果你看到 127.0.0.1:3306，就是只监听本地环回的 3306 端口，外网无法访问。
+`127.0.0.1:3306` 只监听本机 IPv4 环回地址，其他设备不能直接通过该地址连接。
 
 ### Foreign Address 解释
 
-Foreign Address 对于监听（LISTEN）状态通常显示为 `0.0.0.0:*`。
-这里代表“还没有与任何远程主机建立连接”，或“可以接受来自任意 IP 的连接”。
+监听套接字尚未与某个远端连接，所以 `Foreign Address` 通常显示为 `0.0.0.0:*`；它不表示已经对外可达。
 
-- `*` 表示远程端口不限（任何端口都可以连接过来）。
+相关问题：[macOS 如何查看监听端口？](docs/issue/macos-listening-ports.md)
 
 ## 参考资料
+
+- [Apple 开源的 netstat 手册](https://github.com/apple-oss-distributions/network_cmds/blob/main/netstat.tproj/netstat.1)

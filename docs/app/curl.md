@@ -68,6 +68,17 @@ curl --connect-timeout 5 --max-time 30 https://example.com
 - -L 跟随重定向；-o 明确指定输出文件名。
 - -s 隐藏进度；配合 -S 保留错误消息，脚本中常用 -fsSL。
 
+## 探活
+
+运维经典的探活操作
+
+```sh
+curl -s -o /dev/null -w "%{http_code}\n" https://example.com
+# -s: slient 模式
+# -o: 输出模式
+# -w: "%{http_code}\n" 返回响应的状态码
+```
+
 ## 调试本地 JSON 接口
 
 以下假定已有服务监听 3000 端口，路径需按实际接口修改：
@@ -79,10 +90,6 @@ curl -i -H 'Content-Type: application/json' \
 ```
 
 --data 默认使用 POST。Windows PowerShell 遇到 JSON 引号差异时，把请求体保存为 body.json，再用 curl.exe --data-binary '@body.json'，并指定 Content-Type。分享 -v 输出前，应去掉其中的凭据与 Cookie。
-
-## 原有示例链接
-
-原笔记使用 Google 网页下载和 cip.cc 查询公网 IP，保留在参考资料中。
 
 ## 参考资料
 
