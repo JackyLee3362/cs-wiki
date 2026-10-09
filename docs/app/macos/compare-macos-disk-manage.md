@@ -2,7 +2,7 @@
 title: macOS 磁盘空间管理实践
 description:
 date: 2026-08-22
-update_date:
+update_date: 2026-10-09
 draft: true
 author: JackyLee
 tags:
@@ -12,7 +12,7 @@ comment: true
 
 Mac 上比较好用的磁盘管理工具，我帮你按用途分类整理：
 
-[mole](docs/app/mole.md)
+[mole](docs/app/macos/mole.md)
 
 ---
 

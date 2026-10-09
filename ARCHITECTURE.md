@@ -4,14 +4,20 @@
 
 ## 已落地的目录职责
 
-只展示 `docs/`；结构依据 `tree /A` 输出整理，最多展开三层，省略叶子文档与无正文的空目录。应用细分不在此逐个展开。
+只展示 `docs/`；结构最多展开三层，省略叶子文档与无正文的空目录。应用目录只展开数据库这一组示例，其余主题见 `docs/app/index.md`。
 
 ```text
 docs/                                   # 知识正文根目录
 +---index.md                            # 站点总览，聚合栏目入口
 +---articles.md                         # 历史文章索引，待并入相应栏目
-+---app                                 # 软件、命令和平台条目
-+---framework                           # 开发框架与库
++---app                                 # 软件、命令和平台条目，按主要用途分组
+|   +---database                    # 数据库服务及服务端选型
+|   \---database-cli                # 数据库客户端与管理工具
++---framework                           # 开发框架与库，按用途分组
+|   +---backend                     # Spring、MyBatis、Servlet 与后端组件选型
+|   +---config                      # 配置管理库
+|   +---data                        # 数据处理库
+|   \---gui                         # 图形界面开发框架
 +---model                               # 模型原理与特性
 +---skill                               # 独立技术技能；完整任务流程归实践类
 +---theory                              # 基础课程、概念与原理，已完成迁移
@@ -38,6 +44,10 @@ docs/                                   # 知识正文根目录
 ```
 
 `index.md` 聚合入口，`_category_.json` 设置分类名称与排序。课程章节和独立条目在学科内共存，原有正文与引用保留；26 组同名但不同正文的概念条目暂用 `-concept.md` 区分，待逐篇合并精简。
+
+`framework/` 按用途分组，同主题的框架条目与选型对比放在一起。Maven 属于构建工具，归 `app/devtools/`；JDBC 是 Java 标准 API，归 `lang/java/`；静态网站生成器对比归 `app/blog/`。
+
+`app/` 也按用途分组，根目录只保留总览。数据库产品（MySQL、PostgreSQL、MariaDB 等）及服务端对比归 `database/`，Navicat、DBeaver 与数据库辅助工具归 `database-cli/`。原 `selfhost/` 等横切分类中的比较文章按实际功能归档到对应主题；每个主题中的产品条目与选型对比放在一起。
 
 ## 正文引用方向
 

@@ -1,6 +1,7 @@
 ---
 title: 书签管理工具对比
 date: 2025-11-02
+update_date: 2026-10-09
 draft: true
 author: JackyLee
 tags:
@@ -8,7 +9,7 @@ categories:
 comment: true
 ---
 
-自部署服务器选型见[Karakeep、Linkwarden 与其他开源收藏夹服务对比](docs/app/selfhost/compare-bookmark-server.md)。
+自部署服务器选型见[Karakeep、Linkwarden 与其他开源收藏夹服务对比](docs/app/browser/compare-bookmark-server.md)。
 
 ## Raindrop.io
 

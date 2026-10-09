@@ -2,6 +2,7 @@
 title: 容器镜像仓库对比：Harbor、Distribution、GitLab 与 Gitea
 description: 比较独立镜像治理平台、基础仓库和代码平台内置仓库。
 date: 2026-10-03
+update_date: 2026-10-09
 ---
 
 **Harbor 解决「团队把构建好的镜像存在哪里、谁能推拉、保留多久」的问题。** 典型流程是 CI 构建镜像后推到仓库，服务器再按版本或 digest 拉取部署。
@@ -36,5 +37,5 @@ Harbor 不代替 CI 构建，也不负责把镜像运行成应用。它支持 OC
 
 ## 站内说明与实践
 
-- [Harbor 应用说明](docs/app/harbor.md)
+- [Harbor 应用说明](docs/app/container/harbor.md)
 - [私有镜像推送与验证](docs/solution/harbor-image-publish.md)

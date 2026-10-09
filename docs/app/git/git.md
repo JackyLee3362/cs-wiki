@@ -11,7 +11,7 @@ categories:
   - 命令行
 cover:
 comment: true
-update_date: 2026-09-29
+update_date: 2026-10-09
 ---
 
 ## 安装与验证
@@ -192,8 +192,8 @@ git status
 
 ### 相关文章
 
-- [OpenSSH](docs/app/ssh.md)
-- [fzf](docs/app/fzf.md)
+- [OpenSSH](docs/app/network/ssh.md)
+- [fzf](docs/app/terminal/fzf.md)
 
 ### 其他参考链接
 

@@ -1,6 +1,7 @@
 ---
 title: Edge
 date: 2025-11-04
+update_date: 2026-10-09
 draft: false
 author: JackyLee
 tags:
@@ -52,4 +53,4 @@ comment: true
 
 ## 同类工具
 
-见 [chrome](docs/app/browser/chrome.md)、[firefox](docs/app/browser/firefox.md)、[brave](docs/app/brave.md)。
+见 [chrome](docs/app/browser/chrome.md)、[firefox](docs/app/browser/firefox.md)、[brave](docs/app/browser/brave.md)。

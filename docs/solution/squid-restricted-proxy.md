@@ -1,9 +1,10 @@
 ---
 title: Squid：配置受限的本地正向代理
+update_date: 2026-10-09
 description: 只允许本机访问指定域名，并验证代理规则。
 ---
 
-目标：本机通过 [Squid](docs/app/squid.md) 访问允许的站点。示例适用于 Debian / Ubuntu 上的 Squid 5–7，未启动代理实测。
+目标：本机通过 [Squid](docs/app/network/squid.md) 访问允许的站点。示例适用于 Debian / Ubuntu 上的 Squid 5–7，未启动代理实测。
 
 选型见[正向代理工具对比](docs/app/network/compare-forward-proxy.md)。
 

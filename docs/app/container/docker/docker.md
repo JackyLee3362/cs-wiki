@@ -8,7 +8,7 @@ tags:
 categories:
   - 命令行
 comment: true
-update_date: 2026-09-29
+update_date: 2026-10-09
 ---
 
 ## 安装与验证
@@ -113,8 +113,8 @@ sudo journalctl -u docker --no-pager -n 50 | grep -i "daemon.json\|mirror\|error
 
 ### 相关文章
 
-- [Podman](docs/app/docker/podman/index.md)
-- [Caddy](docs/app/caddy.md)
+- [Podman](docs/app/container/podman/index.md)
+- [Caddy](docs/app/network/caddy.md)
 
 ### 其他参考链接
 

@@ -3,6 +3,7 @@ title: 文件同步工具对比
 date: 2025-11-01
 update_date:
   - 2026-08-15
+  - 2026-10-09
 draft: true
 author: JackyLee
 tags:
@@ -18,17 +19,17 @@ tocopen: false
 
 ## 网盘类
 
-- [nextcloud](docs/app/nextcloud.md)
+- [nextcloud](docs/app/files/nextcloud.md)
 - FileRun
 
 ## 同步类
 
-- [copyparty](docs/app/copyparty.md)
+- [copyparty](docs/app/files/copyparty.md)
 - rsync
 - NFS
 - SMB
-- syncthing: [syncthing](docs/app/syncthing.md)
-- [rclone](docs/app/rclone.md)
+- syncthing: [syncthing](docs/app/backup/syncthing.md)
+- [rclone](docs/app/backup/rclone.md)
 
 同步投屏四件套：
 

@@ -36,7 +36,7 @@ netstat -an -p tcp | grep LISTEN
 
 macOS 的 `netstat -p tcp` 用于指定协议，不显示 PID。UDP 没有 TCP 的 `LISTEN` 状态；如需查看已打开的 UDP 套接字，使用 `sudo lsof -nP -iUDP`。
 
-工具详情：[lsof](docs/app/lsof.md)、[netstat](docs/app/netstat.md)。
+工具详情：[lsof](docs/app/network/lsof.md)、[netstat](docs/app/network/netstat.md)。
 
 ## 参考资料
 

@@ -3,7 +3,7 @@ title: Podman
 slug: /app/container/podman/
 description: 无守护进程、默认 rootless 的开源容器引擎，可作为 Docker 的替代品
 date: 2026-09-01
-update_date: 2026-10-03
+update_date: 2026-10-09
 draft: false
 author: JackyLee
 tags:
@@ -13,7 +13,7 @@ categories:
 comment: true
 ---
 
-本目录分为 [Podman 基础](docs/app/docker/podman/index.md)、[Podman build](docs/app/docker/podman/podman-build.md) 和 [Podman Compose](docs/app/docker/podman/podman-compose.md)。
+本目录分为 [Podman 基础](docs/app/container/podman/index.md)、[Podman build](docs/app/container/podman/podman-build.md) 和 [Podman Compose](docs/app/container/podman/podman-compose.md)。
 
 ## 基本使用：启动第一个容器
 
@@ -190,7 +190,7 @@ sudo sysctl -p
 
 ### 相关文章
 
-- [Docker](docs/app/docker/docker.md)
+- [Docker](docs/app/container/docker/docker.md)
 
 ### 其他参考链接
 

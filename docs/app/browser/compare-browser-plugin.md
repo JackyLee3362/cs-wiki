@@ -1,6 +1,7 @@
 ---
 title: 浏览器扩展分类与对比
 date: 2026-09-05
+update_date: 2026-10-09
 draft: false
 author: JackyLee
 tags:
@@ -17,7 +18,7 @@ comment: true
 | 插件                 | 功能类别   |   价格    | 平台     | 核心特点                             |
 | :------------------- | :--------- | :-------: | :------- | :----------------------------------- |
 | uBlock Origin        | 广告拦截   |   免费    | 全平台   | 最高效的广告和跟踪拦截，资源占用极低 |
-| [tampermonkey](docs/app/tampermonkey.md)     | 脚本管理   |   免费    | 全平台   | 支持用户脚本（油猴），功能扩展无限   |
+| [tampermonkey](docs/app/browser/tampermonkey.md)     | 脚本管理   |   免费    | 全平台   | 支持用户脚本（油猴），功能扩展无限   |
 | Bitwarden            | 密码管理   | 免费+增值 | 全平台   | 开源密码管理器，跨平台同步           |
 | 1Password            | 密码管理   |  订阅制   | 全平台   | 界面精美，家庭共享，旅行模式         |
 | Dark Reader          | 深色模式   | 免费+捐赠 | 全平台   | 为所有网站强制启用深色模式           |

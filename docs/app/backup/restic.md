@@ -2,7 +2,7 @@
 title: restic
 description:
 date: 2026-09-01
-update_date: 2026-09-29
+update_date: 2026-10-09
 draft: false
 author: JackyLee
 tags:
@@ -78,8 +78,8 @@ restic -r ../restic-repo forget --keep-daily 7 --keep-weekly 4 --prune
 
 ### 相关文章
 
-- [tar](docs/app/tar.md)
-- [rclone](docs/app/rclone.md)
+- [tar](docs/app/files/tar.md)
+- [rclone](docs/app/backup/rclone.md)
 
 ### 其他参考链接
 

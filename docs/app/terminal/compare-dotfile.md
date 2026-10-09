@@ -1,6 +1,7 @@
 ---
 title: 配置文件管理工具对比
 date: 2026-08-18
+update_date: 2026-10-09
 draft: true
 author: JackyLee
 tags:
@@ -11,27 +12,27 @@ description: Dotbot 同类 dotfiles 管理工具
 
 ## 1. Chezmoi（最主流，生产首选）
 
-[chezmoi](docs/app/chezmoi.md)
+[chezmoi](docs/app/terminal/chezmoi.md)
 
 - 和 dotbot对比：dotbot 侧重 symlink；chezmoi 支持模板变量、条件、加密，能力强很多；上手略重。
 
 ## 2. dotbot
 
-[dotbot](docs/app/dotbot.md)
+[dotbot](docs/app/terminal/dotbot.md)
 
 ## 3. Yadm（Yet Another Dotfiles Manager）
 
-[yadm](docs/app/yadm.md)
+[yadm](docs/app/terminal/yadm.md)
 
 ## 4. GNU Stow（经典老牌）
 
-[stow](docs/app/stow.md)
+[stow](docs/app/terminal/stow.md)
 
 > dotbot 很多人是从 stow 转过去，dotbot = stow + yaml配置 + 脚本执行能力。
 
 ## 5. RCM（rcm）
 
-[rcm](docs/app/rcm.md)
+[rcm](docs/app/terminal/rcm.md)
 
 ## 6. Homesick
 

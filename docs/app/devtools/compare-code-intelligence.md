@@ -2,6 +2,7 @@
 title: 代码智能分析工具对比
 description: AI 代码知识图谱工具选型：GitNexus / CodeGraph / Graphify / codebase-memory-mcp
 date: 2026-09-08
+update_date: 2026-10-09
 draft: true
 author: JackyLee
 tags:
@@ -17,7 +18,7 @@ comment: true
 [codegraph](docs/app/ai/codegraph.md)
 [graphify](docs/app/ai/graphify.md)
 [codebase-memory-mcp](docs/app/ai/codebase-memory-mcp.md)
-[deepwiki](docs/app/deepwiki.md)
+[deepwiki](docs/app/ai/deepwiki.md)
 
 ## 概览对比
 
@@ -44,7 +45,7 @@ comment: true
 - **日常用 Claude Code / Cursor 开发，要省 Token、少打断** → CodeGraph：预索引 + 自动同步，`codegraph_explore` 单次调用替代多轮文件扫描，主打代理工作流效率。
 - **要理解的不只是代码，还有设计文档、论文、架构截图** → Graphify：唯一多模态方案，Leiden 社区聚类找"隐藏关联"，边来源标注让 AI 推断可信度透明。
 - **超大仓库 / 追求极致性能 / 环境依赖洁癖** → codebase-memory-mcp：单二进制零依赖，毫秒级索引、亚毫秒查询，158 种语言内置。
-- **代码需上传云端、团队共享问答** → [deepwiki](docs/app/deepwiki.md)：托管式服务，与上面四个本地优先方案隐私模型相反。
+- **代码需上传云端、团队共享问答** → [deepwiki](docs/app/ai/deepwiki.md)：托管式服务，与上面四个本地优先方案隐私模型相反。
 
 ## 决策树
 

@@ -1,9 +1,10 @@
 ---
 title: Cryptomator：加密同步与恢复检查
+update_date: 2026-10-09
 description: 将密文交给云盘同步，并验证保险库备份能否恢复。
 ---
 
-目标：跨设备同步文件而不把明文交给云盘。依赖桌面版 [Cryptomator](docs/app/cryptomator.md) 和云盘客户端；以下是待实际验证的通用流程。
+目标：跨设备同步文件而不把明文交给云盘。依赖桌面版 [Cryptomator](docs/app/security/cryptomator.md) 和云盘客户端；以下是待实际验证的通用流程。
 
 ## 最短流程
 

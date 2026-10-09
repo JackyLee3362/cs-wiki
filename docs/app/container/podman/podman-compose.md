@@ -2,7 +2,7 @@
 title: Podman Compose
 description: 使用外部 Compose provider 管理多容器服务
 date: 2026-10-03
-update_date:
+update_date: 2026-10-09
 draft: false
 author: JackyLee
 tags:
@@ -38,4 +38,4 @@ podman-compose up -d
 ## 参考资料
 
 - [Podman compose 官方手册](https://docs.podman.io/en/latest/markdown/podman-compose.1.html)
-- [Podman 基础](docs/app/docker/podman/index.md)
+- [Podman 基础](docs/app/container/podman/index.md)

@@ -2,6 +2,7 @@
 title: 正向代理对比：Squid、Tinyproxy 与 Privoxy
 description: 区分客户端出网代理、网站反向代理和 VPN，并按需求选择。
 date: 2026-10-03
+update_date: 2026-10-09
 ---
 
 **Squid 解决「让客户端通过统一出口访问网站，并控制谁能访问什么」的问题。** 例如多台构建主机需要按域名白名单访问外部 HTTP 服务，可在代理侧集中控制和记录请求。
@@ -34,6 +35,6 @@ date: 2026-10-03
 
 ## 站内说明与实践
 
-- [Squid 应用说明](docs/app/squid.md) · [Privoxy 应用说明](docs/app/privoxy.md)
+- [Squid 应用说明](docs/app/network/squid.md) · [Privoxy 应用说明](docs/app/network/privoxy.md)
 - [受限本地正向代理示例](docs/solution/squid-restricted-proxy.md)
-- [Nginx](docs/app/nginx.md) · [Caddy](docs/app/caddy.md)
+- [Nginx](docs/app/network/nginx.md) · [Caddy](docs/app/network/caddy.md)

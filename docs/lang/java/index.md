@@ -3,7 +3,7 @@ title: Java
 sidebar_position: 0
 description: Java 学习与实践笔记。
 date: 2026-09-06
-update_date: 2026-10-04
+update_date: 2026-10-09
 draft: false
 author: JackyLee
 tags:
@@ -56,6 +56,7 @@ comment: true
 
 ## Maven
 
+- [Maven](docs/app/devtools/maven.md)
 - [maven-enforcer](docs/maven-enforcer.md)
 - [maven-faq](docs/maven-faq.md)
 - [maven-private-repo](docs/maven-private-repo.md)
@@ -64,7 +65,8 @@ comment: true
 ## MyBatis / DB
 
 - [db](docs/db.md)
-- [mybatis](docs/framework/mybatis.md)
+- [JDBC](docs/lang/java/jdbc.md)
+- [mybatis](docs/framework/backend/mybatis.md)
 - [mybatis-generator](docs/mybatis-generator.md)
 - [spring-redis](docs/spring-redis.md)
 
@@ -99,11 +101,11 @@ comment: true
 
 ## Web
 
-- [spring-mvc](docs/framework/spring-mvc.md)
+- [spring-mvc](docs/framework/backend/spring-mvc.md)
 - [spring-mvc-anno-note](docs/spring-mvc-anno-note.md)
 - [spring-web-controller](docs/spring-web-controller.md)
 - [ssm](docs/ssm.md)
-- [tomcat-servlet](docs/framework/tomcat-servlet.md)
+- [tomcat-servlet](docs/framework/backend/tomcat-servlet.md)
 
 ## 消息队列
 
@@ -111,9 +113,9 @@ comment: true
 
 ## 相关
 
-- [java](docs/app/java.md) - JDK / 环境
-- [springboot](docs/app/springboot.md) - Spring Boot
-- [mvn](docs/app/mvn.md) - Maven 命令行
+- [java](docs/app/devtools/java.md) - JDK / 环境
+- [springboot](docs/framework/backend/springboot.md) - Spring Boot
+- [mvn](docs/app/devtools/mvn.md) - Maven 命令行
 
 ## 参考资料
 

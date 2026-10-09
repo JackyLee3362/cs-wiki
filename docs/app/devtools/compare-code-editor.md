@@ -2,6 +2,7 @@
 title: 代码编辑器与集成开发环境对比
 description:
 date: 2025-11-01
+update_date: 2026-10-09
 draft: true
 author: JackyLee
 tags:
@@ -9,9 +10,9 @@ categories:
 comment: true
 ---
 
-[xcode](docs/app/xcode.md)
-[vscode](docs/app/vscode.md)
-[vscodium](docs/app/vscodium.md)
+[xcode](docs/app/devtools/xcode.md)
+[vscode](docs/app/vscode/vscode.md)
+[vscodium](docs/app/vscode/vscodium.md)
 
 ## Visual Studio
 

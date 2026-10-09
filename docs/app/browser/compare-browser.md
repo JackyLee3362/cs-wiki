@@ -1,6 +1,7 @@
 ---
 title: 浏览器对比
 date: 2025-03-02
+update_date: 2026-10-09
 draft: false
 author: JackyLee
 tags:
@@ -20,10 +21,10 @@ comment: true
 | [chrome](docs/app/browser/chrome.md)          | Blink (Chromium)    | 部分 | 全平台       | 生态最丰富，开发者工具最强，性能领先      |    ⭐⭐    |
 | [edge](docs/app/browser/edge.md)            | Blink (Chromium)    | 部分 | 全平台       | Windows 集成最深，IE 兼容模式，垂直标签页 |   ⭐⭐⭐   |
 | [firefox](docs/app/browser/firefox.md)         | Gecko (Quantum)     |  ✅  | 全平台       | 唯一独立内核，隐私优先，容器标签页        |  ⭐⭐⭐⭐  |
-| [brave](docs/app/brave.md)           | Blink (Chromium)    |  ✅  | 全平台       | 内置广告拦截，Tor 模式，无遥测            | ⭐⭐⭐⭐⭐ |
-| [safari](docs/app/safari.md)          | WebKit              | 部分 | Apple        | Apple 平台续航最佳，系统集成最深          |  ⭐⭐⭐⭐  |
-| [vivaldi](docs/app/vivaldi.md)         | Blink (Chromium)    | 部分 | 桌面+Android | 极致自定义，内置邮件/RSS/笔记             |  ⭐⭐⭐⭐  |
-| [mullvad-browser](docs/app/mullvad-browser.md) | Gecko (Firefox ESR) |  ✅  | 桌面         | 反指纹追踪，Tor 技术，无遥测              | ⭐⭐⭐⭐⭐ |
+| [brave](docs/app/browser/brave.md)           | Blink (Chromium)    |  ✅  | 全平台       | 内置广告拦截，Tor 模式，无遥测            | ⭐⭐⭐⭐⭐ |
+| [safari](docs/app/browser/safari.md)          | WebKit              | 部分 | Apple        | Apple 平台续航最佳，系统集成最深          |  ⭐⭐⭐⭐  |
+| [vivaldi](docs/app/browser/vivaldi.md)         | Blink (Chromium)    | 部分 | 桌面+Android | 极致自定义，内置邮件/RSS/笔记             |  ⭐⭐⭐⭐  |
+| [mullvad-browser](docs/app/browser/mullvad-browser.md) | Gecko (Firefox ESR) |  ✅  | 桌面         | 反指纹追踪，Tor 技术，无遥测              | ⭐⭐⭐⭐⭐ |
 | Zen Browser         | Gecko (Firefox)     |  ✅  | 桌面         | 侧边栏标签页，极简设计                    |  ⭐⭐⭐⭐  |
 | Thorium             | Blink (Chromium)    |  ✅  | 桌面         | 去谷歌化编译版，极致速度                  |   ⭐⭐⭐   |
 
@@ -31,8 +32,8 @@ comment: true
 
 | 浏览器    | 内核           | 平台        | 核心特点                               | 体积     |
 | :-------- | :------------- | :---------- | :------------------------------------- | :------- |
-| [alook](docs/app/alook.md) | WebKit/Blink   | iOS/Android | 三无设计（无新闻/推送/广告），视频倍速 | 中等     |
-| [via](docs/app/via.md)   | System WebView | Android     | 不足 1MB，高度可定制，脚本支持         | 极小     |
+| [alook](docs/app/browser/alook.md) | WebKit/Blink   | iOS/Android | 三无设计（无新闻/推送/广告），视频倍速 | 中等     |
+| [via](docs/app/browser/via.md)   | System WebView | Android     | 不足 1MB，高度可定制，脚本支持         | 极小     |
 | Safari    | WebKit         | iOS/iPadOS  | 系统默认，续航最佳，与生态无缝集成     | 系统内置 |
 | Chrome    | Blink          | 全平台      | 同步最完善，扩展丰富                   | 较大     |
 | Firefox   | Gecko          | 全平台      | 支持扩展，隐私保护                     | 中等     |

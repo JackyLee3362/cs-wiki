@@ -1,9 +1,10 @@
 ---
 title: Harbor：私有镜像推送与验证
+update_date: 2026-10-09
 description: 通过项目权限和机器人账户发布容器镜像。
 ---
 
-目标：把应用镜像推到团队私有仓库。依赖已配置 HTTPS 的 [Harbor](docs/app/harbor.md) 和 Docker 客户端；域名、项目和账户均为示例，未连接实际仓库验证。
+目标：把应用镜像推到团队私有仓库。依赖已配置 HTTPS 的 [Harbor](docs/app/container/harbor.md) 和 Docker 客户端；域名、项目和账户均为示例，未连接实际仓库验证。
 
 选型见[容器镜像仓库对比](docs/app/container/compare-container-registry.md)。
 

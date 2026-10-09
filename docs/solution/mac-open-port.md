@@ -2,6 +2,7 @@
 title: macOS 端口占用排查实践
 description: macOS 查看开放端口与修改开放端口的完整方案
 date: 2026-09-10
+update_date: 2026-10-09
 draft: true
 author: JackyLee
 tags:
@@ -14,7 +15,7 @@ comment: true
 ---
 
 [lsof](lsof)
-[netstat](docs/app/netstat.md)
+[netstat](docs/app/network/netstat.md)
 [macos](docs/app/macos/macos.md)
 
 ## 核心认知

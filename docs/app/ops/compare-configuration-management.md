@@ -2,6 +2,7 @@
 title: 主机配置管理对比：Ansible、Shell、Salt 与 Puppet
 description: 区分批量操作、持续配置管理和基础设施资源编排。
 date: 2026-10-03
+update_date: 2026-10-09
 ---
 
 **Ansible 解决「把同一套操作可靠地应用到多台主机」的问题。** 例如统一安装软件、下发配置、创建用户，再按批次重启服务；主机清单和 Playbook 让这些动作可复用、可审查。
@@ -36,6 +37,6 @@ date: 2026-10-03
 
 ## 站内说明与实践
 
-- [Ansible 应用说明](docs/app/ansible.md)
+- [Ansible 应用说明](docs/app/ops/ansible.md)
 - [Playbook 批量下发配置](docs/solution/ansible-batch-config.md)
 - [Linux 定时任务运维手册](docs/solution/linux-scheduled-task-operations.md)

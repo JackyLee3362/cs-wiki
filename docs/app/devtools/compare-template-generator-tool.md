@@ -2,6 +2,7 @@
 title: 项目模板与代码生成工具对比
 description: 项目模板/脚手架工具选型：cookiecutter / copier / degit / plop / hygen
 date: 2026-09-10
+update_date: 2026-10-09
 draft: true
 author: JackyLee
 tags:
@@ -12,12 +13,12 @@ categories:
 comment: true
 ---
 
-[cookiecutter](docs/app/cookiecutter.md)
-[copier](docs/app/copier.md)
-[jinja2](docs/app/jinja2.md)
-[degit](docs/app/degit.md)
-[plop](docs/app/plop.md)
-[hygen](docs/app/hygen.md)
+[cookiecutter](docs/app/devtools/cookiecutter.md)
+[copier](docs/app/devtools/copier.md)
+[jinja2](docs/lang/python/jinja2.md)
+[degit](docs/app/devtools/degit.md)
+[plop](docs/app/devtools/plop.md)
+[hygen](docs/app/devtools/hygen.md)
 
 ## 概览对比
 
@@ -38,12 +39,12 @@ comment: true
 
 ## 场景推荐
 
-- **给团队/开源社区做标准化新项目模板，希望持续演进** → [copier](docs/app/copier.md)：唯一支持把模板升级回灌到已生成项目的工具，pybamm 等项目已从 cookiecutter 迁移过来
-- **一次性生成新项目、看重现成模板生态** → [cookiecutter](docs/app/cookiecutter.md)：模板存量最大，找 Python/Django/Frontend 现成模板几乎必中
-- **模板就是「成品仓库」，不需要任何参数化** → [degit](docs/app/degit.md)：零学习成本秒级快照，配合 Git tag 还能锁版本
-- **已有项目内高频创建结构化文件（组件/模块/测试），规则要进 Git** → [plop](docs/app/plop.md)：JS 配置表达力强，Inquirer 交互成熟
-- **同上但偏好零配置、CLI 快捷、且需要向已有文件注入内容（如自动注册路由）** → [hygen](docs/app/hygen.md)
-- **模板变量渲染本身的自定义需求（HTML 页面、配置文件、文档站点）** → 直接用 [jinja2](docs/app/jinja2.md)，它是上面大半工具的底层引擎
+- **给团队/开源社区做标准化新项目模板，希望持续演进** → [copier](docs/app/devtools/copier.md)：唯一支持把模板升级回灌到已生成项目的工具，pybamm 等项目已从 cookiecutter 迁移过来
+- **一次性生成新项目、看重现成模板生态** → [cookiecutter](docs/app/devtools/cookiecutter.md)：模板存量最大，找 Python/Django/Frontend 现成模板几乎必中
+- **模板就是「成品仓库」，不需要任何参数化** → [degit](docs/app/devtools/degit.md)：零学习成本秒级快照，配合 Git tag 还能锁版本
+- **已有项目内高频创建结构化文件（组件/模块/测试），规则要进 Git** → [plop](docs/app/devtools/plop.md)：JS 配置表达力强，Inquirer 交互成熟
+- **同上但偏好零配置、CLI 快捷、且需要向已有文件注入内容（如自动注册路由）** → [hygen](docs/app/devtools/hygen.md)
+- **模板变量渲染本身的自定义需求（HTML 页面、配置文件、文档站点）** → 直接用 [jinja2](docs/lang/python/jinja2.md)，它是上面大半工具的底层引擎
 - **需要维护 Yo 时代的旧生成器（如 Office 加载项模板）** → Yeoman 仅作为遗留选项保留，新项目不建议
 
 ## 决策树

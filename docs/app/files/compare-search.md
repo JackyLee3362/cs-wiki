@@ -3,6 +3,7 @@ title: 搜索引擎与检索工具对比
 date: 2026-02-14
 update_date:
   - 2026-02-14
+  - 2026-10-09
 draft: true
 author: JackyLee
 tags:
@@ -12,15 +13,15 @@ comment: true
 
 ## 命令行工具
 
-- [grep](docs/app/grep.md)
-- [ag](docs/app/ag.md)
-- [rg](docs/app/ops/rg.md)
+- [grep](docs/app/terminal/grep.md)
+- [ag](docs/app/terminal/ag.md)
+- [rg](docs/app/terminal/rg.md)
 
 ## 文件名搜索
 
-- [everything](docs/app/everything.md)
-- [find](docs/app/ops/find.md)
-- [fd](docs/app/ops/fd.md)
+- [everything](docs/app/files/everything.md)
+- [find](docs/app/terminal/find.md)
+- [fd](docs/app/terminal/fd.md)
 
 ## 其他
 

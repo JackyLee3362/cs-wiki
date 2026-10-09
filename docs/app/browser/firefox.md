@@ -1,6 +1,7 @@
 ---
 title: Firefox
 date: 2026-01-01
+update_date: 2026-10-09
 draft: false
 author: JackyLee
 tags:
@@ -49,4 +50,4 @@ comment: true
 
 ## 同类工具
 
-见 [chrome](docs/app/browser/chrome.md)、[edge](docs/app/browser/edge.md)、[brave](docs/app/brave.md)。
+见 [chrome](docs/app/browser/chrome.md)、[edge](docs/app/browser/edge.md)、[brave](docs/app/browser/brave.md)。

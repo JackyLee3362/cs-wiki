@@ -1,6 +1,7 @@
 ---
 title: Git 托管服务对比
 date: 2025-11-14
+update_date: 2026-10-09
 draft: true
 author: JackyLee
 tags:
@@ -23,7 +24,7 @@ Gogs 是一个用 Go 编写的轻量级、自托管的 Git 服务。它部署速
 
 ## Gitea
 
-[gitea](docs/app/gitea.md)
+[gitea](docs/app/git/gitea.md)
 
 ## ~~Glint~~
 
