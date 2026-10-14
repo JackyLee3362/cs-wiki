@@ -71,7 +71,9 @@ Uninstall-Module PSReadLine
 
 ### 参考文献
 
-- [Home | Oh My Posh](https://ohmyposh.dev/) -[GitHub - ryanoasis/nerd-fonts: Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more](https://github.com/ryanoasis/nerd-fonts)
+- 官方主题: [Themes | Oh My Posh](https://ohmyposh.dev/docs/themes)
+- [Home | Oh My Posh](https://ohmyposh.dev/)
+- [GitHub - ryanoasis/nerd-fonts: Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more](https://github.com/ryanoasis/nerd-fonts)
 - [配置和美化你的 powershell 终端 - 知乎](https://zhuanlan.zhihu.com/p/444165353)
 - [Windows Terminal 美化（oh-my-posh3） - 知乎](https://zhuanlan.zhihu.com/p/354603010)
 - [安裝新版 Oh My Posh 與插件來美化 PowerShell | 成功他媽．阿瑋](https://www.kwchang0831.dev/dev-env/pwsh/oh-my-posh)

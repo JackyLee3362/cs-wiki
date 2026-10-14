@@ -62,11 +62,9 @@ curl http://hs.example.cloud
 headscale auth register --auth-id hskey-xxx --user USERNAME
 
 # docker执行
-docker compose exec headscale headscale users list
 podman-compose exec headscale headscale users list
 
 # 获取 headscale 命名空间的 userName，替换 USERNAME
-docker compose exec headscale headscale auth register --auth-id hskey-xxx --user USERNAME
 podman-compose exec headscale headscale auth register --auth-id hskey-xxx --user USERNAME
 
 # 如果返回，说明 USERNAME 没填写正确
@@ -79,20 +77,16 @@ podman-compose exec headscale headscale auth register --auth-id hskey-xxx --user
 
 ```sh
 # 查看节点：
-docker compose exec headscale headscale nodes list
-podman-compose exec headscale headscale nodes list
 podman exec headscale headscale nodes list
 
 # 查看全部子命令
-docker compose exec headscale headscale --help
-podman-compose exec headscale headscale --help
+podman exec headscale headscale --help
 
 # 查看状态
-docker compose exec headscale headscale
-podman-compose exec headscale headscale
+podman exec headscale headscale
 
 # 更改节点名(主要是为了 mDNS 访问)
-podman-compose exec headscale headscale nodes rename -i 4 aliyun
+podman exec headscale headscale nodes rename -i 4 aliyun
 ```
 
 ## FAQ

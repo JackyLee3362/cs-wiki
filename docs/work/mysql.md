@@ -107,6 +107,7 @@ WHERE sku_id = :sku_id AND stock >= :qty;
 ## 参考资料
 
 - [MySQL 8.4 官方手册](https://dev.mysql.com/doc/refman/8.4/en/)
+- [MySQL :: MySQL 8.0 Reference Manual](https://dev.mysql.com/doc/refman/8.0/en/)
 - [InnoDB redo log](https://dev.mysql.com/doc/refman/8.4/en/innodb-redo-log.html)
 - [InnoDB undo logs](https://dev.mysql.com/doc/refman/8.4/en/innodb-undo-logs.html)
 - [Binary log](https://dev.mysql.com/doc/refman/8.4/en/binary-log.html)

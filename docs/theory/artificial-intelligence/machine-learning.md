@@ -80,3 +80,7 @@ update_date: 2026-10-03
 - [Tabnine AI 代码补全](https://www.tabnine.com/) #todo
 - [Tabnine AI 代码补全 (search)](https://www.tabnine.com/?utm_source=search-web) #todo
 - [txyz.ai - AI 论文阅读助手](https://www.txyz.ai/) #todo
+
+## 数据集网站
+
+- [Kaggle: The World's AI Proving Ground](https://www.kaggle.com/)

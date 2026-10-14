@@ -10,6 +10,8 @@ categories:
 comment: true
 ---
 
+- [Blender 5.2 LTS Manual](https://docs.blender.org/manual/zh-hans/latest/index.html#)
+
 ## 介绍
 
 ## 参考资料

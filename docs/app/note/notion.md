@@ -18,3 +18,7 @@ comment: true
 - 强大的模板和社区生态
 - 支持团队协作和权限管理
 - 闭源 SaaS，有个人免费版
+
+## 参考资料
+
+- [2d Brain Networked Notebook | Notion](https://app.notion.com/p/2d-Brain-Networked-Notebook-a131b468fc6f43218fb8105430304709)

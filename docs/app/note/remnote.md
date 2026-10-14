@@ -18,3 +18,7 @@ comment: true
 - 适合学习和知识巩固
 - 支持 PDF 标注和文献管理
 - 有免费版和付费版
+
+## 社区
+
+- [RemNote - A discussion forum for all things RemNote, note-taking, knowledge management, flashcards, learning, and more.](https://forum.remnote.io/)

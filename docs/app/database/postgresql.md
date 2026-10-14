@@ -21,3 +21,6 @@ comment: true
   - from zhihu collection 2026.01
 
 ## 参考资料
+
+- [PostgreSQL: Documentation](https://www.postgresql.org/docs/)
+- [PostgreSQL: Documentation: 18: PostgreSQL 18.6 Documentation](https://www.postgresql.org/docs/current/)

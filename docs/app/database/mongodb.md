@@ -63,3 +63,5 @@ port=27017
 ```
 
 ## 参考资料
+
+- [MongoDB | AI 时代的智能数据平台 | MongoDB](https://www.mongodb.com/zh-cn)
