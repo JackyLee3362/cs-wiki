@@ -2,6 +2,7 @@
 title: MySQL 常见面试知识点
 sidebar_position: 1
 description: 从工作场景理解 MySQL 索引、事务、锁、日志和慢查询排查。
+update_date: 2026-10-12
 ---
 
 以 MySQL 8.0 / 8.4 的 InnoDB 为背景。回答时按「结论 → 原理 → 场景 → 限制」展开，实际行为还要结合版本、隔离级别和执行计划。
@@ -96,7 +97,7 @@ WHERE sku_id = :sku_id AND stock >= :qty;
 4. 在受控环境用 `EXPLAIN ANALYZE` 比较估计与实际执行情况；它会真正执行查询。
 5. 对照真实数据验证索引或 SQL 修改，并观察写入开销与其他查询的变化。
 
-`Using filesort` 不等于必然落盘，`rows` 也不是普通 EXPLAIN 实际扫描的精确计数。参见 [EXPLAIN](https://dev.mysql.com/doc/refman/8.4/en/explain.html)。
+`Using filesort` 不等于必然落盘，详见 [MySQL filesort](docs/app/database/mysql/filesort.md)。`rows` 也不是普通 EXPLAIN 实际扫描的精确计数。参见 [EXPLAIN](https://dev.mysql.com/doc/refman/8.4/en/explain.html)。
 
 ## 10. 深分页和主从延迟
 

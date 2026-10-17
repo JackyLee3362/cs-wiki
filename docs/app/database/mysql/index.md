@@ -6,6 +6,7 @@ update_date:
   - 2025-09-24
   - 2025-11-21
   - 2026-10-09
+  - 2026-10-12
 draft: true
 author: JackyLee
 tags:
@@ -106,6 +107,10 @@ nvim "D:\Scoop\apps\mysql\current\my.ini"
 ```
 
 ## FAQ
+
+### filesort 是什么
+
+`filesort` 是查询为满足排序要求执行的额外排序步骤，可以在内存中完成，也可能使用临时磁盘文件。执行计划判断与索引示例见 [MySQL filesort](docs/app/database/mysql/filesort.md)。
 
 ### MYSQL 密码忘记了怎么办
 

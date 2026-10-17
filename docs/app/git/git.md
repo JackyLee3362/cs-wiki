@@ -60,6 +60,16 @@ git status
 
 克隆会下载仓库及历史。上述操作只发生在本地，不包含推送；开始新分支前先确认现有修改。
 
+## 统计受 Git 跟踪的文件
+
+在仓库根目录统计 `docs/` 下受 Git 跟踪的文件总数：
+
+```sh
+git ls-files -- docs | wc -l
+```
+
+按扩展名统计各类文件，见[如何统计仓库中的文档类型和数量？](docs/issue/count-repository-document-types.md)。`git ls-files` 默认读取索引，未加入 Git 的文件不会计入。[官方文档](https://git-scm.com/docs/git-ls-files.html)
+
 
 ## 常用命令
 
