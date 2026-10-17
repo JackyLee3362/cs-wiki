@@ -9,11 +9,6 @@ categories:
 comment: true
 ---
 
-## Flutter
-
-- [Flutter 为什么没有一款好用的 UI 框架？ - 知乎](https://www.zhihu.com/question/655754543/answer/3503034923)
-- [flutter 是否可以只写一次代码，同时编译到 win 桌面，linux 桌面，Android，IOS？ - 知乎](https://www.zhihu.com/question/585022914/answer/3333708618)
-- [flutter 是否可以只写一次代码，同时编译到 win 桌面，linux 桌面，Android，IOS？ - 知乎](https://www.zhihu.com/question/585022914/answer/2990968544)
 
 ## Rust-GUI slint + gpui
 
