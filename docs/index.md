@@ -13,7 +13,7 @@ comment: true
 👋 你好，我的朋友！
 
 - [理论与原理](docs/theory/index.md)
-- [语言](docs/lang/index.md)
+- [语言](lang/index)
 - [应用与工具](docs/app/index.md)
 - [开发框架与库](docs/framework/index.md)
 - [工具比较](docs/compare/index.md)
